@@ -51,6 +51,12 @@
         font-size: 12px;
     }
 }
+@media (max-width:670px){
+    .topbar-box{
+        width: 75%;
+        font-size: 8px;
+    }
+}
 @media (max-width:650px){
     .topbar-box{
         width: 75%;
@@ -61,6 +67,12 @@
     .topbar-box{
         width: 85%;
         font-size: 9px;
+    }
+}
+@media (max-width:470px){
+    .topbar-box{
+       width: 100%;
+       margin-right: -0px;
     }
 }
 
@@ -95,6 +107,7 @@
 @media (max-width:500px){
     .topbar-contact{
         width: 220px;
+        font-size: 10px;
     }
 }
 
@@ -108,14 +121,13 @@
     align-items: center;
     gap: 5px;
     font-family: Raleway;
-
     font-size: 14px;
-    font-size: 14px;
-
-    font-size: 14px;
-
-    font-size: 14px;
-
+}
+@media (max-width:500px){
+    .topbar-email{
+        width: 220px;
+        font-size: 10px;
+    }
 }
 
 .topbar-skype{
@@ -129,11 +141,11 @@
     font-family: Raleway;
 
     font-size: 14px;
-    font-size: 14px;
-
-    font-size: 14px;
-
-    font-size: 14px;
-
+}
+@media (max-width:500px){
+    .topbar-skype{
+        width: 220px;
+        font-size: 10px;
+    }
 }
 

@@ -13,19 +13,19 @@ function Offerings() {
           {
               icon:mobileapp,
               head:"Mobile App Development",
-              link1:"IOS Application Development", url1:"/AboutUs",
-              link2:"Android Apps Development", 
-              link3:"Hybrid App Development", url3:"/Servicewedo/HybridAppDevelopment",
-              link4:"App Support And Maintenance",
-              link5:"Mobile App UI/UX Design",  url5:"/Servicewedo/MobileUI",
+              link1:"Mobile App UI/UX Design",  url1:"/Servicewedo/MobileUI",
+              link2:"Hybrid App Development", url2:"/Servicewedo/HybridAppDevelopment",
+              link3:"Android Apps Development",  url3:"/ContactUs",
+              link4:"IOS Application Development", url4:"/ContactUs",
+              link5:"App Support And Maintenance",  url5:"/ContactUs",
           },
           {
               icon:webdesign,
               head:"Website & UI/UX Design",
-              link1:"Graphic Design", url1:"/Servicewedo/GraphicDesign",
-              link2:"Logo Design", url2:"/Servicewedo/LogoDesign",
-              link3:"React Design",
-              link4:"custom Web Design",
+              link1:"Logo Design", url1:"/Servicewedo/LogoDesign",
+              link2:"React Design",
+              link3:"Graphic Design", url3:"/Servicewedo/GraphicDesign",
+              link4:"Custom Web Design",
               link5:"Responsive + Website Design"
           },
           {

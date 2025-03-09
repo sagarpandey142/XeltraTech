@@ -34,8 +34,7 @@ function Header() {
                 <div className='banner-slider1-content-text5'>
                     Providing a comprehensive range of services, from cloud computing and cybersecurity to data analytics and software development.
                 </div>
-              <AnimatedContent>  <div className='banner-slider1-content-btn'><button><Link to="/ContactUs">Get Started</Link>
-              </button></div> </AnimatedContent>
+              <AnimatedContent>  <div className='banner-slider1-content-btn'><Link to="/ContactUs">Get Started</Link></div> </AnimatedContent>
             </div>
             <Swiper
                 cssMode={true}
