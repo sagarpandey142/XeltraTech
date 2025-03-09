@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
-// import Footer from "./component/footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 import Homepage from "./component/Homepage";
 import ContactUs from "./component/ContactUs/index";
 import AboutUs from "./component/AboutUs/index";
@@ -18,12 +18,12 @@ function App() {
 
   return (
     <div className="navbar1 ">
+       <ScrollToTop />
          
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/AboutUs" element={<AboutUs />} />
-
         <Route path="/Servicewedo" element={<Servicewedo />} />
         <Route path="/Servicewedo/MobileUI" element={<MobileUI />} />
         <Route path="/Servicewedo/HybridAppDevelopment" element={<HybridAppDevelopment />} />
