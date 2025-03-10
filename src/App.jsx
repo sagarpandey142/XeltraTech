@@ -13,6 +13,8 @@ import "./index.css"
 import PackageMain from "./packagesMain";
 import GraphicDesign from "./component/serviceoffered/GraphicDesigning/index";
 
+import SeoPackage from "./component/Packages/SeoPackages/index";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -24,12 +26,19 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/AboutUs" element={<AboutUs />} />
+
+        {/* service section start */}
         <Route path="/Servicewedo" element={<Servicewedo />} />
         <Route path="/Servicewedo/MobileUI" element={<MobileUI />} />
         <Route path="/Servicewedo/HybridAppDevelopment" element={<HybridAppDevelopment />} />
         <Route path="/Servicewedo/LogoDesign" element={<LogoDesign />} />
         <Route path="/PackageMain" element={<PackageMain/>} />
         <Route path="/Servicewedo/GraphicDesign" element={<GraphicDesign />} />
+        {/* service section end */}
+
+        {/* Packages section start */}
+        <Route path="/PackageMain/SeoPackages" element={<SeoPackage />} />
+        {/* Packages section end */}
       </Routes>
     </div>
   );

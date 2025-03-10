@@ -9,12 +9,14 @@ import wordpress  from "../assets/wordpress.svg"
 import mobileapp  from "../assets/mobileapp.svg"
 import content  from "../assets/content.svg"
 
+
 const packages = [
     {
       image:group1,
       title: "SEO Packages",
       description: "SEO packages include keyword research, on-page optimization, link building, content creation, and performance tracking.",
-      button: "View Plan"
+      button: "View Plan",
+      link: "/PackageMain/SeoPackages",
     },
     {
       image:SMO,

@@ -1,0 +1,170 @@
+.seo-body{
+    width: screen;
+    height: static;
+    padding-block: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seo-box{
+    border: 1px solid red;
+    width: static;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden; /* Prevents unwanted scrollbars */
+    
+}
+
+.seo-heading{
+    width: 100%;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seo-heading div{
+    background-color: #ED1C24;
+    border-radius: 15px;
+    height: 50px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.seo-heading div:hover{background-color: #c41e24;}
+
+.seo-content-body {
+    width: 100%;
+    height: static;
+    padding: 20px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    overflow-y: hidden; /* Prevents vertical scrolling */
+    white-space: nowrap; /* Ensures items stay in one row */
+    scroll-behavior: smooth;
+    /* IMPORTANT: This forces the content to extend beyond the screen */
+    flex-wrap: nowrap;
+     /* Enables snapping to each box */
+    scroll-snap-type: x mandatory;
+}
+
+.seo-content-box {
+    min-width: 360px; /* Ensures boxes are wide enough to cause scrolling */
+    height: 1200px;
+    border: 1px solid #3030307A;
+    border-radius: 20px;
+    flex-shrink: 0; /* Prevents shrinking */
+    /* Makes each box a snap point */
+      scroll-snap-align: center;
+      padding-block: 20px;
+      padding-inline: 10px;
+}
+
+.seo-content{
+    border: 1px solid red;
+    width: 100%;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+.seo-head1{
+    width: 100%;
+    height: auto;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: start;
+}
+.seo-head2{
+    width: 100%;
+    height: auto;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: start;
+}
+
+.seo-head3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.seo-head3 div{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background-color: #ED1C24;
+    padding-block: 10px;
+    padding-inline: 60px;
+    border-radius: 5px;
+}
+
+.seo-content1{
+    width: 100%;
+    height: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-left{
+    height: static;
+    width: 80%;
+    text-align: start;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #303030;
+}
+.content-right{
+    height: static;
+    width: 20%;
+    text-align: start;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #303030;
+}
+
+
+
+.fixing1{
+    margin-left: 5px !important;
+}

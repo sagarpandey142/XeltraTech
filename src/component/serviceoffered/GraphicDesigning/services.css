@@ -48,7 +48,7 @@
 /* heading content start */
 
 .service-box1-heading{
-    width: 529px;
+    width: screen;
     height: 300px;
 
     display: flex;
@@ -85,7 +85,6 @@
     letter-spacing: 0%;
     text-align: justify;
     color: #303030E5;
-
 }
 
 @media (max-width: 600px) {
@@ -94,8 +93,6 @@
         width: 100%;
     }
 }
-
-
 /* heading content end */
 
 
