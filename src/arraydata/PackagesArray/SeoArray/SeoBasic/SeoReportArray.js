@@ -1,5 +1,5 @@
 
-import tick from "../../../component/Packages/SeoPackages/images/tick.svg"
+import tick from "../../../../component/Packages/SeoPackages/images/tick.svg"
 
 const SeoReports =[
     {

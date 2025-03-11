@@ -1,6 +1,4 @@
 import React from 'react'
-import "../../../Packages/SeoPackages/SeoPackage.css"
-
 
 function SeoReportCards({feature, img1}) {
   return (
