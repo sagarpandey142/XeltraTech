@@ -1,5 +1,5 @@
 import React from 'react'
-import "./services.css"
+import "./service.css"
 
 import service1 from "./images/photoshoot.svg"
 import service2 from "./images/id.svg"
@@ -9,7 +9,7 @@ import service5 from "./images/id.svg"
 import service6 from "./images/icon-finder.svg"
 import AnimatedContent from "../../SingleComponents/AnimatedContent"
 
-function Services() {
+function Service() {
   return (
     <div className='service-body'>
         <div className='service-box'>
@@ -107,4 +107,4 @@ function Services() {
   )
 }
 
-export default Services
+export default Service
