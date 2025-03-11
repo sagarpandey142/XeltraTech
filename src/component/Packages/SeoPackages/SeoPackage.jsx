@@ -1,7 +1,6 @@
 import React from 'react'
 import "./SeoPackage.css"
 import { Link } from 'react-router-dom';
-import '@fontsource/raleway';
 import tick from "./images/tick.svg"
 
 import SeoPricingCard from '../../cards/PackagesCard/SeoCard/SeoPricingCard';

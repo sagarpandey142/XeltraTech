@@ -3,7 +3,7 @@ import Topmenu from "../../commonpage/Topmenu";
 import Topbar from "../../Homepage/Topbar";
 import Hero from "./hero";
 import About from "./About";
-import Services from "./Services"
+import Service from "./Service"
 import Footer1 from "../../Homepage/footer1";
 import OurServices from "./OurServices";
 
@@ -14,7 +14,7 @@ const GraphicDesign = () => {
         <Topmenu/>
         <Hero />
         <About />
-        <Services />
+        <Service />
         <OurServices />
         <Footer1/>
     </div>

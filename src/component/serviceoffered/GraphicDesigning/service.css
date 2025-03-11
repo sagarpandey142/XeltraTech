@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.service-body{
+    width: screen;
+    height: static;
+    background: #ED1C240A;
+    padding-block: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-box{
+    width: 100%;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+    .service-box{
+        width: 800px;
+    }
+}
+@media (max-width: 820px) {
+    .service-box{
+        width: 100%;
+    }
+}
+
+
+.service-box1{
+    width: 100%;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+
+
+/* heading content start */
+
+.service-box1-heading{
+    width: 529px;
+    height: static;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.service-box1-heading1{
+    width: 80%;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 0%;
+}
+
+.service-box1-heading1 span{color: #ED1C24;}
+@media (max-width: 700px) {
+    .service-box1-heading{
+        width: 90%;
+    }
+    .service-box1-heading1{
+        text-align: center;
+        width: 100%;
+    }
+    .service-box1{
+        width: 100%;
+    }
+    /* .service-box{
+        width: 700px;
+    } */
+}
+
+.service-box1-heading2{
+    width: 90%;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: #303030E5;
+
+}
+
+@media (max-width: 700px) {
+    .service-box1-heading2{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+/* heading content end */
+
+
+/* box1 content start */
+
+.service-box1-content1 {
+    width: 15.5rem; /* 248px / 16 */
+    height: 18.75rem; /* 284px / 16 */
+    box-shadow: 0.44rem 0.19rem 1.17rem 0px #00000040;
+    background: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  /*Stack elements vertically */
+    align-items: center; /* Align items to the left */
+    border-radius: 1.25rem; /* 20px / 16 */
+    padding: 1.3rem; /* 10px / 16 */
+    transition: 0.3s ease-in-out;
+}
+
+.service-box1-content1:hover{
+    border: 2px solid #ED1C24;
+    transform: scale(1.1);
+}
+
+
+
+/* Image container (left-aligned) */
+.service-box1-content1 .content1-image {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: flex-start; /* Align image to the left */
+
+}
+
+.service-box1-content1 .content1-image img {
+    width: 54px;
+    height: 54px;
+    object-fit: contain; /* Ensure image fits properly */
+}
+
+/* Head Section */
+.service-box1-content1 .content1-head {
+    width: 100%;
+     height: 2.5rem; /*19px / 16 */
+    display: flex;
+    justify-content: start;
+    /* padding-left: 0.5rem; Add left padding for better alignment */
+}
+
+.service-box1-content1 .content1-head p {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 1rem; /* 16px / 16 */
+    line-height: 1.17rem; /* 18.78px / 16 */
+    color: #ED1C24;
+    text-align: left; /* Align text to left */
+}
+
+/* Text Section */
+.service-box1-content1 .content1-head1 {
+    width: 12.94rem; /* 223px / 16 */
+    height: 8.63rem; /* 90px / 16 */
+    /* padding-left: 0.5rem; */
+}
+
+.service-box1-content1 .content1-head1 p {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem; /* 14px / 16 */
+    line-height: 1.22rem; /* 17.9px / 16 */
+    color: #303030CC;
+}
+
+/* box1 content end */
+
+
+
+
+.service-box2{
+    width: 100%;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+    
+    .service-box2{
+        width: 100%;
+    }
+}
+
+
+.service-box2-content1{
+    width: 15.5rem; /* 248px / 16 */
+    height: 18.75rem; /* 284px / 16 */
+    box-shadow: 0.44rem 0.19rem 1.17rem 0px #00000040;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the left */
+    border-radius: 1.25rem; /* 20px / 16 */
+    padding: 1.3rem; /* 10px / 16 */
+    transition: 0.3s ease-in-out;
+}
+
