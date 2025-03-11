@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Homepage/style.css"
 import AnimatedContent from '../SingleComponents/AnimatedContent'
-function ServicesCard({icon,head,para}) {
+function ServicesCards({icon,head,para}) {
   return (
     <AnimatedContent>
                             <div className='box-bottom-content'>
@@ -13,4 +13,4 @@ function ServicesCard({icon,head,para}) {
   )
 }
 
-export default ServicesCard
+export default ServicesCards
