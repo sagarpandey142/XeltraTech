@@ -1,5 +1,4 @@
 import React from 'react'
-import '@fontsource/raleway';
 import "../../../Packages/SeoPackages/SeoPackage.css"
 
 
