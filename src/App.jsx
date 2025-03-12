@@ -17,6 +17,7 @@ import SeoPackage from "./component/Packages/SeoPackages/index";
 import SmoPackage from "./component/Packages/SmoPackages/index";
 import PPCPackage from "./component/Packages/PPCPackages/index";
 import ORMPackage from "./component/Packages/ORMPackages/index";
+import StaticPackage from "./component/Packages/StaticPackages/index";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -44,6 +45,7 @@ function App() {
         <Route path="/PackageMain/SmoPackages" element={<SmoPackage />} />
         <Route path="/PackageMain/PPCPackages" element={<PPCPackage />} />
         <Route path="/PackageMain/ORMPackages" element={<ORMPackage />} />
+        <Route path="/PackageMain/StaticPackages" element={<StaticPackage />} />
         {/* Packages section end */}
       </Routes>
     </div>

@@ -43,7 +43,8 @@ const packages = [
          image:staticimage,
       title: "Static Packages India",
       description: "Get fast, secure, and SEO-friendly static websites tailored to your business needs and goals and improving brand perception.",
-      button: "View Plan"
+      button: "View Plan",
+      link: "/PackageMain/StaticPackages",
     },
     {
        image:wordpress,
