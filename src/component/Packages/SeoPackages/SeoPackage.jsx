@@ -1,7 +1,5 @@
 import React from 'react'
-import "./SeoPackage.css"
 import { Link } from 'react-router-dom';
-import tick from "./images/tick.svg"
 
 import SeoBasicPricingCard from '../../cards/PackagesCard/SeoCard/SeoBasicCard/SeoPricingCard';
 import SeoBasicPricing from '../../../arraydata/PackagesArray/SeoArray/SeoBasic/SeoPricingArray';
@@ -103,14 +101,14 @@ const SeoPackage = () => {
  
   return (
     <>
-      <div className='w-screen h-auto py-5 flex justify-center items-center fixing1 '>
+      <div className='w-screen h-auto py-5 flex justify-center items-center !ml-[5px] '>
         <div className='w-auto h-auto flex flex-col justify-center items-center gap-2 overflow-hidden '>
           <div className="w-full h-auto flex justify-center items-center "><Link to="/ContactUs" className="text-white no-underline"><div className='bg-[#ED1C24] rounded-[15px] h-[50px] font-raleway font-medium text-[16px] leading-[100%] text-white flex justify-center items-center px-[20px] transition duration-300 ease-in-out cursor-pointer hover:bg-[#c41e24] '>GET FREE CONSULTTION</div></Link></div>
           
           <div className="w-full h-auto p-5 flex items-center gap-10 overflow-x-auto overflow-y-hidden whitespace-nowrap scroll-smooth flex-nowrap scroll-snap-x-mandatory ">
 
             {/* basic plan start */}
-            <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[10px] flex flex-col justify-center items-center gap-4 '>
+            <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
 
               <div className="w-full h-auto flex flex-col justify-start items-center gap-[10px] ">
                 <div className='w-full h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>BASIC</div>
@@ -177,7 +175,7 @@ const SeoPackage = () => {
 
             {/* standard package start */}
 
-            <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[10px] flex flex-col justify-center items-center gap-4 '>
+            <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
 
               <div className="w-full h-auto flex flex-col justify-start items-center gap-[10px] ">
                 <div className='w-full h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>STANDARD</div>
@@ -245,7 +243,7 @@ const SeoPackage = () => {
             {/* premium package start */}
             
             
-                  <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[10px] flex flex-col justify-center items-center gap-4 '>
+                  <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
 
                   <div className="w-full h-auto flex flex-col justify-start items-center gap-[10px] ">
                     <div className='w-full h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>Premium</div>

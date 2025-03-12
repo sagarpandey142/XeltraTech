@@ -14,6 +14,7 @@ import PackageMain from "./packagesMain";
 import GraphicDesign from "./component/serviceoffered/GraphicDesigning/index";
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
+import SmoPackage from "./component/Packages/SmoPackages/index";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,6 +39,7 @@ function App() {
 
         {/* Packages section start */}
         <Route path="/PackageMain/SeoPackages" element={<SeoPackage />} />
+        <Route path="/PackageMain/SmoPackages" element={<SmoPackage />} />
         {/* Packages section end */}
       </Routes>
     </div>

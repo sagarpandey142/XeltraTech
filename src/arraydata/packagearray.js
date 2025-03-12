@@ -22,7 +22,8 @@ const packages = [
       image:SMO,
       title: "SMO Packages",
       description: "Enhance social media presence with strategic content, engagement, and audience growth for better branding.",
-      button: "View Plan"
+      button: "View Plan",
+      link: "/PackageMain/SmoPackages",
     },
     {
       image:PPC,
