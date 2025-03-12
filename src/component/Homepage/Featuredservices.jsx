@@ -41,7 +41,7 @@ function Featuredservices() {
                             Business Solutions</div>
                         </div>
                         
-                        <AnimatedContent><div className='box-top-button'><Link to="/Servicewedo">VIEW MORE SERVICES <img src={arrow} /></Link></div></AnimatedContent>
+                        <AnimatedContent direction='horizontal'><div className='box-top-button'><Link to="/Servicewedo">VIEW MORE SERVICES <img src={arrow} /></Link></div></AnimatedContent>
 
                     </div>
                     {/* heading section end */}

@@ -1,24 +1,45 @@
-import React from 'react'
 import tick from "../../../../component/Packages/SeoPackages/images/tick.svg"
+import untick from "../../../../component/Packages/SmoPackages/images/untick.svg"
+import React from 'react'
 const SmoContent =[
     {
-      feature: "Blog Writing for Six M onths",
-      plan: "3",
+      feature: "Youtube Channel Optimization",
+      plan: React.createElement("img", { src: tick, alt: "tick" }),
     },
     {
-      feature: "Artical Writing & Submission For Six Months",
-      plan: "3",
+      feature: "Channel Creative Upload",
+      plan: React.createElement("img", { src: tick, alt: "tick" }),
     },
     {
-      feature: "Press Release Submission For Six Months***",
-      plan: "1",
+      feature: "Video Uploads(provided by client)",
+      plan: "10",
     },
     {
-        feature: "Web 2.0 Profile Creation on Monthly Basis",
+        feature: "Video Promotion",
+        plan: "3",
+      },
+      {
+        feature: "Video Title & Meta Optimization",
         plan: React.createElement("img", { src: tick, alt: "tick" }),
       },
       {
-        feature: "Infographic Submission For Six Months***",
+        feature: "Thumbnail Creative for Videos",
+        plan: React.createElement("img", { src: untick, alt: "X" }),
+      },
+      {
+        feature: "Youtube Subscribers",
+        plan: React.createElement("img", { src: tick, alt: "tick" }),
+      },
+      {
+        feature: "Youtube Discussion Posting",
+        plan: "20",
+      },
+      {
+        feature: "Youtube Video Views",
+        plan: React.createElement("img", { src: tick, alt: "tick" }),
+      },
+      {
+        feature: "Comment Moderation",
         plan: React.createElement("img", { src: tick, alt: "tick" }),
       },
   ]

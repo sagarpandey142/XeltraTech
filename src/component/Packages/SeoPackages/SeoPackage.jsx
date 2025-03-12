@@ -95,6 +95,7 @@ import SeoPremiumLocal from '../../../arraydata/PackagesArray/SeoArray/SeoPremiu
 import SeoPremiumWebCard from '../../cards/PackagesCard/SeoCard/SeoPremiumCard/SeoWebCard';
 import SeoPremiumWeb from '../../../arraydata/PackagesArray/SeoArray/SeoPremium/SeoWebArray';
 // premium package end
+import AnimatedContent from '../../SingleComponents/AnimatedContent';
 
 const SeoPackage = () => {
 
@@ -108,6 +109,7 @@ const SeoPackage = () => {
           <div className="w-full h-auto p-5 flex items-center gap-10 overflow-x-auto overflow-y-hidden whitespace-nowrap scroll-smooth flex-nowrap scroll-snap-x-mandatory ">
 
             {/* basic plan start */}
+            <AnimatedContent direction='horizontal' reverse={true}>
             <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
 
               <div className="w-full h-auto flex flex-col justify-start items-center gap-[10px] ">
@@ -170,6 +172,7 @@ const SeoPackage = () => {
               <div className="w-full h-auto flex justify-center items-center "><Link to="/ContactUs" className="text-white no-underline"><div className='bg-[#ED1C24] rounded-[15px] h-[50px] font-raleway font-medium text-[16px] leading-[100%] text-white flex justify-center items-center px-[20px] transition duration-300 ease-in-out cursor-pointer hover:bg-[#c41e24] '>GET FREE CONSULTTION</div></Link></div>
 
             </div>
+            </AnimatedContent>
 
             {/* basic plan end */}
 
@@ -242,7 +245,7 @@ const SeoPackage = () => {
 
             {/* premium package start */}
             
-            
+                  <AnimatedContent direction="horizontal">
                   <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
 
                   <div className="w-full h-auto flex flex-col justify-start items-center gap-[10px] ">
@@ -305,6 +308,7 @@ const SeoPackage = () => {
                   <div className="w-full h-auto flex justify-center items-center "><Link to="/ContactUs" className="text-white no-underline"><div className='bg-[#ED1C24] rounded-[15px] h-[50px] font-raleway font-medium text-[16px] leading-[100%] text-white flex justify-center items-center px-[20px] transition duration-300 ease-in-out cursor-pointer hover:bg-[#c41e24] '>GET FREE CONSULTTION</div></Link></div>
 
                   </div>
+                  </AnimatedContent>
 
             {/* premium package end */}
           </div>

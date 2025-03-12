@@ -29,13 +29,15 @@ const packages = [
       image:PPC,
       title: "PPC Packages India",
       description: "Drive targeted traffic with cost-effective pay-per-click campaigns, maximizing conversions and return on investment.",
-      button: "View Plan"
+      button: "View Plan",
+      link: "/PackageMain/PPCPackages",
     },
     {
     image:ORM,
       title: "ORM Packages India",
       description: "Manage online reputation by monitoring, responding, and improving brand perception across digital platforms.",
-      button: "View Plan"
+      button: "View Plan",
+      link: "/PackageMain/ORMPackages",
     },
     {
          image:staticimage,

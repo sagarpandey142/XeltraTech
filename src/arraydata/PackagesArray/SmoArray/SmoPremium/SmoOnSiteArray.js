@@ -1,74 +1,56 @@
 import tick from "../../../../component/Packages/SeoPackages/images/tick.svg"
+import untick from "../../../../component/Packages/SmoPackages/images/untick.svg"
+import React from 'react'
 
 const SmoOnSite =[
     {
-      feature: "Website Architecture & Taxonomy",
-      img1: tick,
-    },
-    {
-      feature: "Keywords Research and Analysis",
-      img1: tick,
-    },
-    {
-      feature: "Dealing with Duplicate Issues",
-      img1: tick,
-    },
-    {
-      feature: "Google/Bing Webmaster Tools",
-      img1: tick,
-    },
-    {
-      feature: "Google Analytics Tracking Code Installation",
-      img1: tick,
-    },
-    {
-      feature: "HTML Code Optimization",
-      img1: tick,
-    },
-    {
-      feature: "XML Sitemaps Creation",
-      img1: tick,
-    },
-    {
-      feature: "HTML Sitemap Creation",
-      img1: tick,
-    },
-    {
-      feature: "RSS Feeds Creation",
-      img1: tick,
-    },
-    {
-      feature: "Optimizing Robots.txt",
-      img1: tick,
-    },
-    {
-      feature: "Canonicalization",
-      img1: tick,
-    },
-    {
-      feature: "Header Tags Optimization",
-      img1: tick,
-    },
-    {
-      feature: "Optimizing Title/Meta Tags",
-      img1: tick,
-    },
-    {
-      feature: "Image Optimization",
-      img1: tick,
-    },
-    {
-      feature: "Anchor Tag Optimization",
-      img1: tick,
-    },
-    {
-      feature: "Existing Content Optimization",
-      img1: tick,
-    },
-    {
-      feature: "Creation of New Landing Pages",
-      img1: tick,
-    },
+            feature: "Profile Optimization",
+            plan: React.createElement("img", { src: tick, alt: "tick" }),
+          },
+          {
+            feature: "Google+ timeline Status Posting",
+            plan: "40",
+          },
+          {
+            feature: "Cover Image Creative and Upload",
+            plan: "2",
+          },
+          {
+            feature: "Group Creation",
+            plan: "5",
+          },
+          {
+            feature: "Community Join",
+            plan: "5",
+          },
+          {
+            feature: "Targeted Followers",
+            plan: React.createElement("img", { src: tick, alt: "tick" }),
+          },
+          {
+            feature: "Post Sharing in Groups",
+            plan: "45",
+          },
+          {
+           feature: "Website Verification",
+           plan: React.createElement("img", { src: tick, alt: "tick" }),
+         },
+         {
+           feature: "Video Sharing(provided by client)",
+           plan: React.createElement("img", { src: tick, alt: "tick" }),
+         },
+         {
+           feature: "Google Review Postings",
+           plan: React.createElement("img", { src: tick, alt: "tick" }),
+         },
+         {
+          feature: "Google Insight Monitoring",
+          plan: React.createElement("img", { src: tick, alt: "tick" }),
+        },
+        {
+          feature: "Traffic Monitoring Through Google Analytics",
+          plan: React.createElement("img", { src: tick, alt: "tick" }),
+        },
 
   ]
 

@@ -139,7 +139,7 @@ const SmoPackage = () => {
 
               <div className="w-full h-auto flex flex-col justify-start gap-[20px]">
                 <div className='w-[300px] text-wrap h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>Google+ Promotion</div>
-                {SmoBasicOnSite.map((data,index)=>(<SmoBasicOnSiteCard key={index} feature={data.feature} img1={data.img1}/>))}
+                {SmoBasicOnSite.map((data,index)=>(<SmoBasicOnSiteCard key={index} feature={data.feature} plan={data.plan}/>))}
               </div>
 
               <div className="w-full h-auto flex flex-col justify-start items-start gap-[20px]">
@@ -206,7 +206,7 @@ const SmoPackage = () => {
 
               <div className="w-full h-auto flex flex-col justify-start gap-[20px]">
                 <div className='w-[300px] text-wrap h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>Google+ Promotion</div>
-                {SmoStandardOnSite.map((data,index)=>(<SmoStandardOnSiteCard key={index} feature={data.feature} img1={data.img1}/>))}
+                {SmoStandardOnSite.map((data,index)=>(<SmoStandardOnSiteCard key={index} feature={data.feature} plan={data.plan}/>))}
               </div>
 
               <div className="w-full h-auto flex flex-col justify-start items-start gap-[20px]">
@@ -274,7 +274,7 @@ const SmoPackage = () => {
 
                   <div className="w-full h-auto flex flex-col justify-start gap-[20px]">
                     <div className='w-[300px] text-wrap h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>Google+ Promotion</div>
-                    {SmoPremiumOnSite.map((data,index)=>(<SmoPremiumOnSiteCard key={index} feature={data.feature} img1={data.img1}/>))}
+                    {SmoPremiumOnSite.map((data,index)=>(<SmoPremiumOnSiteCard key={index} feature={data.feature} plan={data.plan}/>))}
                   </div>
 
                   <div className="w-full h-auto flex flex-col justify-start items-start gap-[20px]">
