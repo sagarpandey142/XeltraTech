@@ -18,6 +18,8 @@ import SmoPackage from "./component/Packages/SmoPackages/index";
 import PPCPackage from "./component/Packages/PPCPackages/index";
 import ORMPackage from "./component/Packages/ORMPackages/index";
 import StaticPackage from "./component/Packages/StaticPackages/index";
+import WordpressPackage from "./component/Packages/WordpressPackages/index";
+import ContentWritingPackage from "./component/Packages/ContentWritingPackages/index";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -46,6 +48,8 @@ function App() {
         <Route path="/PackageMain/PPCPackages" element={<PPCPackage />} />
         <Route path="/PackageMain/ORMPackages" element={<ORMPackage />} />
         <Route path="/PackageMain/StaticPackages" element={<StaticPackage />} />
+        <Route path="/PackageMain/WordpressPackages" element={<WordpressPackage />} />
+        <Route path="/PackageMain/ContentWriting" element={<ContentWritingPackage />} />
         {/* Packages section end */}
       </Routes>
     </div>

@@ -50,19 +50,21 @@ const packages = [
        image:wordpress,
       title: "WordPress Development Plans",
       description: "Custom WordPress websites with responsive design, SEO optimization, and feature-rich functionalities.",
-      button: "View Plan"
+      button: "View Plan",
+      link: "/PackageMain/WordpressPackages",
     },
     {
         image:mobileapp,
       title: "Mobile App Packages",
       description: "Develop intuitive, high-performance mobile applications for Android and iOS platforms with seamless user experience.",
-      button: "View Plan"
+      link: "/ContactUs",
     },
     {
         image:content,
       title: "Content Writing Packages",
       description: "Engage audiences with high-quality, SEO-friendly content for blogs, websites, marketing campaigns and user-friendly experience",
-      button: "View Plan"
+      button: "View Plan",
+      link: "/PackageMain/ContentWriting",
     },
     {
         image:group3,
