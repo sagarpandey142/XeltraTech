@@ -3,15 +3,15 @@ import tick from "../../../../component/Packages/SeoPackages/images/tick.svg"
 import untick from "../../../../component/Packages/ORMPackages/images/untick.svg"
 import React from 'react'
 
-const ContentWritingReports =[
+const ContentWritingBlog =[
     {
-      feature: "Web Content Writing Package Cost (400- 450 words)",
-      plan: "$ 180",
+      feature: "Blog Writing Package Cost (upto 300 words)",
+      plan: "$ 75",
     },
     {
-      feature: "Cost per Web Content",
-      plan: "$ 18",
+      feature: "Cost per Blog",
+      plan: "$ 15",
     }, 
   ]
  
-  export default ContentWritingReports
+  export default ContentWritingBlog

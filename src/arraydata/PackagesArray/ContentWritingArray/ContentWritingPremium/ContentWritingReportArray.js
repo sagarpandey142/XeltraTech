@@ -6,11 +6,11 @@ import React from 'react'
 const ContentWritingReports =[
     {
       feature: "Web Content Writing Package Cost (400- 450 words)",
-      plan: "$ 180",
+      plan: "$ 375",
     },
     {
       feature: "Cost per Web Content",
-      plan: "$ 18",
+      plan: "$ 15",
     }, 
   ]
  
