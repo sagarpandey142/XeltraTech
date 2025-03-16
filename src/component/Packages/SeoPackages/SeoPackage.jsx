@@ -95,7 +95,13 @@ import SeoPremiumLocal from '../../../arraydata/PackagesArray/SeoArray/SeoPremiu
 import SeoPremiumWebCard from '../../cards/PackagesCard/SeoCard/SeoPremiumCard/SeoWebCard';
 import SeoPremiumWeb from '../../../arraydata/PackagesArray/SeoArray/SeoPremium/SeoWebArray';
 // premium package end
+
 import AnimatedContent from '../../SingleComponents/AnimatedContent';
+
+// offer start
+
+// offer end
+
 
 const SeoPackage = () => {
 
@@ -110,7 +116,9 @@ const SeoPackage = () => {
 
             {/* basic plan start */}
             <AnimatedContent direction='horizontal' reverse={true}>
-            <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
+            <div className='relative min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
+
+              <div className='absolute border-5 border-red-500 rounded-full w-[100px] h-[100px] m-0 bg-white flex justify-center items-center text-center -top-6 -right-6'><div className='w-[90px] h-[90px] rounded-full flex justify-center items-center text-center font-semibold text-[16px] text-[#ED1C24] shadow-[0px_7px_7.4px_rgba(0,0,0,0.25)] overflow-hidden whitespace-normal p-1'>Most  Popular</div></div>
 
               <div className="w-full h-auto flex flex-col justify-start items-center gap-[10px] ">
                 <div className='w-full h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>BASIC</div>
@@ -178,8 +186,8 @@ const SeoPackage = () => {
 
             {/* standard package start */}
 
-            <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
-
+            <div className='relative min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
+            <div className='absolute border-5 border-red-500 rounded-full w-[100px] h-[100px] m-0 bg-white flex justify-center items-center text-center -top-6 -right-6'><div className='w-[90px] h-[90px] rounded-full flex justify-center items-center text-center font-semibold text-[16px] text-[#ED1C24] shadow-[0px_7px_7.4px_rgba(0,0,0,0.25)] overflow-hidden whitespace-normal p-1'>Most  Popular</div></div>
               <div className="w-full h-auto flex flex-col justify-start items-center gap-[10px] ">
                 <div className='w-full h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>STANDARD</div>
                 <div className='w-full h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>$ 249 / Month</div>
@@ -246,8 +254,8 @@ const SeoPackage = () => {
             {/* premium package start */}
             
                   <AnimatedContent direction="horizontal">
-                  <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
-
+                  <div className='relative min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
+                  <div className='absolute border-5 border-red-500 rounded-full w-[100px] h-[100px] m-0 bg-white flex justify-center items-center text-center -top-6 -right-6'><div className='w-[90px] h-[90px] rounded-full flex justify-center items-center text-center font-semibold text-[16px] text-[#ED1C24] shadow-[0px_7px_7.4px_rgba(0,0,0,0.25)] overflow-hidden whitespace-normal p-1'>Most  Popular</div></div>
                   <div className="w-full h-auto flex flex-col justify-start items-center gap-[10px] ">
                     <div className='w-full h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>Premium</div>
                     <div className='w-full h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>$ 349 / Month</div>

@@ -34,7 +34,7 @@ const StaticPackage = () => {
             {/* basic plan start */}
             <AnimatedContent direction="horizontal" reverse={true}>
             <div className='min-w-[360px] h-[auto] !border border-[#3030307A] rounded-[20px] flex-shrink-0 scroll-snap-center px-[20px] py-[20px] flex flex-col justify-center items-center gap-4 '>
-
+              
               <div className="w-full h-auto flex flex-col justify-start items-center gap-[10px] ">
                 <div className='w-full h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>BASIC</div>
                 <div className='w-full h-auto font-raleway font-bold text-[24px] leading-snug tracking-[1px] text-start '>5-10 Pages</div>
