@@ -80,8 +80,24 @@ const Topmenu = () => {
                     <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">Online Reputation Management</Link></div>
                 </div>
             </div>
-            <div className='services-dropdown1'>Mobile Platform migration</div>
-            <div className='services-dropdown1-bottom'>Mobile App Development</div>
+            <div className='services-dropdown1'>Clouds Services
+                <div className='services-dropdown1-top-submenu5-body'>
+                    <div className='services-dropdown1-top-submenu1-top'><Link to="/ContactUs">Cloud Automation</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="//ContactUs">Cloud Migration</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">DevOps</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">AZURE</Link></div>
+                    <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">AWS</Link></div>
+                </div>
+            </div>
+            <div className='services-dropdown1'>Clouds Services
+                <div className='services-dropdown1-top-submenu4-body'>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">Cloud Automation</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="//ContactUs">Cloud Migration</Link></div>
+                    <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">DevOps</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">AZURE</Link></div>
+                    <div className='services-dropdown1-top-submenu1-top'><Link to="/ContactUs">AWS</Link></div>
+                </div>
+            </div>
           </div>
         </div>
 

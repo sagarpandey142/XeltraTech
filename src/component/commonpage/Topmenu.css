@@ -204,7 +204,7 @@
     align-items: start;
     gap: 5px;
     z-index: 100000;
-    margin-left: 225px;
+    margin-left: 220px;
     width: 280px;
    /* Initially hidden */
    opacity: 0;
@@ -309,7 +309,7 @@
     align-items: start;
     gap: 5px;
     z-index: 500;
-    margin-left: 225px;
+    margin-left: 220px;
     width: 280px;
     /* Initially hidden */
     opacity: 0;
@@ -342,7 +342,7 @@
     align-items: start;
     gap: 5px;
     z-index: 500;
-    margin-left: 225px;
+    margin-left: 220px;
     width: 280px;
 
     /* Initially hidden */
@@ -376,7 +376,7 @@
     align-items: start;
     gap: 5px;
     z-index: 500;
-    margin-left: 225px;
+    margin-left: 220px;
     width: 300px;
  
     
@@ -395,3 +395,39 @@
 
 }
 /* submenu 4 ends */
+
+/* submenu 5 starts */
+.services-dropdown1-top-submenu5-body{
+    position: absolute;
+    display: block;
+    background-color: #ffff;
+    margin-top: 160px;
+    border-radius: 10px;
+    padding-block: 0px;
+    z-index: 200;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+    z-index: 500;
+    margin-left: 220px;
+    width: 200px;
+ 
+    
+      /* Initially hidden */
+      opacity: 0;
+      visibility: hidden;
+      transform: translateX(25px);
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out, visibility 0.5s;
+}
+
+.services-dropdown1:hover .services-dropdown1-top-submenu5-body{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+
+}
+/* submenu 5 ends */

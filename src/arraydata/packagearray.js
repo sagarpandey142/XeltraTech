@@ -70,7 +70,8 @@ const packages = [
         image:group3,
       title: "Ecommerce Development Plans",
       description: "Build scalable, secure, and user-friendly eCommerce stores with seamless shopping experiences and payment integration.",
-      button: "View Plan"
+      button: "View Plan",
+      link: "/PackageMain/Ecommerce",
     }
   ];
   

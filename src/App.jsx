@@ -20,6 +20,7 @@ import ORMPackage from "./component/Packages/ORMPackages/index";
 import StaticPackage from "./component/Packages/StaticPackages/index";
 import WordpressPackage from "./component/Packages/WordpressPackages/index";
 import ContentWritingPackage from "./component/Packages/ContentWritingPackages/index";
+import EcommercePackage from "./component/Packages/EcommercePackages/index";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -50,6 +51,7 @@ function App() {
         <Route path="/PackageMain/StaticPackages" element={<StaticPackage />} />
         <Route path="/PackageMain/WordpressPackages" element={<WordpressPackage />} />
         <Route path="/PackageMain/ContentWriting" element={<ContentWritingPackage />} />
+        <Route path="/PackageMain/Ecommerce" element={<EcommercePackage />} />
         {/* Packages section end */}
       </Routes>
     </div>

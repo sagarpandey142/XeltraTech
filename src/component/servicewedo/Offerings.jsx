@@ -4,6 +4,8 @@ import mobileapp from "./images/touch-screen.gif"
 import webdesign from "./images/logo-design.gif"
 import advertising from "./images/advertising.gif"
 import webdeveloper from "./images/web-developer.gif"
+import cloud from "./images/cloud.gif"
+import Ecommerce from "./images/Ecommerce.gif"
 import OfferingsCards from '../cards/OfferingsCards'
 import AnimatedContent from "../SingleComponents/AnimatedContent"
 
@@ -23,46 +25,46 @@ function Offerings() {
               icon:webdesign,
               head:"Website & UI/UX Design",
               link1:"Logo Design", url1:"/Servicewedo/LogoDesign",
-              link2:"React Design",
+              link2:"React Design", url2:"/ContactUs",
               link3:"Graphic Design", url3:"/Servicewedo/GraphicDesign",
-              link4:"Custom Web Design",
-              link5:"Responsive + Website Design"
+              link4:"Custom Web Design", url4:"/ContactUs",
+              link5:"Responsive + Website Design", url5:"/ContactUs",
           },
           {
               icon:advertising,
               head:"Website Development",
-              link1:"PHP Development",
-              link2:"Drupal Development",
-              link3:"Interspire Development",
-              link4:"Wordspress Development",
-              link5:"E-commerce Development"
+              link1:"PHP Development",  url1:"/ContactUs",
+              link2:"Drupal Development", url2:"/ContactUs",
+              link3:"Interspire Development", url3:"/ContactUs",
+              link4:"Wordspress Development", url4:"/ContactUs",
+              link5:"E-commerce Development", url5:"/ContactUs",
           },
           {
               icon:webdeveloper,
               head:"Digital Marketing & Ads",
-              link1:"Seo Consulting",
-              link2:"PPC Advertising",
-              link3:"Content Writing",
-              link4:"Social Media Marketing",
-              link5:"Online Reputation Management"
+              link1:"Seo Consulting", url1:"/ContactUs",
+              link2:"PPC Advertising", url2:"/ContactUs",
+              link3:"Content Writing", url3:"/ContactUs",
+              link4:"Social Media Marketing", url4:"/ContactUs",
+              link5:"Online Reputation Management", url5:"/ContactUs",
           },
           {
-              icon:mobileapp,
-              head:"Mobile Platform migration",
-              link1:"IOS Application Development",
-              link2:"Android Apps Development",
-              link3:"Windows Apps Development",
-              link4:"App Support And Maintenance",
-              link5:"App Marketing Services"
+              icon:cloud,
+              head:"Cloud Services",
+              link1:"Cloud Automation Services", url1:"/ContactUs",
+              link2:"Cloud Migration Services", url2:"/ContactUs",
+              link3:"DevOps Development", url3:"/ContactUs",
+              link4:"AZURE Development", url4:"/ContactUs",
+              link5:"AWS Development", url5:"/ContactUs",
           },
           {
-              icon:mobileapp,
-              head:"Mobile App Development",
-              link1:"IOS Application Development",
-              link2:"Android Apps Development",
-              link3:"Windows Apps Development",
-              link4:"App Support And Maintenance",
-              link5:"App Marketing Services" 
+              icon:Ecommerce,
+              head:"E-commerce Solutions",
+              link1:"Payment Gateway", url1:"/ContactUs",
+              link2:"E-commerce maintenance", url2:"/ContactUs",
+              link3:"Seo & Digital Marketing", url3:"/ContactUs",
+              link4:"Custom E-commerce Website", url4:"/ContactUs",
+              link5:"Subscription Based E-commerce", url5:"/ContactUs", 
           }
       ]
 
