@@ -82,20 +82,20 @@ const Topmenu = () => {
             </div>
             <div className='services-dropdown1'>Clouds Services
                 <div className='services-dropdown1-top-submenu5-body'>
-                    <div className='services-dropdown1-top-submenu1-top'><Link to="/ContactUs">Cloud Automation</Link></div>
-                    <div className='services-dropdown1-top-submenu1'><Link to="//ContactUs">Cloud Migration</Link></div>
-                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">DevOps</Link></div>
-                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">AZURE</Link></div>
-                    <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">AWS</Link></div>
+                <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">Cloud Automation Services</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="//ContactUs">Cloud Migration Services</Link></div>
+                    <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">DevOps Development</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">AZURE Development</Link></div>
+                    <div className='services-dropdown1-top-submenu1-top'><Link to="/ContactUs">AWS Development</Link></div>
                 </div>
             </div>
-            <div className='services-dropdown1'>Clouds Services
+            <div className='services-dropdown1'>E-commerce
                 <div className='services-dropdown1-top-submenu4-body'>
-                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">Cloud Automation</Link></div>
-                    <div className='services-dropdown1-top-submenu1'><Link to="//ContactUs">Cloud Migration</Link></div>
-                    <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">DevOps</Link></div>
-                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">AZURE</Link></div>
-                    <div className='services-dropdown1-top-submenu1-top'><Link to="/ContactUs">AWS</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">Payment Gateway</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="//ContactUs">E-commerce maintenance</Link></div>
+                    <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">Seo & Digital Marketing</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">Custom E-commerce Website</Link></div>
+                    <div className='services-dropdown1-top-submenu1-top'><Link to="/ContactUs">Subscription Based E-commerce</Link></div>
                 </div>
             </div>
           </div>
