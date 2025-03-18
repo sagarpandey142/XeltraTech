@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.services-body{
+    padding-block: 80px;
+    width: screen;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-box{
+    width: 100%;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.services-heading{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50.8px;
+    letter-spacing: 0%;
+    width: 800px;
+    text-align: center;
+}
+@media screen and (max-width: 800px){
+    .services-heading{
+        width: 100%;
+    }
+}
+
+
+.services-heading span{
+    color: #ED1C24;
+}
+
+.services-content-box{
+    width: 1400px;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+@media screen and (max-width: 1400px){
+    .services-content-box{
+        width: 100%;
+    }
+}
+
+.services-content-box1{
+    width: 280px;
+height: static;
+border-radius: 20px;
+box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+padding-block: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+padding-inline: 40px;
+gap: 20px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.services-content-box1:hover{
+    border: 1px solid #ED1C24; 
+    transform: scale(1.05);
+}
+
+
+.box1-logo{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.box1-heading{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: start ;
+    color: #303030;
+
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1-para{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+    color: #303030B2;
+    width: 110%;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+}
