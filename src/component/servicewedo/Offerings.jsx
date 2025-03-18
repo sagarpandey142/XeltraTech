@@ -19,7 +19,7 @@ function Offerings() {
               link2:"Hybrid App Development", url2:"/Servicewedo/HybridAppDevelopment",
               link3:"Android Apps Development",  url3:"/ContactUs",
               link4:"IOS Application Development", url4:"/ContactUs",
-              link5:"App Support And Maintenance",  url5:"/ContactUs",
+              link5:"App Support And Maintenance",  url5:"/Servicewedo/MobileAppSupport",
           },
           {
               icon:webdesign,
