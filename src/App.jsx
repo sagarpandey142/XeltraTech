@@ -13,6 +13,7 @@ import MobileAppSupport from "./component/serviceoffered/MobileAppSupport/index"
 import "./index.css"
 import PackageMain from "./packagesMain";
 import GraphicDesign from "./component/serviceoffered/GraphicDesigning/index";
+import IosAppDevelopment from "./component/serviceoffered/IosAppDevelopment/index";
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
 import SmoPackage from "./component/Packages/SmoPackages/index";
@@ -43,6 +44,7 @@ function App() {
         <Route path="/Servicewedo/LogoDesign" element={<LogoDesign />} />
         <Route path="/PackageMain" element={<PackageMain/>} />
         <Route path="/Servicewedo/GraphicDesign" element={<GraphicDesign />} />
+        <Route path="/Servicewedo/IosAppDevelopment" element={<IosAppDevelopment />} />
         {/* service section end */}
 
         {/* Packages section start */}
