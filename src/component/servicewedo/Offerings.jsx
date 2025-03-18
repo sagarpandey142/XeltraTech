@@ -17,8 +17,8 @@ function Offerings() {
               head:"Mobile App Development",
               link1:"Mobile App UI/UX Design",  url1:"/Servicewedo/MobileUI",
               link2:"Hybrid App Development", url2:"/Servicewedo/HybridAppDevelopment",
-              link3:"Android Apps Development",  url3:"/ContactUs",
-              link4:"IOS Application Development", url4:"/ContactUs",
+              link3:"Android Apps Development",  url3:"/Servicewedo/AndroidAppDevelopment",
+              link4:"IOS Application Development", url4:"/Servicewedo/IosAppDevelopment",
               link5:"App Support And Maintenance",  url5:"/Servicewedo/MobileAppSupport",
           },
           {
