@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
 
 .dp-body{
     width: screen;
@@ -33,13 +32,13 @@
     }
 }
 .dp-header1{
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 600;
     line-height: 21.13px;
     text-align: left;
     text-decoration-skip-ink: none;
-    color: #EF233C;
+    color: #A7021D;
     width: 240px;
     height: 21px;
 }
@@ -52,7 +51,7 @@
 
 .dp-header2{
     width: 100%;
-font-family: Raleway;
+font-family: 'Raleway';
 font-size: 45px;
 font-weight: 700;
 text-align: left;
@@ -123,11 +122,11 @@ text-decoration-skip-ink: none;
 
 .dp-content-box1-head{
     width: 100%;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 600;
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
-    color: #ED1C24;
+    color: #A7021D;
     text-align: center;
 }

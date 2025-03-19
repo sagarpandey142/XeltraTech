@@ -7,7 +7,6 @@ import Portfolio from "../homepage/portfolio";
 import Wecando from "../homepage/wecando";
 import Testimonials from "../Homepage/testimonials";
 import Clients from "../homepage/clients";
-// import Footer from "./component/footer";
 import Chooseus from "../homepage/chooseus";
 import Development from "../homepage/developmentprocess";
 import Footer1 from "../homepage/footer1";
@@ -30,7 +29,6 @@ function Homepage() {
       <Testimonials />
       <Clients/>
       <Footer1 />
-      {/* <Footer/> */}
     </div>
   );
 }

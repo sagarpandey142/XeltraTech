@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
-
-
 .featuredservices-body{
     width: screen;
     height: static;
@@ -9,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items:center ;
+    background-color: #FAFAFA;
 }
 
 .featuredservices-box{
@@ -45,16 +42,17 @@
 }
 
 .box-top-heading-header{
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 600;
     font-size: 18px;
     line-height: 21.13px;
     letter-spacing: 0%;
-    color: #EF233C;
+    color:  #D90429;
+    
 }
 
 .box-top-heading-para{
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 45px;
     line-height: 52.83px;
@@ -63,16 +61,16 @@
 }
 
 .box-top-button{
-    border: 3px solid #ED1C24;
+    border: 3px solid #D90429;
     width: 300px;
     height: 65px;
     border-radius: 20px;
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
     font-weight: 600;
     font-size: 16px;
     line-height: 20.16px;
     letter-spacing: 0%;
-    color:#ED1C24;
+    color:#D90429;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -85,14 +83,14 @@
     display: flex;
     gap: 40px;
     text-decoration: none;
-    color: #ED1C24;
+    color: #D90429;
 }
 .box-top-button a:hover{
     text-decoration: none;
     color: #ffffff;
 }
 .box-top-button:hover{
-    background-color: #ED1C24;
+    background-color: #D90429;
     color: white;
     cursor: pointer;
 }
@@ -112,12 +110,12 @@
 }
 
 .box-top-button-name{
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
     font-weight: 600;
     font-size: 16px;
     line-height: 20.16px;
     letter-spacing: 0%;
-    color:#ED1C24;
+    color:#D90429;
 }
 
 /* box top or heading end */
@@ -169,7 +167,7 @@
     align-items: center;
 }
 .box-bottom-content-heading{
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 600;
     font-size: 24px;
     line-height: 28.18px;
@@ -179,7 +177,7 @@
 
 .box-bottom-content-para{
     text-align: center;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
