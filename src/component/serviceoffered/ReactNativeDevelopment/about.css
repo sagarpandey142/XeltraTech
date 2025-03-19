@@ -24,8 +24,8 @@
 
 
 /* image section start */
-.about-img{
-    width: 700px !important;
+.react-about-img{
+    width: 500px; 
     height: static;
     display: flex;
     justify-content: center;
@@ -35,13 +35,13 @@
 }
 
 @media (max-width: 700px) {
-    .about-img{
+    .react-about-img{
         width: 90%;
     }
 }
 
 
-.about-img img{
+.react-about-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -95,6 +95,16 @@
     text-align: justify;
 
 }
+
+@media (max-width: 1367px){
+    .about-content-heading{
+        width: 100%;
+    }
+    .about-content-para1{
+        width: 100%;
+    }
+}
+
 
 @media (max-width: 750px){
     .about-content-para1{

@@ -25,7 +25,7 @@ function Offerings() {
               icon:webdesign,
               head:"Website & UI/UX Design",
               link1:"Logo Design", url1:"/Servicewedo/LogoDesign",
-              link2:"React Design", url2:"/ContactUs",
+              link2:"React Design", url2:"/Servicewedo/ReactNativeDevelopment",
               link3:"Graphic Design", url3:"/Servicewedo/GraphicDesign",
               link4:"Custom Web Design", url4:"/ContactUs",
               link5:"Responsive + Website Design", url5:"/ContactUs",
