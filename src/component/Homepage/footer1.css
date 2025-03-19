@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
 
 .footer1-body{
     width: screen;
     min-height: 660px; /* Allows container to expand */
-    background: #161616;
+    background: #000000;
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
@@ -40,7 +39,7 @@
     /* border: 2px solid rgb(7, 170, 199); */
     width: 360px;
     margin-top: 40px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -120,8 +119,8 @@
     /* border: 2px solid blue; */
 }
 .footer1-column2-section1 h3{
-    color: #ED1C24;
-    font-family: Raleway;
+    color: #FF617B;
+    font-family: 'Raleway';
 font-size: 15px;
 font-weight: 600;
 line-height: 23.48px;
@@ -133,7 +132,7 @@ text-decoration-skip-ink: none;
     text-decoration: none;
     color: #ffff;
     display: block;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
@@ -148,8 +147,8 @@ text-decoration-skip-ink: none;
 }
 
 .footer1-column2-section2 h3{
-    color: #ED1C24;
-    font-family: Raleway;
+    color: #FF617B;
+    font-family: 'Raleway';
 font-size: 15px;
 font-weight: 600;
 line-height: 23.48px;
@@ -161,7 +160,7 @@ text-decoration-skip-ink: none;
     text-decoration: none;
     color: #ffff;
     display: block;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
@@ -188,8 +187,8 @@ text-decoration-skip-ink: none;
     /* border: 2px solid blue; */
 }
 .footer1-column3-section1 h3{
-    color: #ED1C24;
-    font-family: Raleway;
+    color: #FF617B;
+    font-family: 'Raleway';
 font-size: 15px;
 font-weight: 600;
 line-height: 23.48px;
@@ -201,7 +200,7 @@ text-decoration-skip-ink: none;
     text-decoration: none;
     color: #ffff;
     display: block;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 15px;
     font-weight: 400;
     line-height: 35px;
@@ -222,8 +221,8 @@ text-decoration-skip-ink: none;
 }
 
 .footer1-column3-section2 h3{
-    color: #ED1C24;
-    font-family: Raleway;
+    color: #FF617B;
+    font-family: 'Raleway';
     font-size: 15px;
 font-weight: 600;
 line-height: 23.48px;
@@ -258,9 +257,9 @@ position: relative;  /* Allows absolute positioning inside */
 
 .footer1-column3-section3 button{
     width: 146px;
-    height: 45px;
+    height: 50px;
     /* border: 2px solid red; */
-    border-radius: 20px;
+    border-radius: 25px;
     background: linear-gradient(135deg, #ff512f, #dd2476); /* Premium gradient */
     display: block;       /* Makes the button a block element */
        /* Centers the button horizontally */
@@ -272,10 +271,18 @@ position: relative;  /* Allows absolute positioning inside */
     border: none;
 }
 
-.footer1-column3-section3 button a{
-    color: #ffff;
+.footer1-column3-section3 button a {
+    display: flex; /* Enables full button coverage */
+    align-items: center; /* Centers text vertically */
+    justify-content: center; /* Centers text horizontally */
+    width: 100%; /* Ensures full width */
+    height: 100%; /* Ensures full height */
+    color: #fff;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
 }
+
 
 .footer1-column3-section3 button:hover {
     transform: translateY(-3px); /* Slight lift effect */

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
 
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -23,7 +22,7 @@ body {
 .wecando-body{
     background-color: #f8f8f8;
     height: 1100px;
-    border:#ED1C24;height: static;
+    border:#A7021D;height: static;
 }
 
 .wecando {
@@ -36,7 +35,6 @@ body {
     opacity: 1;
     animation: fadeIn 1s ease-in-out;
     justify-content: center;
-    /* background-color: #f8f8f8; */
     padding-top: 20px;
     padding-bottom: 20px;height: static;
 }
@@ -55,7 +53,7 @@ body {
 }
 
 .wecando-header1 h4 {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 50px;
     font-weight: 700;
     text-align: left;
@@ -76,7 +74,7 @@ body {
 }
 
 .wecando-header1 h4 span {
-    color: #ED1C24;
+    color: #A7021D;
     padding-right:0.3rem;
 }
 
@@ -125,7 +123,7 @@ text-decoration-skip-ink: none;
 }
 
 .wecando-header-text1 {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 45px;
     font-weight: 700;
     color: #303030;
@@ -134,7 +132,7 @@ text-decoration-skip-ink: none;
 }
 
 .wecando-header-text1 li {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 45px;
     font-weight: 700;
     color: #303030;
@@ -222,7 +220,7 @@ text-decoration-skip-ink: none;
     text-align: center;
     border-radius: 15px;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     opacity: 0;
@@ -295,7 +293,7 @@ gap: 20px;
 }
 
 .li:hover{
-    border: 1px solid #ED1C24;
+    border: 1px solid #A7021D;
 }
 
 .li:hover {
@@ -313,7 +311,7 @@ gap: 20px;
 .app-development-head {
     width: 300px;
 height: 28px;
-font-family: Raleway;
+font-family: 'Raleway';
 font-size: 16px;
 font-weight: 700 !important;
 line-height: 28.18px;
@@ -347,7 +345,7 @@ margin-bottom: 15px;
 }
 
 .IT-development-menu {
-    background-color: #ED1C24 !important;
+    background-color: #A7021D !important;
 }
 
 .UX-development-menu {

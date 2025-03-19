@@ -22,7 +22,7 @@ function chooseus() {
                     </div>
                     </div>
                 </div>
-                <div className="whychoosebanner"><img src={whychooseusbanner}/></div>
+                <div className="whychoosebanner"><img src={whychooseusbanner} alt="banner"/></div>
                 
             </div>
             </div>

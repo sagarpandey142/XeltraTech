@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
 
 
 @media (max-width:900px) {
@@ -28,7 +27,7 @@
     padding-top: 60px; /* Creates space at the top */
     
     
-    /* background-color: #ED1C24; */
+    /* background-color: #D90429; */
     
    
     
@@ -37,12 +36,12 @@
 .portfolio-heading1 {
     width: 154px;
     height: 23px;
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
     font-size: 18px;
     font-weight: 600;
     line-height: 22.68px;
     text-align: center;
-    color: #ED1C24;
+    color: #D90429;
     text-decoration: underline;
     text-underline-offset: 20px;
 
@@ -75,7 +74,7 @@
 .portfolio-heading2-text1 {
     width: 397px;
     height: 59px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 50px;
     font-weight: 700;
     line-height: 58.7px;
@@ -99,7 +98,7 @@
 .portfolio-heading2-text2{
     width: 543px;
     height: 59px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 50px;
     font-weight: 700;
     line-height: 58.7px;
@@ -123,7 +122,7 @@
 }
 
 .portfolio-heading2-text2 span{
-    color: #ED1C24;
+    color: #D90429;
 
 }
 
@@ -193,7 +192,7 @@
     z-index: 2; /* Ensures the text is above the image */
     width: 349px;
     height: 44px;
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
     font-size: 15px;
     font-weight: 400;
     line-height: 18.9px;
@@ -211,7 +210,7 @@
     z-index: 2; /* Ensures the text is above the image */
     width: 150px;
     height: 50px;
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
     font-size: 16px;
     font-weight: 500;
     line-height: 15.12px;

@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 
 * {
@@ -57,7 +55,7 @@
 
 .logo1{
     width: 180px;
-    height: 60px;
+    height: auto;
     margin-top: -10px;
     margin-left: 290px;   
 }
@@ -286,7 +284,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,45,45,1) 65%, rgb
     padding-inline: 20px;
     position: relative;
     transition: color 0.3s ease-in-out;
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
 }
 @media (max-width:1750px){
     .navmenu-latest ul li{
@@ -765,7 +763,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,45,45,1) 65%, rgb
 .banner-slider1-content-text1{
     width: 227px;
 height: 21px;
-font-family: Plus Jakarta Sans;
+font-family: 'Plus Jakarta Sans';
 font-size: 17px;
 font-weight: 400;
 line-height: 21.42px;
@@ -783,7 +781,7 @@ margin-bottom: 40px;
 .banner-slider1-content-text2{
     width: 587px;
 height: static;
-font-family: Plus Jakarta Sans;
+font-family: 'Plus Jakarta Sans';
 font-size: 50px;
 font-weight: 700;
 line-height: 63px;
@@ -840,7 +838,7 @@ position: relative;
 .banner-slider1-content-text4{
     width: 614px;
 height: 63px;
-font-family: Plus Jakarta Sans;
+font-family: 'Plus Jakarta Sans';
 font-size: 40px;
 font-weight: 400;
 line-height: 63px;
