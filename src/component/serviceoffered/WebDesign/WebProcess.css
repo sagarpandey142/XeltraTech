@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.specialize-body{
+    width: screen;
+    height: static;
+    background-color: #F8F8F8;
+    padding-block: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specialize-box{
+    width: 100%;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+@media (max-width:1280px){
+    .specialize-box{
+        gap: 20px;
+    }
+}
+
+.specialize-box1{
+    width: 100%;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+@media (max-width:1307px){
+    .specialize-box1{
+        width: 70%;
+    }
+}
+@media (max-width:870px){
+    .specialize-box1{
+        width: 100%;
+    }
+}
+
+
+/* heading content start */
+
+.specialize-box1-heading{
+    width: 640px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+@media (max-width:700px){
+    .specialize-box1-heading{
+        width: 500px;
+    }
+}
+@media (max-width:507px){
+    .specialize-box1-heading{
+        width: 90%;
+    }
+}
+
+.specialize-box1-heading1{
+    width: 100%;
+    text-align: start;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46.96px;
+    letter-spacing: 0%;
+}
+
+.specialize-box1-heading1 span{color: #ED1C24;}
+
+.specialize-box1-heading2{
+    width: 80%;
+    text-align: start;
+    color: #ED1C24;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0%;
+
+}
+
+
+/* heading content end */
+
+
+/* box1 content start */
+
+.specialize-box1-content1{
+    width: 310px;
+    height: 250px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:700px){
+    .specialize-box1-content1{
+        width: 240px;
+    }
+}
+@media (max-width:507px){
+    .specialize-box1-content1{
+        width: 90%;
+    }
+}
+
+.content1-image{
+    width: 100%;
+    height: 170px;
+    border-radius: 20px 20px 0 0; 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.content1-logo {
+    width: 250px;
+    height: 220px;
+    background-color: #ffff;
+    border-radius: 100%;
+    transform: translate(50px, -30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.content1-logo:hover {
+    background-color: #ED1C24;
+    transform: translate(50px, -30px) scale(1);
+}
+
+
+.content1-logo img {
+    width: 40%;
+    height: 40%;
+    transform: translate(-5px, 10px);
+    transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.content1-logo:hover img {
+    filter: brightness(0) invert(1); /* Changes the SVG to white on hover */
+    transform: translate(-5px, 10px) scale(1.1); /* Slight zoom effect */
+}
+
+
+.content1-head{
+    width: 50%;
+    height: 80px;
+    border-radius: 0 0 20px 20px;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23.48px;
+    letter-spacing: 0%;
+    color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin-right: 50px;
+
+}
+
+/* box1 content end */
+
+
+
+
+.specialize-box2{
+    width: 100%;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+@media (max-width:1307px){
+    .specialize-box2{
+        width: 70%;
+    }
+}
+@media (max-width:870px){
+    .specialize-box2{
+        width: 100%;
+    }
+}
+
+.specialize-box2-content1{
+    width: 310px;
+    height: 250px;
+    border: 2px solid green;
+}
+
