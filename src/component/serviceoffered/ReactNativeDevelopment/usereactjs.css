@@ -62,6 +62,9 @@
         width: 80%;
         text-align: center;
     }
+    .react-services::before {
+        top: 30%;
+    }
 
 }
 
