@@ -28,7 +28,7 @@ function Offerings() {
               link2:"React Design", url2:"/Servicewedo/ReactNativeDevelopment",
               link3:"Graphic Design", url3:"/Servicewedo/GraphicDesign",
               link4:"Custom Web Design", url4:"/ContactUs",
-              link5:"Responsive + Website Design", url5:"/ContactUs",
+              link5:"Responsive + Website Design", url5:"/Servicewedo/ResponsiveDesign",
           },
           {
               icon:advertising,

@@ -1,0 +1,17 @@
+.CreateLogo-body{
+    width: screen;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ED1C240A;
+}
+@media (max-width:770px){
+    .CreateLogo-body{
+        display: none;
+    }
+}
+
+.CreateLogo-box{
+    width: 80%;
+}

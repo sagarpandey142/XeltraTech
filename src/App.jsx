@@ -16,6 +16,7 @@ import GraphicDesign from "./component/serviceoffered/GraphicDesigning/index";
 import IosAppDevelopment from "./component/serviceoffered/IosAppDevelopment/index";
 import ReactNativeDevelopment from "./component/serviceoffered/ReactNativeDevelopment/index";
 import AndroidAppDevelopment from "./component/serviceoffered/AndroidAppDevelopment/index";
+import ResponsiveDesign from "./component/serviceoffered/ResponsiveDesign/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
@@ -50,6 +51,7 @@ function App() {
         <Route path="/Servicewedo/IosAppDevelopment" element={<IosAppDevelopment />} />
         <Route path="/Servicewedo/ReactNativeDevelopment" element={<ReactNativeDevelopment />} />
         <Route path="/Servicewedo/AndroidAppDevelopment" element={<AndroidAppDevelopment />} />
+        <Route path="/Servicewedo/ResponsiveDesign" element={<ResponsiveDesign />} />
 
         {/* service section end */}
 
