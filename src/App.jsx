@@ -17,6 +17,7 @@ import IosAppDevelopment from "./component/serviceoffered/IosAppDevelopment/inde
 import AndroidAppDevelopment from "./component/serviceoffered/AndroidAppDevelopment/index";
 import WebDesign from "./component/serviceoffered/WebDesign/index";
 import ReactNativeDevelopment from "./component/serviceoffered/ReactNativeDevelopment/index";
+import PHPDevelopment from "./component/serviceoffered/PHPDevelopment/index";
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
 import SmoPackage from "./component/Packages/SmoPackages/index";
@@ -51,6 +52,7 @@ function App() {
         <Route path="/Servicewedo/AndroidAppDevelopment" element={<AndroidAppDevelopment />} />
         <Route path="/Servicewedo/ReactNativeDevelopment" element={<ReactNativeDevelopment />} />
         <Route path="/Servicewedo/WebDesign" element={<WebDesign />} />
+        <Route path="/Servicewedo/PHPDevelopment" element={<PHPDevelopment />} />
         {/* service section end */}
 
         {/* Packages section start */}

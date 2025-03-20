@@ -33,7 +33,7 @@ function Offerings() {
           {
               icon:advertising,
               head:"Website Development",
-              link1:"PHP Development",  url1:"/ContactUs",
+              link1:"PHP Development",  url1:"/Servicewedo/PHPDevelopment",
               link2:"Drupal Development", url2:"/ContactUs",
               link3:"Interspire Development", url3:"/ContactUs",
               link4:"Wordspress Development", url4:"/ContactUs",
