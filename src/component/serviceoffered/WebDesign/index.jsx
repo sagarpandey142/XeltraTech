@@ -4,7 +4,8 @@ import Topbar from "../../Homepage/Topbar"
 import Hero from './Hero';
 import Footer1  from "../../Homepage/footer1";
 import AboutUI from "./AboutUI";
-import Specialize from "./WebProcess";
+import WebProcess from "./WebProcess";
+import WhychooseWeb from "./WhychooseWeb";
 
 
 const WebDesign = () => {
@@ -14,7 +15,8 @@ const WebDesign = () => {
       <Topmenu/>
       <Hero/>
       <AboutUI/>
-      <Specialize/>
+      <WebProcess/>
+      <WhychooseWeb/>
       <Footer1/>
     </div>
   );

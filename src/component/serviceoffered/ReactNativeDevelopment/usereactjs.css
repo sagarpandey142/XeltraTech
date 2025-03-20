@@ -75,24 +75,25 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .our-services-head1{
     display: flex;
-    width: 80%;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
     gap: 5%;
 }
 
 .service1{
     height: static;
     width: 48%;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.service1:hover{
-    border: 1px solid #ed1c24;
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .heading1{
     width: 100%;
     height: static;
@@ -109,7 +110,7 @@
     color: #ED1C24;
 }
 .heading2{
-    width: 100%;
+    width: 60%;
     height: static;
     display: flex;
     flex-wrap: wrap;
@@ -128,16 +129,12 @@
     width: 48%;
     justify-content: space-between;
 }
-.service2:hover{
-    border: 1px solid #ed1c24;
-    border-radius: 20px;
-    padding: 20px;
-}
+
 
 
 .our-services-head2{
     display: flex;
-    width: 80%;
+    width: 60%;
     gap: 5%;
 
 }
@@ -145,7 +142,7 @@
 
 .our-services-head3{
     display: flex;
-    width: 80%;
+    width: 60%;
     gap: 5%;
     justify-content: center;
 }
