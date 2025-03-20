@@ -36,11 +36,11 @@ export default function slider() {
         modules={[Autoplay]}
         className="client-box"
       >
-        <SwiperSlide className='ul'><img  src={architect}/></SwiperSlide>
-        <SwiperSlide  className='ul'><img  src={aurora}/></SwiperSlide>
-        <SwiperSlide  className='ul'><img  src={connection}/></SwiperSlide>
-        <SwiperSlide  className='ul'><img  src={connection}/></SwiperSlide>
-        <SwiperSlide  className='ul'><img  src={aurora}/></SwiperSlide>
+        <SwiperSlide className='ul'><img  src={architect} alt='architect'/></SwiperSlide>
+        <SwiperSlide  className='ul'><img  src={aurora} alt='aurora'/></SwiperSlide>
+        <SwiperSlide  className='ul'><img  src={connection} alt='connection'/></SwiperSlide>
+        <SwiperSlide  className='ul'><img  src={connection} alt='connection'/></SwiperSlide>
+        <SwiperSlide  className='ul'><img  src={aurora} alt='aurora'/></SwiperSlide>
       </Swiper>
     </div>
   );

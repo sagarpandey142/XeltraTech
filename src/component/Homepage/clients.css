@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 
 .clients-body {
     width: 100%;
@@ -15,7 +14,7 @@
 
 .clients-heading1 {
     width: fit-content;  /* Adjust width to fit content dynamically */
-    font-family: Nunito;
+    font-family: 'Nunito';
     font-size: 24px;
     font-weight: 600;
     text-align: center;  /* Centers the text */
@@ -30,7 +29,7 @@
 
 .clients-heading1 span {
     width: 100%; /* Make it as wide as the parent */
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 48px;
     font-weight: 700;
     text-align: center; /* Centers text inside the span */

@@ -18,12 +18,12 @@ function footer1() {
     <div className='footer1-body'>
       <div className='footer1-box'>
               <div className='footer1-column1'>
-                      <img src={logo1} height={300} width={200}/>
+                      <img src={logo1} height={300} width={200} alt='logo1'/>
                       <p>The IT industry is constantly evolving. A focus on innovation ensures the company stays ahead of the curve, develops cutting-edge solutions, and remains competitive.</p>
                       <div className='reach-us'>
-                        <div className='reach-us1'><img src={pointer}/>82 Corporate Tech Park, Sector - 62, Noida</div>
-                        <div className='reach-us2'><img src={phone1}/>+91-123 456 7890</div>
-                        <div className='reach-us3'><img src={email1}/>info@xeltratech.com</div>
+                        <div className='reach-us1'><img src={pointer} alt='address'/>82 Corporate Tech Park, Sector - 62, Noida</div>
+                        <div className='reach-us2'><img src={phone1} alt='phone'/>+91-123 456 7890</div>
+                        <div className='reach-us3'><img src={email1} alt='mail'/>info@xeltratech.com</div>
                       </div>
               </div>
 
@@ -60,19 +60,19 @@ function footer1() {
                 <div className='footer1-column3-section2'>
                   <h3>FOLLOW US</h3>
                   <div className='follow-us'>
-                    <a  href="www.instagram.com" className='instagram'><img src={insta}/></a>
-                    <a className='instagram'><img src={fb}/></a>
-                    <a className='instagram'><img src={twit}/></a>
+                    <a  href="www.instagram.com" className='instagram'><img src={insta} alt='insta'/></a>
+                    <a href="www.facebook.com" className='instagram'><img src={fb} alt='fb'/></a>
+                    <a href="www.twitter.com" className='instagram'><img src={twit} alt='twit'/></a>
                   </div>
                 </div>
                 <div className='footer1-column3-section3'>
                   <button><a href='#'>Buy Now</a></button>
                   <div className='payment'>
-                    <img src={mastercard}/>
-                    <img src={visa}/>
-                    <img src={applepay}/>
-                    <img src={maestro}/>
-                    <img src={amex}/>
+                    <img src={mastercard} alt='master'/>
+                    <img src={visa} alt='visa'/>
+                    <img src={applepay} alt='apple'/>
+                    <img src={maestro} alt='maestro'/>
+                    <img src={amex} alt='amex'/>
                   </div>
                 </div>
 

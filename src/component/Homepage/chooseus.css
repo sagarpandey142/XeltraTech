@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
 
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -20,7 +19,8 @@ body {
 .wecandp-body{
     background-color: #f8f8f8;
     height: 1100px;
-    border:#ED1C24;
+    border:#D90429;
+    
 }
 
 .wecando {
@@ -50,7 +50,7 @@ body {
 }
 
 .wecando-header1 h4 {
-    font-family: Raleway;
+    font-family: ''Raleway'';
     font-size: 50px;
     font-weight: 700;
     line-height: 58.7px;
@@ -110,7 +110,7 @@ body {
 }
 
 .wecando-header1 h4 span {
-    color: #ED1C24;
+    color: #D90429;
 }
 
 .wecando-header2{
@@ -185,7 +185,7 @@ text-decoration-skip-ink: none;
 }
 
 .wecando-header-text1 {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 45px;
     font-weight: 700;
     color: #303030;
@@ -194,7 +194,7 @@ text-decoration-skip-ink: none;
 }
 
 .wecando-header-text1 li {
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 45px;
     font-weight: 700;
     color: #303030;
@@ -342,7 +342,7 @@ text-decoration-skip-ink: none;
 }
 
 .li:hover{
-    border: 1px solid #ED1C24;
+    border: 1px solid #D90429;
 }
 
 .li:hover {
@@ -360,7 +360,7 @@ text-decoration-skip-ink: none;
 .app-development-head {
     width: 300px;
 height: 28px;
-font-family: Raleway;
+font-family: 'Raleway';
 font-size: 16px;
 font-weight: 540;
 line-height: 28.18px;
@@ -394,7 +394,7 @@ margin-bottom: 15px;
 }
 
 .IT-development-menu {
-    background-color: #ED1C24 !important;
+    background-color: #D90429 !important;
 }
 
 .UX-development-menu {
@@ -560,17 +560,16 @@ margin-bottom: 15px;
 
 /* why choose us start */
 .choose-body{
-    margin-top: 50px;
+    
     width: 100%;
 height: static;
 border-color: #ffffff;
-border-width: 3px;
+
 /* margin: 0 auto; */
 background-color:#f8f8f8 ;
  display: flex;
-
- display: flex;
  justify-content: center;
+ padding-top: 40px;
  
 }
 
@@ -585,14 +584,14 @@ background-color:#f8f8f8 ;
 .choose-body-header1{
     width: 229px;
 height: 21px;
-font-family: Raleway;
+font-family: 'Raleway';
 font-size: 18px;
 font-weight: 600;
 line-height: 21.13px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-color: #ED1C24;
+color: #D90429;
 margin-top: 50px;
 
 }
@@ -644,7 +643,7 @@ margin-top: 50px;
 .choose-body-header2{
     width: 543px;
 height: 53px;
-font-family: Raleway;
+font-family: 'Raleway';
 font-size: 45px;
 font-weight: 700;
 text-align: left;
@@ -663,7 +662,7 @@ color: #333333;
 }
 
 .qualified-box{
-    border-color: #ED1C24;
+    border-color: #D90429;
     border-width: 2px;
     width: 257px;
     height: 243px;
@@ -672,7 +671,7 @@ color: #333333;
 }
 
 .highly-recommended-box{
-    border-color: #ED1C24;
+    border-color: #D90429;
     border-width: 2px;
     width: 257px;
     height: 243px;
@@ -715,7 +714,7 @@ color: #333333;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .choose-body-why-box1:hover{
-    border: 2px solid #ED1C24;
+    border: 2px solid #D90429;
     transform: scale(1.10);
 }
 
@@ -740,18 +739,18 @@ color: #333333;
 }
 
 .choose-body-why-box1-header-content{
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
     font-weight: 500;
     font-size: 22px;
     line-height: 100%;
     letter-spacing: 0%;
-    color: #ED1C24;
+    color: #D90429;
 }
 
 .choose-body-why-box1-footer{
     margin-left: 10px;
     width: 100%;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -816,19 +815,19 @@ color: #333333;
 }
 
 .qualified-expert{
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
     font-size: 26px;
     font-weight: 500;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #ED1C24;
+    color: #D90429;
     line-height: 30px;
 }
 
 .qualified-expert-text{
     margin-top: 20px;
-    font-family: Raleway;
+    font-family: 'Raleway';
 font-size: 17px;
 font-weight: 400;
 line-height: 18.78px;
@@ -840,19 +839,19 @@ height: 97px;
 }
 
 .highly-recommended{
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
     font-size: 26px;
     font-weight: 500;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #ED1C24;
+    color: #D90429;
     line-height: 30px;
 }
 
 .highly-recommended-text{
     margin-top: 20px;
-    font-family: Raleway;
+    font-family: 'Raleway';
 font-size: 17px;
 font-weight: 400;
 line-height: 18.78px;

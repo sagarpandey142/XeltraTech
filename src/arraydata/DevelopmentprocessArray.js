@@ -5,36 +5,37 @@ import discover from '../component/Homepage/images/data-discovery.svg'
 import quality from '../component/Homepage/images/coding.svg'
 import deployment from '../component/Homepage/images/deployment.svg'
 import supportm from '../component/Homepage/images/support.svg'
+import React from 'react'
 
 
 
 const data =[
     {
-        icon: design,
+        icon: React.createElement("img", { src: design, alt: "design" }),
         head: "UI/UX Designer",
     },
     {
-        icon: prototype,
+        icon: React.createElement("img", { src: prototype, alt: "prototype" }),
         head: "Prototype",
     },
     {
-        icon: development,
+        icon: React.createElement("img", { src: development, alt: "development" }),
         head: "Development",
     },
     {
-        icon: discover,
+        icon: React.createElement("img", { src:discover, alt: "discover" }),
         head: "Discover",
     },
     {
-        icon: quality,
+        icon: React.createElement("img", { src: quality, alt: "quality" }),
         head: "Quality Assurance",
     },
     {
-        icon: deployment,
+        icon: React.createElement("img", { src: deployment, alt: "deployment" }),
         head: "Deployment",
     },
     {
-        icon: supportm,
+        icon: React.createElement("img", { src: supportm, alt: "supportm" }),
         head: "Support & Maintenance",
     },
 ]

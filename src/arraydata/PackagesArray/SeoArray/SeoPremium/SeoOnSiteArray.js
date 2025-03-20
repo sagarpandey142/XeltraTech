@@ -38,7 +38,7 @@ const SeoOnSite =[
       img1: tick,
     },
     {
-      feature: "Optimizing Robots.txt",
+      feature: "Optimizing Robots txt",
       img1: tick,
     },
     {
