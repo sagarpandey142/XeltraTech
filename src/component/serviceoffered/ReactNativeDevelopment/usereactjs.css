@@ -10,66 +10,70 @@
 }
 
 
-.services{
+.react-services{
     width: screen;
     height: static;
     background: #ffffff;
-    padding-block: 20px;
+    padding-block: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
+    position: relative;
 }
-.our-services {
-    width: 100%;  /* 218px / 16 */
+.react-services::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 580px;
+    height: 580px;
+    transform: translateX(-50%); /* Keeps it centered */
+    background: url(./images/react-use-bg.png) no-repeat center;
+    background-size: contain;
+    opacity: 0.2; /* Lower opacity without affecting text */
+    z-index: 0;
+}
+
+.react-our-services {
+    width: 50%;
     height: 2.375rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    position: relative; /* Keep text above background */
+    z-index: 1;
 }
 
-.our-services p{
-    font-family: Raleway;
+.react-our-services p {
+    font-family: Raleway, sans-serif;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 40px;
     line-height: 37.57px;
     letter-spacing: 0%;
+    color: #000; 
+    text-align: center;
 }
+@media (max-width: 1000px) {
 
-@media (max-width: 600px) {
-
-    .our-services{
+    .react-our-services{
         width: 80%;
         text-align: center;
+    }
+    .react-services::before {
+        top: 30%;
     }
 
 }
 
-.our-services span{
+.react-our-services span{
     color: #ed1c24;
 }
-.our-services-head {
-    width: 100%;  /* 446px / 16 */
-    height: 1.75rem;   /* 28px / 16 */
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-inline: 40px;
-    
-}
 
-.our-services-head p{
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 37.57px;
-    letter-spacing: 0%;
-}
 
-.our-services1{
+.react-our-services1{
     height: static;
     width: 100%;
     display: flex;
@@ -78,44 +82,39 @@
     align-items: center;
 }
 
-.our-services-head1{
+.react-our-services-head1{
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 60%;
-    gap: 5%;
+    gap: 10%;
 }
 
-.service1{
+.react-service1{
     height: static;
     width: 48%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
-
-.heading1{
+.react-heading1{
     width: 100%;
     height: static;
     display: flex;
     flex-wrap: wrap;
-    padding-block: 20px;
+    padding-block: 10px;
 }
-.heading1 p{
+.react-heading1 p{
     font-family: Raleway;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28.18px;
     letter-spacing: 0%;
     color: #ED1C24;
 }
-.heading2{
-    width: 60%;
+.react-heading2{
+    width: 80%;
     height: static;
     display: flex;
     flex-wrap: wrap;
 }
-.heading2 p{
+.react-heading2 p{
     font-family: Raleway;
     font-weight: 500;
     font-size: 16px;
@@ -124,48 +123,48 @@
     color: #303030B2;
 }
 
-.service2{
+.react-service2{
     height: static;
     width: 48%;
     justify-content: space-between;
 }
 
 
-
-.our-services-head2{
+.react-our-services-head2{
     display: flex;
     width: 60%;
-    gap: 5%;
+    gap: 10%;
 
 }
 
 
-.our-services-head3{
+.react-our-services-head3{
     display: flex;
     width: 60%;
-    gap: 5%;
+    gap: 10%;
     justify-content: center;
 }
 
 
-@media (max-width: 600px) {
-    .our-services-head1{
+@media (max-width: 1000px) {
+    .react-our-services-head1{
         flex-direction: column;
     }
-    .our-services-head2{
+    .react-our-services-head2{
         flex-direction: column;
     }
-    .our-services-head3{
+    .react-our-services-head3{
         flex-direction: column;
-        justify-content: flex-start;
+        /* justify-content: flex-start; */
     }
     
 
-    .service1{
+    .react-service1{
         width: 100%;
     }
-    .service2{
+    .react-service2{
         width: 100%;
     }
 }
+
 
