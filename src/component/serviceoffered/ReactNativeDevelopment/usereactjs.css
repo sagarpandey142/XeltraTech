@@ -14,31 +14,49 @@
     width: screen;
     height: static;
     background: #ffffff;
-    padding-block: 20px;
+    padding-block: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
+    position: relative;
 }
+.react-services::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 580px;
+    height: 580px;
+    transform: translateX(-50%); /* Keeps it centered */
+    background: url(./images/react-use-bg.png) no-repeat center;
+    background-size: contain;
+    opacity: 0.2; /* Lower opacity without affecting text */
+    z-index: 0;
+}
+
 .react-our-services {
-    width: 100%;  /* 218px / 16 */
+    width: 50%;
     height: 2.375rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    position: relative; /* Keep text above background */
+    z-index: 1;
 }
 
-.react-our-services p{
-    font-family: Raleway;
+.react-our-services p {
+    font-family: Raleway, sans-serif;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 40px;
     line-height: 37.57px;
     letter-spacing: 0%;
+    color: #000; 
+    text-align: center;
 }
-
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
 
     .react-our-services{
         width: 80%;
@@ -76,7 +94,7 @@
     height: static;
     display: flex;
     flex-wrap: wrap;
-    padding-block: 20px;
+    padding-block: 10px;
 }
 .react-heading1 p{
     font-family: Raleway;
@@ -87,7 +105,7 @@
     color: #ED1C24;
 }
 .react-heading2{
-    width: 100%;
+    width: 80%;
     height: static;
     display: flex;
     flex-wrap: wrap;
@@ -124,7 +142,7 @@
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
     .react-our-services-head1{
         flex-direction: column;
     }
