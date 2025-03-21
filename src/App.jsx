@@ -18,6 +18,7 @@ import AndroidAppDevelopment from "./component/serviceoffered/AndroidAppDevelopm
 import WebDesign from "./component/serviceoffered/WebDesign/index";
 import ReactNativeDevelopment from "./component/serviceoffered/ReactNativeDevelopment/index";
 import ResponsiveDesign from "./component/serviceoffered/ResponsiveDesign/index";
+import InterspireDevelopment from "./component/serviceoffered/InterspireDevelopment/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
@@ -54,6 +55,7 @@ function App() {
         <Route path="/Servicewedo/ReactNativeDevelopment" element={<ReactNativeDevelopment />} />
         <Route path="/Servicewedo/ResponsiveDesign" element={<ResponsiveDesign />} />
         <Route path="/Servicewedo/WebDesign" element={<WebDesign />} />
+        <Route path="/Servicewedo/InterspireDevelopment" element={<InterspireDevelopment />} />
 
         {/* service section end */}
 
