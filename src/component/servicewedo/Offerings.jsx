@@ -42,7 +42,7 @@ function Offerings() {
           {
               icon:webdeveloper,
               head:"Digital Marketing & Ads",
-              link1:"Seo Consulting", url1:"/ContactUs",
+              link1:"Seo Consulting", url1:"/Servicewedo/SEODevelopment",
               link2:"PPC Advertising", url2:"/ContactUs",
               link3:"Content Writing", url3:"/ContactUs",
               link4:"Social Media Marketing", url4:"/ContactUs",

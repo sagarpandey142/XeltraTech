@@ -11,7 +11,7 @@ function WhychooseWeb() {
     <>
     <div className='whychooseweb-body'><img src={whychoosebg}/>
         <div className='whychooseweb-box'>
-            <div className='whychooseweb-header'>Why Should You Choose Custom Web Designing ?</div>
+            <div className='whychooseweb-header'>Why Choose Xeltratech for eCommerce ?</div>
             <div className='whychooseweb-content'>
                 <div className='whychooseweb-content-left'>
                     {leftdata.map((data,index)=>(<WhychooseEcommerceCard key={index} head={data.head} para={data.para}/>))}      
