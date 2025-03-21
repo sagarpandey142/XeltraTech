@@ -8,7 +8,7 @@ const data =[
     },
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
-        para: "Flexible Engagement Models",
+        para: "Flexible Engagement Models for Your Business",
     },
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
@@ -16,7 +16,7 @@ const data =[
     },
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
-        para: "Complete Transparency",
+        para: "Complete Transparency Guaranteed",
     },
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
@@ -24,7 +24,7 @@ const data =[
     },
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
-        para: "Maximizing Productivity",
+        para: "Maximizing Productivity and Performance",
     },
 ]
 

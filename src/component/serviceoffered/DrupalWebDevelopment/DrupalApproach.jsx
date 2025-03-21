@@ -13,8 +13,8 @@ function DrupalApproach() {
     <div className='solution-body'>
         <div className="solution-box">
             <div className="solution-box-header">
-                <div className='solution-box-header1'>Our  <span> PHP </span> Development Services </div>
-                <SplitText text="Cutting-edge PHP Website development solutions that combine native performance with seamless user experiences, ensuring faster development, cost-effective scalability, and optimal performance on various devices." className="solution-box-header2" delay={10}/>
+                <div className='solution-box-header1'>Our <span>Drupal Website</span> Development Services </div>
+                <SplitText text="Cutting-edge Drupal website development solutions that deliver robust performance, seamless user experiences, faster development, cost-effective scalability, and optimal functionality across various devices." className="solution-box-header2" delay={10}/>
             </div>
             <div className="solution-box-line"></div>
             
