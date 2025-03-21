@@ -1,11 +1,11 @@
 import React from 'react'
 import "./WhychooseDrupal.css"
-import WhychooseWebCard from '../../cards/WhychooseDrupalCard'
+import WhychooseDrupalCard from '../../cards/WhychooseDrupalCard'
 import {leftdata} from "../../../arraydata/WhychooseDrupalArray"
 import {rightdata} from "../../../arraydata/WhychooseDrupalArray"
 import whychoosebg from "../WebDesign/images/whychoosebg.png"
 
-function WhychooseWeb() {
+function WhychooseDrupal() {
     
   return (
     <>
@@ -15,11 +15,11 @@ function WhychooseWeb() {
             Development?</div>
             <div className='whychooseweb-content'>
                 <div className='whychooseweb-content-left'>
-                    {leftdata.map((data,index)=>(<WhychooseWebCard key={index} head={data.head} para={data.para}/>))}      
+                    {leftdata.map((data,index)=>(<WhychooseDrupalCard key={index} head={data.head} para={data.para}/>))}      
                 </div>
                 <div className='whychooseweb-content-right'>
                     
-                     {rightdata.map((data,index)=>(<WhychooseWebCard key={index} head={data.head} para={data.para}/>))}      
+                     {rightdata.map((data,index)=>(<WhychooseDrupalCard key={index} head={data.head} para={data.para}/>))}      
                 </div>
             </div>
         </div>
@@ -29,4 +29,4 @@ function WhychooseWeb() {
   )
 }
 
-export default WhychooseWeb
+export default WhychooseDrupal

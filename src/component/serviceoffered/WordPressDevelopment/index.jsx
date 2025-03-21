@@ -4,7 +4,9 @@ import Topbar from "../../Homepage/Topbar";
 import Hero from "./hero";
 import About from "./About";
 import Service from "./Service"
+import WordPressNeeds from "./WordPressNeeds";
 import Footer1 from "../../Homepage/footer1";
+import WhychooseWp from "./WhychooseWp";
 
 const WordPressDevelopment = () => {
   return (
@@ -14,6 +16,8 @@ const WordPressDevelopment = () => {
         <Hero />
         <About />
         <Service />
+        <WordPressNeeds />
+        <WhychooseWp />
         <Footer1/>
     </div>
   );
