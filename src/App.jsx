@@ -21,6 +21,7 @@ import ResponsiveDesign from "./component/serviceoffered/ResponsiveDesign/index"
 import DrupalWebDevelopment from "./component/serviceoffered/DrupalWebDevelopment/index";
 import PHPDevelopment from "./component/serviceoffered/PHPDevelopment/index";
 import WordPressDevelopment from "./component/serviceoffered/WordPressDevelopment/index";
+import InterspireDevelopment from "./component/serviceoffered/InterspireDevelopment/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
@@ -60,6 +61,7 @@ function App() {
         <Route path="/Servicewedo/DrupalWebDevelopment" element={<DrupalWebDevelopment />} />
         <Route path="/Servicewedo/PHPDevelopment" element={<PHPDevelopment />} />
         <Route path="/Servicewedo/WordPressDevelopment" element={<WordPressDevelopment />} />
+        <Route path="/Servicewedo/InterspireDevelopment" element={<InterspireDevelopment />} />
 
         {/* service section end */}
 

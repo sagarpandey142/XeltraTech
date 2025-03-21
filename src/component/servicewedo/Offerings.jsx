@@ -35,7 +35,7 @@ function Offerings() {
               head:"Website Development",
               link1:"PHP Development",  url1:"/Servicewedo/PHPDevelopment",
               link2:"Drupal Development", url2:"/Servicewedo/DrupalWebDevelopment",
-              link3:"Interspire Development", url3:"/ContactUs",
+              link3:"Interspire Development", url3:"/Servicewedo/InterspireDevelopment",
               link4:"Wordspress Development", url4:"/Servicewedo/WordPressDevelopment",
               link5:"E-commerce Development", url5:"/ContactUs",
           },
