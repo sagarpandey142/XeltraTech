@@ -3,7 +3,7 @@
 .service-body{
     width: screen;
     height: static;
-    background: #ED1C240A;
+    background: #ED1C240A !important;
     padding-block: 80px;
     
     display: flex;
