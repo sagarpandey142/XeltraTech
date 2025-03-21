@@ -22,6 +22,7 @@ import DrupalWebDevelopment from "./component/serviceoffered/DrupalWebDevelopmen
 import PHPDevelopment from "./component/serviceoffered/PHPDevelopment/index";
 import WordPressDevelopment from "./component/serviceoffered/WordPressDevelopment/index";
 import InterspireDevelopment from "./component/serviceoffered/InterspireDevelopment/index";
+import EcommerceDevelopment from "./component/serviceoffered/eCommerceDevelopment/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
@@ -62,6 +63,7 @@ function App() {
         <Route path="/Servicewedo/PHPDevelopment" element={<PHPDevelopment />} />
         <Route path="/Servicewedo/WordPressDevelopment" element={<WordPressDevelopment />} />
         <Route path="/Servicewedo/InterspireDevelopment" element={<InterspireDevelopment />} />
+        <Route path="/Servicewedo/eCommerceDevelopment" element={<EcommerceDevelopment />} />
 
         {/* service section end */}
 
