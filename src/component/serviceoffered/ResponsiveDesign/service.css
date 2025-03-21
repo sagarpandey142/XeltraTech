@@ -119,7 +119,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;  /*Stack elements vertically */
-    align-items: center; /* Align items to the left */
+    align-items: start !important; /* Align items to the left */
     border-radius: 1.25rem; /* 20px / 16 */
     padding: 1.3rem; /* 10px / 16 */
     transition: 0.3s ease-in-out;

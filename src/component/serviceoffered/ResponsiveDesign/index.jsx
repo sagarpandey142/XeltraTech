@@ -7,7 +7,7 @@ import Service from "./Service"
 import Footer1 from "../../Homepage/footer1";
 import OurServices from "./OurServices";
 
-const GraphicDesign = () => {
+const ResponsiveDesign = () => {
   return (
     <div>
         <Topbar/>
@@ -21,4 +21,4 @@ const GraphicDesign = () => {
   );
 };
 
-export default GraphicDesign;
+export default ResponsiveDesign;
