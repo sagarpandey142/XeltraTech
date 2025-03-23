@@ -8,22 +8,22 @@ const data =[
     {
         logo:logo1,
         heading:"APP ICON DESIGNING",
-        para:"Crafting visually stunning, memorable app icons that enhance brand identity and user engagement effortlessly.",
+        para:"Crafting visually stunning, memorable app icons that enhance brand identity and user engagement.",
     },
     {
         logo:logo2,
         heading:"MOBILE APP PROTOTYPE",
-        para:"Designing interactive and user-friendly mobile app prototypes to visualize and refine your app experience.",
+        para:"Designing interactive and user-friendly mobile app prototypes to visualize and refine your experience.",
     },
     {
         logo:logo3,
-        heading:"VISUAL DESIGN",
-        para:"Creating stunning and user-centric visual designs that enhance aesthetics and brand identity seamlessly.",
+        heading:"VISUAL DESIGN Services",
+        para:"Creating stunning and user-centric visual designs that enhance aesthetics and brand identity.",
     },
     {
         logo:logo4,
         heading:"MOBILE (UX) DESIGNING",
-        para:"Crafting intuitive and user-friendly mobile UX designs that enhance engagement and overall experience.",
+        para:"Crafting user-friendly mobile UX designs that enhance engagement and overall experience.",
     },
 ]
 

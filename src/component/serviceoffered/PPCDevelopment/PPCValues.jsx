@@ -14,7 +14,7 @@ function PPCValues() {
             </div>
 
 
-            <div className='PHPValues-content'>
+            <div className='PPCValues-content'>
             {data.map((data,index)=>(<PPCValuesCard key={index} icon={data.icon} para={data.para}/>))}   
             </div>
         </div>

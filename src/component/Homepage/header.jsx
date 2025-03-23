@@ -33,7 +33,7 @@ function Header() {
       {/* Swiper Slider */}
       <Swiper
         cssMode={true}
-        navigation={true}
+        navigation={false}
         pagination={false}
         mousewheel={false}
         keyboard={true}

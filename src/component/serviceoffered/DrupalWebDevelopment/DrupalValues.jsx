@@ -14,7 +14,7 @@ function DrupalValues() {
             </div>
 
 
-            <div className='PHPValues-content'>
+            <div className='DrupalValues-content'>
             {data.map((data,index)=>(<DrupalValuesCard key={index} icon={data.icon} para={data.para}/>))}   
             </div>
         </div>

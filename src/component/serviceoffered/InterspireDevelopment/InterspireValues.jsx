@@ -14,7 +14,7 @@ function InterspireValues() {
             </div>
 
 
-            <div className='PHPValues-content'>
+            <div className='InterspireValues-content'>
             {data.map((data,index)=>(<InterspireValuesCard key={index} icon={data.icon} para={data.para}/>))}   
             </div>
         </div>

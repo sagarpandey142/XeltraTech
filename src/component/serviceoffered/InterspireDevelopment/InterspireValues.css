@@ -50,9 +50,9 @@ color: #303030;
     text-align: center;
 }
 
-.PHPValues-content{
+.InterspireValues-content{
     width: 100%;
-    height: 500px;
+    height: static;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

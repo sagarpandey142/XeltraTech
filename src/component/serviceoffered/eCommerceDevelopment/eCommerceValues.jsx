@@ -14,7 +14,7 @@ function eCommerceValues() {
             </div>
 
 
-            <div className='PHPValues-content'>
+            <div className='eCommerceValues-content'>
             {data.map((data,index)=>(<ECommerceValuesCard key={index} icon={data.icon} para={data.para}/>))}   
             </div>
         </div>

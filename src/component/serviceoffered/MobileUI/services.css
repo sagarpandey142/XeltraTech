@@ -42,6 +42,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
+    
 }
 
 .services-content-box1{
@@ -66,18 +67,18 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 .box1-logo{
     width: 100%;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .box1-heading{
-    font-family: Inter;
+    font-family: 'Inter';
     font-weight: 600;
     font-size: 20px;
-    line-height: 40px;
     letter-spacing: 0%;
-    text-align: justify;
+    text-align: center;
     color: #303030;
 
     width: 100%;
@@ -86,17 +87,17 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
     align-items: center;
 }
 
-.box1-para{
-    font-family: Raleway;
+.box1-paraa{
+    font-family: 'Raleway';
     font-weight: 600;
     font-size: 16px;
     line-height: 32px;
-    text-align: justify;
+    text-align: center;
     color: #303030B2;
-    width: 80%;
+    width: 100%;
     height: static;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align:left;
+  
 }

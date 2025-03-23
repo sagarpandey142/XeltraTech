@@ -17,6 +17,7 @@
     height: static;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .dp-header{
     display: flex;
@@ -31,6 +32,12 @@
         width: 90%
     }
 }
+@media (max-width:770px){
+    .dp-header{
+        justify-content: center;
+        align-items: center;
+    }
+}
 .dp-header1{
     font-family: 'Raleway';
     font-size: 18px;
@@ -43,9 +50,10 @@
     height: 21px;
 }
 
-@media (max-width:700px){
+@media (max-width:770px){
     .dp-header1{
         font-size: 16px;
+        text-align: center;
     }
 }
 
@@ -62,6 +70,11 @@ text-decoration-skip-ink: none;
 @media (max-width:880px){
     .dp-header2{
         font-size: 34px;
+    }
+}
+@media (max-width:7700px){
+    .dp-header2{
+        text-align: center;
     }
 }
 

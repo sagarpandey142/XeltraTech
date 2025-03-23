@@ -49,9 +49,9 @@ color: #303030;
     text-align: center;
 }
 
-.PHPValues-content{
+.PHPValues-contentt{
     width: 100%;
-    height: 500px;
+    height: static !important;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

@@ -14,7 +14,7 @@ function PHPValues() {
             </div>
 
 
-            <div className='PHPValues-content'>
+            <div className='PHPValues-contentt'>
             {data.map((data,index)=>(<PHPValuesCard key={index} icon={data.icon} para={data.para}/>))}   
             </div>
         </div>

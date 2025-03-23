@@ -14,7 +14,7 @@ function ContentValues() {
             </div>
 
 
-            <div className='PHPValues-content'>
+            <div className='ContentValues-content'>
             {data.map((data,index)=>(<ContentValuesCard key={index} icon={data.icon} para={data.para}/>))}   
             </div>
         </div>

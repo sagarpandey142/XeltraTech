@@ -5,7 +5,7 @@ import frame12 from "./images/Frame 12.svg"
 function OurServices() {
   return (
     <>
-        <div className='our-services-body'>
+        <div className='our-services-bodyy'>
           <div className='our-sevices-img'>
             <img src={frame12} />
           </div>

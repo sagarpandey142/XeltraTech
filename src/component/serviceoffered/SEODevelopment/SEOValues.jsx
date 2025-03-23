@@ -14,7 +14,7 @@ function SEOValues() {
             </div>
 
 
-            <div className='PHPValues-content'>
+            <div className='SEOValues-content'>
             {data.map((data,index)=>(<SEOValuesCard key={index} icon={data.icon} para={data.para}/>))}   
             </div>
         </div>

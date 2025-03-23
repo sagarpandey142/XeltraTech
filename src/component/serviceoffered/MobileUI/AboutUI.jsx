@@ -1,5 +1,5 @@
 import React from 'react'
-import "./AboutUI.css"
+import "./AboutMUI.css"
 import AboutUIimg from "./images/AboutUI.png"
 
 function AboutUI() {
