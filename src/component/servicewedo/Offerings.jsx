@@ -45,7 +45,7 @@ function Offerings() {
               link1:"Seo Consulting", url1:"/Servicewedo/SEODevelopment",
               link2:"PPC Advertising", url2:"/Servicewedo/PPCDevelopment",
               link3:"Content Writing", url3:"/Servicewedo/ContentWriting",
-              link4:"Social Media Marketing", url4:"/ContactUs",
+              link4:"Social Media Marketing", url4:"/Servicewedo/SocialMediaMarketing",
               link5:"Online Reputation Management", url5:"/ContactUs",
           },
           {

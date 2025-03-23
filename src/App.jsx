@@ -26,6 +26,7 @@ import EcommerceDevelopment from "./component/serviceoffered/eCommerceDevelopmen
 import SEODevelopment from "./component/serviceoffered/SEODevelopment/index";
 import PPCDevelopment from "./component/serviceoffered/PPCDevelopment/index";
 import ContentWriting from "./component/serviceoffered/ContentWriting/index";
+import SocialMediaDevelopment from "./component/serviceoffered/SocialMediaDevelopment/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
@@ -70,6 +71,7 @@ function App() {
         <Route path="/Servicewedo/SEODevelopment" element={<SEODevelopment />} />
         <Route path="/Servicewedo/PPCDevelopment" element={<PPCDevelopment />} />
         <Route path="/Servicewedo/ContentWriting" element={<ContentWriting />} />
+        <Route path="/Servicewedo/SocialMediaMarketing" element={<SocialMediaDevelopment />} />
 
         {/* service section end */}
 
