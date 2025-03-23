@@ -24,6 +24,8 @@ import WordPressDevelopment from "./component/serviceoffered/WordPressDevelopmen
 import InterspireDevelopment from "./component/serviceoffered/InterspireDevelopment/index";
 import EcommerceDevelopment from "./component/serviceoffered/eCommerceDevelopment/index";
 import SEODevelopment from "./component/serviceoffered/SEODevelopment/index";
+import PPCDevelopment from "./component/serviceoffered/PPCDevelopment/index";
+import ContentWriting from "./component/serviceoffered/ContentWriting/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
@@ -66,6 +68,8 @@ function App() {
         <Route path="/Servicewedo/InterspireDevelopment" element={<InterspireDevelopment />} />
         <Route path="/Servicewedo/eCommerceDevelopment" element={<EcommerceDevelopment />} />
         <Route path="/Servicewedo/SEODevelopment" element={<SEODevelopment />} />
+        <Route path="/Servicewedo/PPCDevelopment" element={<PPCDevelopment />} />
+        <Route path="/Servicewedo/ContentWriting" element={<ContentWriting />} />
 
         {/* service section end */}
 

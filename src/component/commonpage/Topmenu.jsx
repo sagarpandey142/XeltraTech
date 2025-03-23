@@ -48,34 +48,34 @@ const Topmenu = () => {
               <div className='services-dropdown1-top-submenu1-body'>
                 <div className='services-dropdown1-top-submenu1-top'><Link to="/Servicewedo/MobileUI">Mobile App UI/UX Design</Link></div>
                 <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/HybridAppDevelopment">Hybrid App Development</Link></div>
-                <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">Android App Development</Link></div>
+                <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/AndroidAppDevelopment">Android App Development</Link></div>
                 <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/IosAppDevelopment">IOS Application Development</Link></div>
-                <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">App Support And Maintenance</Link></div>
+                <div className='services-dropdown1-top-submenu1-bottom'><Link to="/Servicewedo/MobileAppSupport">App Support And Maintenance</Link></div>
               </div>
             </div>
             <div className='services-dropdown1'>Website & UI/UX Design
               <div className='services-dropdown1-top-submenu2-body'>
                   <div className='services-dropdown1-top-submenu1-top'><Link to="/Servicewedo/LogoDesign">Logo Design</Link></div>
-                  <div className='services-dropdown1-top-submenu1'><Link to="/ReactNativeDevelopment">React Design</Link></div>
+                  <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/ReactNativeDevelopment">React Design</Link></div>
                   <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/GraphicDesign">Graphic Design</Link></div>
-                  <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">Custom Web Design</Link></div>
-                  <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ResponsiveDesign">Responsive + Website Design</Link></div>
+                  <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/WebDesign">Custom Web Design</Link></div>
+                  <div className='services-dropdown1-top-submenu1-bottom'><Link to="/Servicewedo/ResponsiveDesign">Responsive + Website Design</Link></div>
               </div>
             </div>
             <div className='services-dropdown1'>Website Development
                 <div className='services-dropdown1-top-submenu3-body'>
-                    <div className='services-dropdown1-top-submenu1-top'><Link to="/ContactUs">PHP Development</Link></div>
-                    <div className='services-dropdown1-top-submenu1'><Link to="/DrupalWebDevelopment">Drupal Development</Link></div>
-                    <div className='services-dropdown1-top-submenu1'><Link to="//ContactUs">Interspire Development</Link></div>
-                    <div className='services-dropdown1-top-submenu1'><Link to="/WordPressDevelopment">Wordspress Development</Link></div>
-                    <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">E-commerce Development</Link></div>
+                    <div className='services-dropdown1-top-submenu1-top'><Link to="/Servicewedo/PHPDevelopment">PHP Development</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/DrupalWebDevelopment">Drupal Development</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/InterspireDevelopment">Interspire Development</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/WordPressDevelopment">Wordspress Development</Link></div>
+                    <div className='services-dropdown1-top-submenu1-bottom'><Link to="/Servicewedo/eCommerceDevelopment">E-commerce Development</Link></div>
                 </div>
             </div>
             <div className='services-dropdown1'>Digital Marketing & Ads
                 <div className='services-dropdown1-top-submenu4-body'>
-                    <div className='services-dropdown1-top-submenu1-top'><Link to="/ContactUs">Seo Consulting</Link></div>
-                    <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">PPC Advertising</Link></div>
-                    <div className='services-dropdown1-top-submenu1'><Link to="//ContactUs">Content Writing</Link></div>
+                    <div className='services-dropdown1-top-submenu1-top'><Link to="/Servicewedo/SEODevelopment">Seo Consulting</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/PPCDevelopment">PPC Advertising</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/ContentWriting">Content Writing</Link></div>
                     <div className='services-dropdown1-top-submenu1'><Link to="/ContactUs">Social Media Marketing</Link></div>
                     <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">Online Reputation Management</Link></div>
                 </div>
@@ -136,199 +136,3 @@ const Topmenu = () => {
 };
 
 export default Topmenu;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// <div className='navmenu-latest'>
-// <ul>
-//   <li><Link to="/">Home</Link></li>
-//   <li><Link to="/AboutUs">About Us</Link></li>
-//   <li><Link to="/ContactUs">Portfolio</Link>
-//     {/* <div className='dropdown-services'>
-//       <ul>
-//         <li>Android</li>
-//         <li>IOS</li>
-//         <li>Website</li>
-//         <li>SEO</li>
-//       </ul>
-//     </div> */}
-//   </li>
-//   <li><Link to="/Servicewedo">Services</Link>
-//   <div className='dropdown-services'>
-//                       <ul>
-//                           <li>Mobile App Ui
-//                               <div className='dropdown-services-submenu1'>
-//                                   <ul>
-//                                       <li><Link to="/Servicewedo/MobileUI">Mobile App UI</Link></li>
-//                                       <li><Link to="/Servicewedo/HybridAppDevelopment">Hybrid App Development</Link></li>
-//                                       <li><a href='#'>IOS App Development</a></li>
-//                                       <li><a href='#'>Mobile App Maintenance</a></li>
-//                                       <li><a href='#'>Android App Development</a></li>
-//                                   </ul>
-//                               </div>
-//                           </li>
-//                           <li>Website Design
-//                           <div className='dropdown-services-submenu1'>
-//                                   <ul>
-//                                       <li><Link to="/Servicewedo/LogoDesign">Logo Design</Link></li>
-//                                       <li><a href='#'>React Design</a></li>
-//                                       <li><a href='/Servicewedo/GraphicDesign'>Graphic Design</a></li>
-//                                       <li><a href='#'>Custom Web Design</a></li>
-//                                       <li><a href='#'>Responsive + Website Design</a></li>
-//                                   </ul>
-//                           </div>
-//                           </li>
-//                           <li>Digital Marketing
-//                           <div className='dropdown-services-submenu1'>
-//                                   <ul>
-//                                       <li><a href='#'>PHP Development</a></li>
-//                                       <li><a href='#'>Drupal Development</a></li>
-//                                       <li><a href='#'>Interspire Development</a></li>
-//                                       <li><a href='#'>WordPress Development</a></li>
-//                                       <li><a href='#'>E-Commerce Development</a></li>
-//                                   </ul>
-//                           </div>
-//                           </li>
-//                           <li>Website Development
-//                           <div className='dropdown-services-submenu1'>
-//                                   <ul>
-//                                       <li><a href='#'>SEO Consulting</a></li>
-//                                       <li><a href='#'>PPC Advertising</a></li>
-//                                       <li><a href='#'>Content Writing</a></li>
-//                                       <li><a href='#'>Social Media Marketing</a></li>
-//                                       <li><a href='#'>Online Reputation Management</a></li>
-//                                   </ul>
-//                           </div>
-//                           </li>
-//                       </ul>
-//                   </div>
-//   </li>
-//   <li><Link to="/PackageMain">Packages</Link>
-//               <div className='dropdown-packages'>
-//                       <ul>
-//                           <li>Apps Packages</li>
-//                           <li>SEO Packages</li>
-//                           <li>SMO Packages</li>
-//                           <li>PPC Packages India</li>
-//                           <li>ORM Packages India</li>
-//                           <li>Static Packages India</li>
-//                           <li>Wordpress Development Plans</li>
-//                           <li>Content Writing Packages India</li>
-//                           <li>Ecommerce Development Plans</li>
-//                       </ul>
-//               </div>
-//               </li>
-//   <li><Link to="/ContactUs">Careers</Link></li>
-//   <li><Link to="/ContactUs">Contact Us</Link></li>
-// </ul>
-// </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// <div className='navmenu-latest'>
-// <ul>
-//   <li><Link to="/">Home</Link></li>
-//   <li><Link to="/AboutUs">About Us</Link></li>
-//   <li><Link to="/ContactUs">Portfolio</Link>
-//     {/* <div className='dropdown-services'>
-//       <ul>
-//         <li>Android</li>
-//         <li>IOS</li>
-//         <li>Website</li>
-//         <li>SEO</li>
-//       </ul>
-//     </div> */}
-//   </li>
-//   <li><Link to="/Servicewedo">Services</Link>
-//   <div className='dropdown-services'>
-//                       <ul>
-//                           <li>Mobile App Ui
-//                               <div className='dropdown-services-submenu1'>
-//                                   <ul>
-//                                       <li><Link to="/Servicewedo/MobileUI">Mobile App UI</Link></li>
-//                                       <li><Link to="/Servicewedo/HybridAppDevelopment">Hybrid App Development</Link></li>
-//                                       <li><a href='#'>IOS App Development</a></li>
-//                                       <li><a href='#'>Mobile App Maintenance</a></li>
-//                                       <li><a href='#'>Android App Development</a></li>
-//                                   </ul>
-//                               </div>
-//                           </li>
-//                           <li>Website Design
-//                           <div className='dropdown-services-submenu1'>
-//                                   <ul>
-//                                       <li><Link to="/Servicewedo/LogoDesign">Logo Design</Link></li>
-//                                       <li><a href='#'>React Design</a></li>
-//                                       <li><a href='/Servicewedo/GraphicDesign'>Graphic Design</a></li>
-//                                       <li><a href='#'>Custom Web Design</a></li>
-//                                       <li><a href='#'>Responsive + Website Design</a></li>
-//                                   </ul>
-//                           </div>
-//                           </li>
-//                           <li>Digital Marketing
-//                           <div className='dropdown-services-submenu1'>
-//                                   <ul>
-//                                       <li><a href='#'>PHP Development</a></li>
-//                                       <li><a href='#'>Drupal Development</a></li>
-//                                       <li><a href='#'>Interspire Development</a></li>
-//                                       <li><a href='#'>WordPress Development</a></li>
-//                                       <li><a href='#'>E-Commerce Development</a></li>
-//                                   </ul>
-//                           </div>
-//                           </li>
-//                           <li>Website Development
-//                           <div className='dropdown-services-submenu1'>
-//                                   <ul>
-//                                       <li><a href='#'>SEO Consulting</a></li>
-//                                       <li><a href='#'>PPC Advertising</a></li>
-//                                       <li><a href='#'>Content Writing</a></li>
-//                                       <li><a href='#'>Social Media Marketing</a></li>
-//                                       <li><a href='#'>Online Reputation Management</a></li>
-//                                   </ul>
-//                           </div>
-//                           </li>
-//                       </ul>
-//                   </div>
-//   </li>
-//   <li><Link to="/PackageMain">Packages</Link>
-//               <div className='dropdown-packages'>
-//                       <ul>
-//                           <li>Apps Packages</li>
-//                           <li>SEO Packages</li>
-//                           <li>SMO Packages</li>
-//                           <li>PPC Packages India</li>
-//                           <li>ORM Packages India</li>
-//                           <li>Static Packages India</li>
-//                           <li>Wordpress Development Plans</li>
-//                           <li>Content Writing Packages India</li>
-//                           <li>Ecommerce Development Plans</li>
-//                       </ul>
-//               </div>
-//               </li>
-//   <li><Link to="/ContactUs">Careers</Link></li>
-//   <li><Link to="/ContactUs">Contact Us</Link></li>
-// </ul>
-// </div>
