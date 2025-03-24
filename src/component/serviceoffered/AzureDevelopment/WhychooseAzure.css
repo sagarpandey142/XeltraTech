@@ -1,0 +1,145 @@
+.whychooseweb-body{
+    position: relative;
+    width: screen;
+    height: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    background-color: #ED1C240A;
+}
+.whychooseweb-body img{
+    position: absolute;
+    width: screen;
+    height: static;
+    margin-right: 100px;
+    opacity: 0.5;
+}
+
+.whychooseweb-box{
+    position: relative;
+    height: static;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.whychooseweb-header{
+    width: 800px;
+    max-width: 100%;
+    height: static;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 155%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #ED1C24;
+}
+
+.whychooseweb-content{
+    width: 100%;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+
+/* left content start */
+.whychooseweb-content-left{
+    width: 450px;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.whychooseweb-content-left-1{
+    width: 100%;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.whychooseweb-content-left-1-heading{
+    width: 100%;
+    height: static;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 127%;
+    letter-spacing: 0%;
+    text-align: start;
+    color: #ED1C24;
+}
+
+.whychooseweb-content-left-1-para{
+    width: 100%;
+    height: static;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 127%;
+    letter-spacing: 0%;
+    color: #303030;
+    text-align: start;
+   
+}
+
+/* left content end */
+
+.whychooseweb-content-right{
+    width: 450px;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.whychooseweb-content-right-1{
+    width: 100%;
+    height: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.whychooseweb-content-right-1-heading{
+    width: 100%;
+    height: static;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 127%;
+    letter-spacing: 0%;
+    text-align: start;
+    color: #ED1C24;
+}
+
+.whychooseweb-content-right-1-para{
+    width: 100%;
+    height: static;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 127%;
+    letter-spacing: 0%;
+    color: #303030;
+    text-align: start;
+}
