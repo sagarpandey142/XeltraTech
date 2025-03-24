@@ -1,13 +1,13 @@
 import React from 'react'
 import "./About.css"
-import Aboutlogo from "./images/AboutPHP.svg"
+import Aboutlogo from "./images/aboutcr.jpg"
 import AnimatedContent from "../../SingleComponents/AnimatedContent"
 
 function About() {
   return (
     <div className='about-body'>
         <div className='about-box'>
-                    <div className='about-img'><img src={Aboutlogo}/></div>
+                    <div className='about-imgc'><img src={Aboutlogo}/></div>
                     <div className='about-content'>
                         <div className='about-content-heading'>Everything <span>You Need</span> to Know About Content Writing Services</div>
                         <AnimatedContent>
