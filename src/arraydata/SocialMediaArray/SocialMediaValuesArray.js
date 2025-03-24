@@ -4,27 +4,27 @@ import React from "react";
 const data =[
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
-        para: "Results-Driven Approach",
+        para: "Authenticity",
     },
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
-        para: "Data-Backed Strategies",
+        para: "Innovation",
     },
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
-        para: "Transparency & Accountability",
+        para: "Customer-Centric Approach",
     },
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
-        para: "Customized Campaigns",
+        para: "Transparency",
     },
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
-        para: "Continuous Optimization",
+        para: "Data-Driven Decisions",
     },
     {
         icon: React.createElement("img", { src:  value1, alt: " value1" }),
-        para: "Ethical & Compliant Advertising",
+        para: "Consistency",
     },
 ]
 

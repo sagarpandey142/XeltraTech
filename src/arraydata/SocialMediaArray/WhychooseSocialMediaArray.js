@@ -1,31 +1,31 @@
 const leftdata = [
         {
-            head: "Proven Expertise",
-            para: "Our PPC specialists create data-driven campaigns that maximize ROI and drive targeted traffic."
+            head: "Expert Strategies",
+            para: "Tailored social media plans to boost engagement, reach, and conversions."
         },
         {
-            head: "Advanced Targeting",
-            para: "Reach the right customers with precise keyword research, demographics, and behavioral targeting."
+            head: "Targeted Advertising",
+            para: "Data-driven ad campaigns to maximize ROI and brand visibility."
         },
         {
-            head: "Continuous Optimization",
-            para: "A/B testing, bid adjustments, and performance tracking ensure maximum efficiency."
+            head: "Influencer Collaboration",
+            para: "Leverage partnerships with influencers to enhance brand credibility."
         },
     ]
 
 
     const rightdata = [
         {
-            head: "Customized Strategies",
-            para: "We tailor PPC campaigns to fit your business goals, industry, and audience."
+            head: "High-Quality Content",
+            para: "Engaging posts, videos, and graphics designed to captivate your audience."
         },
         {
-            head: "Transparent Reporting",
-            para: "Get real-time insights, detailed reports, and full visibility into your ad performance."
+            head: "Comprehensive Management",
+            para: "End-to-end social media handling, from posting to audience interaction."
         },
         {
-            head: "Multi-Platform Advertising",
-            para: "Expertise in Google Ads, Facebook Ads, LinkedIn Ads, and more for wider reach."
+            head: "Real-Time Analytics",
+            para: "Track performance, optimize campaigns, and ensure continuous improvement."
         },
     ]
 
