@@ -24,8 +24,8 @@
 
 
 /* image section start */
-.react-about-img{
-    width: 658px !important; 
+.wp-about-img{
+    width: 658px ; 
     height: static;
     display: flex;
     justify-content: center;
@@ -35,13 +35,13 @@
 }
 
 @media (max-width: 700px) {
-    .react-about-img{
+    .wp-about-img{
         width: 90%;
     }
 }
 
 
-.react-about-img img{
+.wp-about-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;

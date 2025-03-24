@@ -28,8 +28,10 @@ import PPCDevelopment from "./component/serviceoffered/PPCDevelopment/index";
 import ContentWriting from "./component/serviceoffered/ContentWriting/index";
 import SocialMediaDevelopment from "./component/serviceoffered/SocialMediaDevelopment/index";
 import ORMDevelopment from "./component/serviceoffered/ORMDevelopment/index";
+import CloudAutomationServices from "./component/serviceoffered/CloudAutomationServices/index";
 import AzureDevelopment from "./component/serviceoffered/AzureDevelopment/index";
 import AWSDevelopment from "./component/serviceoffered/AWSDevelopment/index";
+import CloudMigrationServices from "./component/serviceoffered/CloudMigrationServices/index";
 import PaymentDevelopment from "./component/serviceoffered/PaymentDevelopment/index";
 import EcommerceMaintenanceDevelopment from "./component/serviceoffered/EcommerceMaintenanceDevelopment/index";
 import CloudAutomationServices from "./component/serviceoffered/CloudAutomationServices/index";
@@ -80,8 +82,10 @@ function App() {
         <Route path="/Servicewedo/ContentWriting" element={<ContentWriting />} />
         <Route path="/Servicewedo/SocialMediaMarketing" element={<SocialMediaDevelopment />} />
         <Route path="/Servicewedo/ORMDevelopment" element={<ORMDevelopment />} />
+        <Route path="/Servicewedo/CloudAutomationServices" element={<CloudAutomationServices />} />
         <Route path="/Servicewedo/AzureDevelopment" element={<AzureDevelopment />} />
         <Route path="/Servicewedo/AWSDevelopment" element={<AWSDevelopment />} />
+        <Route path="/Servicewedo/CloudMigrationServices" element={<CloudMigrationServices />} />
         <Route path="/Servicewedo/PaymentGateway" element={<PaymentDevelopment />} />
         <Route path="/Servicewedo/EcommerceMaintenance" element={<EcommerceMaintenanceDevelopment />} />
         <Route path="/Servicewedo/CloudAutomationServices" element={<CloudAutomationServices />} />
