@@ -86,7 +86,7 @@ const Topmenu = () => {
                     <div className='services-dropdown1-top-submenu1'><Link to="//ContactUs">Cloud Migration Services</Link></div>
                     <div className='services-dropdown1-top-submenu1-bottom'><Link to="/ContactUs">DevOps Development</Link></div>
                     <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/AzureDevelopment">AZURE Development</Link></div>
-                    <div className='services-dropdown1-top-submenu1-top'><Link to="/ContactUs">AWS Development</Link></div>
+                    <div className='services-dropdown1-top-submenu1-top'><Link to="/Servicewedo/AWSDevelopment">AWS Development</Link></div>
                 </div>
             </div>
             <div className='services-dropdown1'>E-commerce
