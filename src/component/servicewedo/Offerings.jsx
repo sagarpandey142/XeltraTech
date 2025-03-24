@@ -60,7 +60,7 @@ function Offerings() {
           {
               icon:Ecommerce,
               head:"E-commerce Solutions",
-              link1:"Payment Gateway", url1:"/ContactUs",
+              link1:"Payment Gateway", url1:"/Servicewedo/PaymentGateway",
               link2:"E-commerce maintenance", url2:"/ContactUs",
               link3:"Seo & Digital Marketing", url3:"/ContactUs",
               link4:"Custom E-commerce Website", url4:"/ContactUs",

@@ -30,6 +30,7 @@ import SocialMediaDevelopment from "./component/serviceoffered/SocialMediaDevelo
 import ORMDevelopment from "./component/serviceoffered/ORMDevelopment/index";
 import AzureDevelopment from "./component/serviceoffered/AzureDevelopment/index";
 import AWSDevelopment from "./component/serviceoffered/AWSDevelopment/index";
+import PaymentDevelopment from "./component/serviceoffered/PaymentDevelopment/index";
 import CloudAutomationServices from "./component/serviceoffered/CloudAutomationServices/index";
 
 
@@ -79,6 +80,7 @@ function App() {
         <Route path="/Servicewedo/ORMDevelopment" element={<ORMDevelopment />} />
         <Route path="/Servicewedo/AzureDevelopment" element={<AzureDevelopment />} />
         <Route path="/Servicewedo/AWSDevelopment" element={<AWSDevelopment />} />
+        <Route path="/Servicewedo/PaymentGateway" element={<PaymentDevelopment />} />
         <Route path="/Servicewedo/CloudAutomationServices" element={<CloudAutomationServices />} />
 
         {/* service section end */}
