@@ -55,7 +55,7 @@ function Offerings() {
               link2:"Cloud Migration Services", url2:"/ContactUs",
               link3:"DevOps Development", url3:"/ContactUs",
               link4:"AZURE Development", url4:"/Servicewedo/AzureDevelopment",
-              link5:"AWS Development", url5:"/ContactUs",
+              link5:"AWS Development", url5:"/Servicewedo/AWSDevelopment",
           },
           {
               icon:Ecommerce,
