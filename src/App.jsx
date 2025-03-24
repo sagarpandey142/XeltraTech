@@ -28,6 +28,7 @@ import PPCDevelopment from "./component/serviceoffered/PPCDevelopment/index";
 import ContentWriting from "./component/serviceoffered/ContentWriting/index";
 import SocialMediaDevelopment from "./component/serviceoffered/SocialMediaDevelopment/index";
 import ORMDevelopment from "./component/serviceoffered/ORMDevelopment/index";
+import CloudAutomationServices from "./component/serviceoffered/CloudAutomationServices/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
@@ -74,6 +75,7 @@ function App() {
         <Route path="/Servicewedo/ContentWriting" element={<ContentWriting />} />
         <Route path="/Servicewedo/SocialMediaMarketing" element={<SocialMediaDevelopment />} />
         <Route path="/Servicewedo/ORMDevelopment" element={<ORMDevelopment />} />
+        <Route path="/Servicewedo/CloudAutomationServices" element={<CloudAutomationServices />} />
 
         {/* service section end */}
 
