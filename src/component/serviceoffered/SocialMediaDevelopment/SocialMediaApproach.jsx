@@ -12,7 +12,7 @@ function SocialMediaApproach() {
     <div className='solution-body'>
         <div className="solution-box">
             <div className="solution-box-header">
-                <div className='solution-box-header1'>Our  <span> Social Media </span> Marketing </div>
+                <div className='solution-box-header1'>Our  <span> Social Media </span> Marketing Services </div>
                 <SplitText text="Expert search engine development with SocialMedia-friendly architecture, fast indexing, custom algorithms, data security, and scalable solutions for optimal search performance." className="solution-box-header2" delay={10}/>
             </div>
             <div className="solution-box-line"></div>

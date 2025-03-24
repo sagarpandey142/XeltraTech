@@ -107,7 +107,15 @@ text-align: center;
     align-items: center;
     position: absolute;
     z-index: 3;
-    transform: translateY(-40px);
+    transform: translateY(-25px);
+    color: #ffff;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 127%;
+    letter-spacing: 0%;
+    text-align: center;
+
 }
 
 .solution-box-content1-logo img{
@@ -115,10 +123,10 @@ text-align: center;
 }
 
 .solution-box-content1-footer{
-    width: 65%;
+    width: 85%;
     font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: 500;
+    font-size: 18px;
     line-height: 25.4px;
     letter-spacing: 0%;
     text-align: center;

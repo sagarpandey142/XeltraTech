@@ -5,38 +5,38 @@ const data = [
     {
         icon1: images.Crossplatform,
         icon2: images.Crossplatformcolor,
-        logo:   images.logo1,
-        para: "Search Ads",
+        logo:   "Social Media Strategy",
+        para: "Customized plans to enhance brand presence and audience engagement.",
     },
     {
         icon1: images.hybridapptesting,
         icon2: images.Crossplatformcolor,
-        logo: images.logo2,
-        para: "Display Ads",
+        logo:"Content Creation",
+        para: "High-quality posts, images, and videos tailored for your target audience.",
     },
     {
         icon1: images.seamlessapp,
         icon2: images.Crossplatformcolor,
-        logo: images.logo3,
-        para: "Social Media Ads",
+        logo: "Social Media Management",
+        para: "Regular posting, monitoring, and audience interaction across platforms.",
     },
     {
         icon1: images.uiux,
         icon2: images.Crossplatformcolor,
-        logo: images.logo4,
-        para: "Remarketing Campaigns",
+        logo: "Paid Advertising",
+        para: "Optimized ad campaigns for better reach, engagement, and conversions.",
     },
     {
         icon1: images.innovation,
         icon2: images.Crossplatformcolor,
-        logo: images.logo5,
-        para: "Shopping Ads",
+        logo: "Influencer Marketing",
+        para: "Partnering with influencers to expand brand visibility and credibility.",
     },
     {
         icon1: images.support,
         icon2: images.Crossplatformcolor,
-        logo: images.logo6,
-        para: "Campaign Management & Optimization",
+        logo: "Analytics & Reporting",
+        para: "Data-driven insights to track performance and improve strategies.",
     }
       ]
 
