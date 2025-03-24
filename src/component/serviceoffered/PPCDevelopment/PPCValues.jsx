@@ -10,7 +10,7 @@ function PPCValues() {
         <div className='PHPValues-box'>
             <div className='PHPValues-header'>
                 <div className='PHPValues-heading'><span className='text-[#ED1C24]'> Our </span> Values</div>
-                <div className='PHPValues-para'>Our PHP developers excel in building scalable, high-performance web applications with expertise in database management, security, and modern frameworks like Laravel and CodeIgniter.</div>
+                <div className='PHPValues-para'>Our values focus on quality, innovation, transparency, efficiency, security, customer satisfaction, and long-term success.</div>
             </div>
 
 

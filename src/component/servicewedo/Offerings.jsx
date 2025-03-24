@@ -46,7 +46,7 @@ function Offerings() {
               link2:"PPC Advertising", url2:"/Servicewedo/PPCDevelopment",
               link3:"Content Writing", url3:"/Servicewedo/ContentWriting",
               link4:"Social Media Marketing", url4:"/Servicewedo/SocialMediaMarketing",
-              link5:"Online Reputation Management", url5:"/ContactUs",
+              link5:"Online Reputation Management", url5:"/Servicewedo/ORMDevelopment",
           },
           {
               icon:cloud,
