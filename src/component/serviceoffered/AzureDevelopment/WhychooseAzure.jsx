@@ -9,7 +9,7 @@ function WhyAzure() {
     
   return (
     <>
-    <div className='whychooseweb-body'><img src={whychoosebg}/>
+    <div className='whychooseazure-body'><img src={whychoosebg}/>
         <div className='whychooseweb-box'>
             <div className='whychooseweb-header'>Why Choose Xeltratech for Azure Advertise 
             Service ?</div>

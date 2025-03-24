@@ -31,6 +31,7 @@ import ORMDevelopment from "./component/serviceoffered/ORMDevelopment/index";
 import CloudAutomationServices from "./component/serviceoffered/CloudAutomationServices/index";
 import AzureDevelopment from "./component/serviceoffered/AzureDevelopment/index";
 import AWSDevelopment from "./component/serviceoffered/AWSDevelopment/index";
+import CloudMigrationServices from "./component/serviceoffered/CloudMigrationServices/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
@@ -80,6 +81,7 @@ function App() {
         <Route path="/Servicewedo/CloudAutomationServices" element={<CloudAutomationServices />} />
         <Route path="/Servicewedo/AzureDevelopment" element={<AzureDevelopment />} />
         <Route path="/Servicewedo/AWSDevelopment" element={<AWSDevelopment />} />
+        <Route path="/Servicewedo/CloudMigrationServices" element={<CloudMigrationServices />} />
 
         {/* service section end */}
 

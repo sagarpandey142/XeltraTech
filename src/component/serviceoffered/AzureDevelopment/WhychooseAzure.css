@@ -1,4 +1,4 @@
-.whychooseweb-body{
+.whychooseazure-body{
     position: relative;
     width: screen;
     height: static;
@@ -6,9 +6,9 @@
     justify-content: center;
     align-items: center;
     padding-block: 40px;
-    background-color: #ED1C240A;
+    background-color: #fff;
 }
-.whychooseweb-body img{
+.whychooseazure-body img{
     position: absolute;
     width: screen;
     height: static;

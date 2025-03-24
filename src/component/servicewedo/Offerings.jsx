@@ -52,7 +52,7 @@ function Offerings() {
               icon:cloud,
               head:"Cloud Services",
               link1:"Cloud Automation Services", url1:"/Servicewedo/CloudAutomationServices",
-              link2:"Cloud Migration Services", url2:"/ContactUs",
+              link2:"Cloud Migration Services", url2:"/Servicewedo/CloudMigrationServices",
               link3:"DevOps Development", url3:"/ContactUs",
               link4:"AZURE Development", url4:"/Servicewedo/AzureDevelopment",
               link5:"AWS Development", url5:"/Servicewedo/AWSDevelopment",

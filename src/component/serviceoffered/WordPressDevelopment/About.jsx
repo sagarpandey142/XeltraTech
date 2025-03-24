@@ -7,7 +7,7 @@ function About() {
   return (
     <div className='about-body'>
         <div className='about-box'>
-                    <div className='react-about-img'><img src={Aboutlogo}/></div>
+                    <div className='wp-about-img'><img src={Aboutlogo}/></div>
                     <div className='about-content'>
                         <div className='about-content-heading'>Everything <span>You Need</span> to Know About WordPress Development</div>
                         <AnimatedContent>
