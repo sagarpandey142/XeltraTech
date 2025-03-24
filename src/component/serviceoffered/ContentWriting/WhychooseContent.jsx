@@ -3,7 +3,7 @@ import "./WhychooseContent.css"
 import WhychooseContentCard from '../../cards/ContentCard/WhychooseContentCard'
 import {leftdata} from "../../../arraydata/ContentArray/WhychooseContentArray"
 import {rightdata} from "../../../arraydata/ContentArray/WhychooseContentArray"
-import whychoosebg from "./images/whychoosebg.png"
+import whychoosebg from "./images/bg-content.png"
 
 function WhyContent() {
     

@@ -3,8 +3,7 @@ import Topmenu from "../../commonpage/Topmenu";
 import Topbar from "../../Homepage/Topbar";
 import Hero from "./hero";
 import About from "./About";
-import ContentApproach from "./ContentApproach";
-import ContentValues from "./ContentValues";
+import Service from "./Service";
 import WhychooseContent from "./WhychooseContent";
 import Footer1 from "../../Homepage/footer1";
 
@@ -15,8 +14,7 @@ const ContentWriting = () => {
         <Topmenu/>
         <Hero />
         <About />
-        <ContentValues />
-        <ContentApproach />
+        <Service />
         <WhychooseContent />
         <Footer1/>
     </div>
