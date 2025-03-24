@@ -34,7 +34,6 @@ import AWSDevelopment from "./component/serviceoffered/AWSDevelopment/index";
 import CloudMigrationServices from "./component/serviceoffered/CloudMigrationServices/index";
 import PaymentDevelopment from "./component/serviceoffered/PaymentDevelopment/index";
 import EcommerceMaintenanceDevelopment from "./component/serviceoffered/EcommerceMaintenanceDevelopment/index";
-import CloudAutomationServices from "./component/serviceoffered/CloudAutomationServices/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
