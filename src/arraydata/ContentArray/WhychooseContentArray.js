@@ -1,32 +1,40 @@
 const leftdata = [
         {
-            head: "Proven Expertise",
-            para: "Our PPC specialists create data-driven campaigns that maximize ROI and drive targeted traffic."
+            head: "Expert Writers",
+            para: " Skilled professionals create high-quality, engaging, and SEO-friendly content for your brand."
         },
         {
-            head: "Advanced Targeting",
-            para: "Reach the right customers with precise keyword research, demographics, and behavioral targeting."
+            head: "Industry Expertise",
+            para: "We specialize in diverse niches, ensuring accurate, relevant, and insightful writing."
         },
         {
-            head: "Continuous Optimization",
-            para: "A/B testing, bid adjustments, and performance tracking ensure maximum efficiency."
+            head: "Timely Delivery",
+            para: "We meet deadlines without compromising quality, ensuring a smooth workflow."
         },
+        {
+            head: "Affordable Pricing",
+            para: "High-quality services at competitive rates to fit your budget."
+        }
     ]
 
 
     const rightdata = [
         {
-            head: "Customized Strategies",
-            para: "We tailor PPC campaigns to fit your business goals, industry, and audience."
+            head: " SEO-Optimized Content",
+            para: "Our content improves rankings, drives traffic, and boosts online visibility effectively."
         },
         {
-            head: "Transparent Reporting",
-            para: "Get real-time insights, detailed reports, and full visibility into your ad performance."
+            head: "Plagiarism-Free Content",
+            para: "100% original, thoroughly researched, and uniquely crafted for your business needs."
         },
         {
-            head: "Multi-Platform Advertising",
-            para: "Expertise in Google Ads, Facebook Ads, LinkedIn Ads, and more for wider reach."
+            head: "Customized Solutions",
+            para: "Tailored content strategies align with your brand's goals and audience preferences."
         },
+        {
+            head: "Client Satisfaction",
+            para: "We prioritize your needs, providing revisions and ensuring content excellence."
+        }
     ]
 
     export { leftdata, rightdata };
