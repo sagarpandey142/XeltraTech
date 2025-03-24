@@ -37,4 +37,4 @@ const leftdata = [
         }
     ]
 
-    export default { leftdata, rightdata };
+    export  { leftdata, rightdata };
