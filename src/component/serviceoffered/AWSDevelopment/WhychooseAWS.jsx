@@ -9,7 +9,7 @@ function WhyAWS() {
     
   return (
     <>
-    <div className='whychooseweb-body'><img src={whychoosebg}/>
+    <div className='whychooseaws-body'><img src={whychoosebg}/>
         <div className='whychooseweb-box'>
             <div className='whychooseweb-header'>Why Choose Xeltratech for AWS Development 
             Service ?</div>
