@@ -24,8 +24,8 @@
 
 
 /* image section start */
-.about-img{
-    width: 700px;
+.about-imgo{
+    width: 680px;
     height: static;
     display: flex;
     justify-content: center;
@@ -35,13 +35,13 @@
 }
 
 @media (max-width: 700px) {
-    .about-img{
+    .about-imgo{
         width: 90%;
     }
 }
 
 
-.about-img img{
+.about-imgo img{
     width: 100%;
     height: 100%;
     object-fit: cover;

@@ -7,7 +7,7 @@ function About() {
   return (
     <div className='about-body'>
         <div className='about-box'>
-                    <div className='about-img'><img src={Aboutlogo}/></div>
+                    <div className='about-imgo'><img src={Aboutlogo}/></div>
                     <div className='about-content'>
                         <div className='about-content-heading'>Everything <span>You Need</span> to Know About Online Reputation Management</div>
                         <AnimatedContent>

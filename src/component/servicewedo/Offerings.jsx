@@ -54,7 +54,7 @@ function Offerings() {
               link1:"Cloud Automation Services", url1:"/ContactUs",
               link2:"Cloud Migration Services", url2:"/ContactUs",
               link3:"DevOps Development", url3:"/ContactUs",
-              link4:"AZURE Development", url4:"/ContactUs",
+              link4:"AZURE Development", url4:"/Servicewedo/AzureDevelopment",
               link5:"AWS Development", url5:"/ContactUs",
           },
           {
