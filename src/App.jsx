@@ -35,6 +35,7 @@ import CloudMigrationServices from "./component/serviceoffered/CloudMigrationSer
 import PaymentDevelopment from "./component/serviceoffered/PaymentDevelopment/index";
 import EcommerceMaintenanceDevelopment from "./component/serviceoffered/EcommerceMaintenanceDevelopment/index";
 import SeoDigitalDevelopment from "./component/serviceoffered/SeoDigitalDevelopment/index";
+import DevOpsDevelopment from "./component/serviceoffered/DevOpsDevelopment/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
@@ -88,6 +89,7 @@ function App() {
         <Route path="/Servicewedo/PaymentGateway" element={<PaymentDevelopment />} />
         <Route path="/Servicewedo/EcommerceMaintenance" element={<EcommerceMaintenanceDevelopment />} />
         <Route path="/Servicewedo/Seo&DigitalMarketing" element={<SeoDigitalDevelopment />} />
+        <Route path="/Servicewedo/DevOpsDevelopment" element={<DevOpsDevelopment />} />
 
         {/* service section end */}
 
