@@ -36,6 +36,7 @@ import PaymentDevelopment from "./component/serviceoffered/PaymentDevelopment/in
 import EcommerceMaintenanceDevelopment from "./component/serviceoffered/EcommerceMaintenanceDevelopment/index";
 import SeoDigitalDevelopment from "./component/serviceoffered/SeoDigitalDevelopment/index";
 import DevOpsDevelopment from "./component/serviceoffered/DevOpsDevelopment/index";
+import SubscriptionBasedECommerce from "./component/serviceoffered/SubscriptionBasedECommerce/index";
 
 
 import SeoPackage from "./component/Packages/SeoPackages/index";
@@ -90,6 +91,7 @@ function App() {
         <Route path="/Servicewedo/EcommerceMaintenance" element={<EcommerceMaintenanceDevelopment />} />
         <Route path="/Servicewedo/Seo&DigitalMarketing" element={<SeoDigitalDevelopment />} />
         <Route path="/Servicewedo/DevOpsDevelopment" element={<DevOpsDevelopment />} />
+        <Route path="/Servicewedo/SubscriptionBasedECommerce" element={<SubscriptionBasedECommerce />} />
 
         {/* service section end */}
 
