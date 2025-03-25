@@ -63,7 +63,7 @@ function Offerings() {
               link1:"Payment Gateway", url1:"/Servicewedo/PaymentGateway",
               link2:"E-commerce maintenance", url2:"/Servicewedo/EcommerceMaintenance",
               link3:"Seo & Digital Marketing", url3:"/Servicewedo/Seo&DigitalMarketing",
-              link4:"Custom E-commerce Website", url4:"/ContactUs",
+              link4:"Custom E-commerce Website", url4:"/Servicewedo/CustomECommerceWebsite",
               link5:"Subscription Based E-commerce", url5:"/Servicewedo/SubscriptionBasedECommerce", 
           }
       ]
