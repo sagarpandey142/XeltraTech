@@ -90,11 +90,21 @@
   object-fit: fit;
   z-index: 1;
 }
-.portfolio-project-box-image2 {
+/* Initially hide the images without animation */
+.portfolio-project-box-image2,
+.portfolio-project-box-image3 {
   width: 210px;
   height: 350px;
   object-fit: fit;
   position: absolute;
+  opacity: 0;
+  transform: translateX(0px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* Animation when they become visible */
+.animate-visible .portfolio-project-box-image2 {
+  opacity: 1;
   animation: slideIn2 0.8s ease-in-out forwards;
 }
 
@@ -107,13 +117,11 @@
   }
 }
 
-.portfolio-project-box-image3 {
-  width: 210px;
-  height: 350px;
-  object-fit: fit;
-  position: absolute;
+.animate-visible .portfolio-project-box-image3 {
+  opacity: 1;
   animation: slideIn3 0.8s ease-in-out forwards;
 }
+
 @keyframes slideIn3 {
   from {
     transform: translateX(0px);
@@ -122,6 +130,7 @@
     transform: translateX(80px);
   }
 }
+
 
 .portfolio-project-box-desc {
   width: 600px;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./PortfolioContent.css";
 
 import AnimatedContent from "../SingleComponents/AnimatedContent";
@@ -56,6 +56,30 @@ import pfy2 from "./images/pfy2.png";
 import pfy3 from "./images/pfy3.png";
 
 function PortfolioContent() {
+  const projectRefs = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animate-visible");
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    projectRefs.current.forEach((project) => {
+      if (project) observer.observe(project);
+    });
+
+    return () => {
+      projectRefs.current.forEach((project) => {
+        if (project) observer.unobserve(project);
+      });
+    };
+  }, []);
   return (
     <div className="portfolioContent-body">
       <div className="portfolioContent-box">
@@ -68,7 +92,10 @@ function PortfolioContent() {
 
         <div className="portfolioContent-info ">
           <AnimatedContent>
-            <div className="portfolioContent-project-body-masonpe hover:bg-[#9a9af177] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-masonpe hover:bg-[#9a9af177] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={masonpe1} />
                 <img className="portfolio-project-box-image2" src={masonpe2} />
@@ -99,7 +126,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-greenchilli hover:bg-[#9af19a77] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-greenchilli hover:bg-[#9af19a77] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={green1} />
                 <img className="portfolio-project-box-image2" src={green2} />
@@ -132,7 +162,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-rigpah hover:bg-[#9af1c577] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-rigpah hover:bg-[#9af1c577] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={rigpah1} />
                 <img className="portfolio-project-box-image2" src={rigpah2} />
@@ -159,7 +192,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-takeaway hover:bg-[#baf19a77] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-takeaway hover:bg-[#baf19a77] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={takeaway1} />
                 <img className="portfolio-project-box-image2" src={takeaway2} />
@@ -190,7 +226,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-oriental hover:bg-[#9af19a77] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-oriental hover:bg-[#9af19a77] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={oriental1} />
                 <img className="portfolio-project-box-image2" src={oriental2} />
@@ -217,7 +256,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-dogcity hover:bg-[#9af1c577] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-dogcity hover:bg-[#9af1c577] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={dogcity1} />
                 <img className="portfolio-project-box-image2" src={dogcity2} />
@@ -244,7 +286,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-icap hover:bg-[#9ae0f177] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-icap hover:bg-[#9ae0f177] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={icap1} />
                 <img className="portfolio-project-box-image2" src={icap2} />
@@ -270,7 +315,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-hirepay hover:bg-[#a5a5a577] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-hirepay hover:bg-[#a5a5a577] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={hirepay1} />
                 <img className="portfolio-project-box-image2" src={hirepay2} />
@@ -304,7 +352,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-ics hover:bg-[#31519677] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-ics hover:bg-[#31519677] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={ics1} />
                 <img className="portfolio-project-box-image2" src={ics2} />
@@ -329,7 +380,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-gurbani hover:bg-[#dd672277] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-gurbani hover:bg-[#dd672277] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={gurbani1} />
                 <img className="portfolio-project-box-image2" src={gurbani2} />
@@ -355,7 +409,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-pick hover:bg-[#ebc2ab77] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-pick hover:bg-[#ebc2ab77] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={Pick1} />
                 <img className="portfolio-project-box-image2" src={Pick2} />
@@ -373,7 +430,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-talk hover:bg-[#3546e25b] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-talk hover:bg-[#3546e25b] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={talk1} />
                 <img className="portfolio-project-box-image2" src={talk2} />
@@ -391,7 +451,10 @@ function PortfolioContent() {
           </AnimatedContent>
 
           <AnimatedContent>
-            <div className="portfolioContent-project-body-pfy hover:bg-[#0000005b] w-screen transition-colors duration-300">
+            <div
+              ref={(el) => projectRefs.current.push(el)}
+              className="portfolioContent-project-body-pfy hover:bg-[#0000005b] w-screen transition-colors duration-300"
+            >
               <div className="portfolio-project-box-image" loading="lazy">
                 <img className="portfolio-project-box-image1" src={pfy1} />
                 <img className="portfolio-project-box-image2" src={pfy2} />
