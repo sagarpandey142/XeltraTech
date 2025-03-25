@@ -1,0 +1,357 @@
+.portfolioContent-body {
+  width: screen;
+  height: static;
+  padding-block: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolioContent-box {
+  width: 100%;
+  height: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.portfolioContent-heading {
+  width: 100%;
+  height: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.portfolioContent-heading1 {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #303030;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.portfolioContent-heading1:hover {
+  border-radius: 10px;
+  background-color: #ed1c24;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* info starts */
+
+.portfolioContent-info {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+@media (max-width: 420px) {
+  .portfolioContent-info {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-masonpe {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+@media (max-width: 420px) {
+  .portfolioContent-project-body-masonpe {
+    width: 100% !important;
+  }
+}
+
+.portfolio-project-box-image {
+  width: 380px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio-project-box-image1 {
+  width: 55%;
+  height: 90%;
+  object-fit: fit;
+  z-index: 1;
+}
+.portfolio-project-box-image2 {
+  width: 210px;
+  height: 350px;
+  object-fit: fit;
+  position: absolute;
+  animation: slideIn2 0.8s ease-in-out forwards;
+}
+
+@keyframes slideIn2 {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-80px);
+  }
+}
+
+.portfolio-project-box-image3 {
+  width: 210px;
+  height: 350px;
+  object-fit: fit;
+  position: absolute;
+  animation: slideIn3 0.8s ease-in-out forwards;
+}
+@keyframes slideIn3 {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(80px);
+  }
+}
+
+.portfolio-project-box-desc {
+  width: 600px;
+  max-width: 90%;
+  height: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+@media (max-width: 420px) {
+  .portfolio-project-box-desc {
+    width: 100% !important;
+  }
+}
+
+.portfolio-project-box-desc-heading {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #31318e;
+  width: 100%;
+  text-align: start;
+}
+
+.portfolio-project-box-desc-para {
+  width: 100%;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 157%;
+  letter-spacing: 0%;
+  text-align: start;
+}
+
+.portfolioContent-project-body-greenchilli {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-direction: row-reverse;
+}
+@media (max-width: 420px) {
+  .portfolioContent-project-body-greenchilli {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-rigpah {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+@media (max-width: 420px) {
+  .portfolioContent-project-body-rigpah {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-takeaway {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 40px;
+}
+
+@media (max-width: 420px) {
+  .portfolioContent-project-body-takeaway {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-oriental {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 420px) {
+  .portfolioContent-project-body-oriental {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-dogcity {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 40px;
+}
+
+@media (max-width: 420px) {
+  .portfolioContent-project-body-dogcity {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-icap {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 420px) {
+  .portfolioContent-project-body-icap {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-hirepay {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 40px;
+}
+
+@media (max-width: 420px) {
+  .portfolioContent-project-body-hirepay {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-ics {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 420px) {
+  .portfolioContent-project-body-ics {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-gurbani {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 40px;
+}
+
+@media (max-width: 420px) {
+  .portfolioContent-project-body-gurbani {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-pick {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 420px) {
+  .portfolioContent-project-body-pick {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-talk {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 40px;
+}
+
+@media (max-width: 420px) {
+  .portfolioContent-project-body-talk {
+    width: 100% !important;
+  }
+}
+
+.portfolioContent-project-body-pfy {
+  width: screen;
+  height: static;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+@media (max-width: 420px) {
+  .portfolioContent-project-body-pfy {
+    width: 100% !important;
+  }
+}

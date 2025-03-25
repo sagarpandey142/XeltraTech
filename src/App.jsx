@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
 import Homepage from "./component/Homepage";
+import PortfolioPage from "./component/PortfolioPage/index";
 import ContactUs from "./component/ContactUs/index";
 import AboutUs from "./component/AboutUs/index";
 import Servicewedo from "./component/servicewedo/index";
@@ -37,6 +38,7 @@ import EcommerceMaintenanceDevelopment from "./component/serviceoffered/Ecommerc
 import SeoDigitalDevelopment from "./component/serviceoffered/SeoDigitalDevelopment/index";
 
 
+
 import SeoPackage from "./component/Packages/SeoPackages/index";
 import SmoPackage from "./component/Packages/SmoPackages/index";
 import PPCPackage from "./component/Packages/PPCPackages/index";
@@ -55,6 +57,7 @@ function App() {
          
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/Portfolio" element={<PortfolioPage />} />
         <Route path="/ContactUs" element={<ContactUs />} />
         <Route path="/AboutUs" element={<AboutUs />} />
 
@@ -88,6 +91,7 @@ function App() {
         <Route path="/Servicewedo/PaymentGateway" element={<PaymentDevelopment />} />
         <Route path="/Servicewedo/EcommerceMaintenance" element={<EcommerceMaintenanceDevelopment />} />
         <Route path="/Servicewedo/Seo&DigitalMarketing" element={<SeoDigitalDevelopment />} />
+       
 
         {/* service section end */}
 
