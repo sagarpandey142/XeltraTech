@@ -53,7 +53,7 @@ function Offerings() {
               head:"Cloud Services",
               link1:"Cloud Automation Services", url1:"/Servicewedo/CloudAutomationServices",
               link2:"Cloud Migration Services", url2:"/Servicewedo/CloudMigrationServices",
-              link3:"DevOps Development", url3:"/ContactUs",
+              link3:"DevOps Development", url3:"/Servicewedo/DevOpsDevelopment",
               link4:"AZURE Development", url4:"/Servicewedo/AzureDevelopment",
               link5:"AWS Development", url5:"/Servicewedo/AWSDevelopment",
           },
@@ -63,8 +63,8 @@ function Offerings() {
               link1:"Payment Gateway", url1:"/Servicewedo/PaymentGateway",
               link2:"E-commerce maintenance", url2:"/Servicewedo/EcommerceMaintenance",
               link3:"Seo & Digital Marketing", url3:"/Servicewedo/Seo&DigitalMarketing",
-              link4:"Custom E-commerce Website", url4:"/ContactUs",
-              link5:"Subscription Based E-commerce", url5:"/ContactUs", 
+              link4:"Custom E-commerce Website", url4:"/Servicewedo/CustomECommerceWebsite",
+              link5:"Subscription Based E-commerce", url5:"/Servicewedo/SubscriptionBasedECommerce", 
           }
       ]
 
