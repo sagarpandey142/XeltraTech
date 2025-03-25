@@ -91,11 +91,11 @@ const Topmenu = () => {
             </div>
             <div className='services-dropdown1'>E-commerce
                 <div className='services-dropdown1-top-submenu4-body'>
-                    <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/PaymentGateway">Payment Gateway</Link></div>
+                    <div className='services-dropdown1-top-submenu1-top'><Link to="/Servicewedo/PaymentGateway">Payment Gateway</Link></div>
                     <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/EcommerceMaintenance">E-commerce maintenance</Link></div>
-                    <div className='services-dropdown1-top-submenu1-bottom'><Link to="/Servicewedo/Seo&DigitalMarketing">Seo & Digital Marketing</Link></div>
+                    <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/Seo&DigitalMarketing">Seo & Digital Marketing</Link></div>
                     <div className='services-dropdown1-top-submenu1'><Link to="/Servicewedo/CustomECommerceWebsite">Custom E-commerce Website</Link></div>
-                    <div className='services-dropdown1-top-submenu1-top'><Link to="/Servicewedo/SubscriptionBasedECommerce">Subscription Based E-commerce</Link></div>
+                    <div className='services-dropdown1-top-submenu1-bottom'><Link to="/Servicewedo/SubscriptionBasedECommerce">Subscription Based E-commerce</Link></div>
                 </div>
             </div>
           </div>
