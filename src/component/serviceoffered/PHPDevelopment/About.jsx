@@ -5,7 +5,7 @@ import AnimatedContent from "../../SingleComponents/AnimatedContent"
 
 function About() {
   return (
-    <div className='about-body'>
+    <div className='about-body '>
         <div className='about-box'>
                     <div className='about-img'><img src={Aboutlogo}/></div>
                     <div className='about-content'>

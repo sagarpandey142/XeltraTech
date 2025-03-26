@@ -9,7 +9,7 @@ import Footer1 from "../../Homepage/footer1";
 
 const PHPDevelopment = () => {
   return (
-    <div>
+    <div className="">
         <Topbar/>
         <Topmenu/>
         <Hero />

@@ -54,7 +54,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 40px;
 }
 @media (max-width: 420px) {
   .portfolioContent-info {
@@ -69,8 +69,11 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-block: 40px;
+  border-radius: 40px;
   gap: 40px;
 }
+
 @media (max-width: 420px) {
   .portfolioContent-project-body-masonpe {
     width: 100% !important;
@@ -170,13 +173,15 @@
 }
 
 .portfolioContent-project-body-greenchilli {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+    width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
   flex-direction: row-reverse;
 }
 @media (max-width: 420px) {
@@ -186,14 +191,17 @@
 }
 
 .portfolioContent-project-body-rigpah {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
 }
+
 @media (max-width: 420px) {
   .portfolioContent-project-body-rigpah {
     width: 100% !important;
@@ -201,14 +209,16 @@
 }
 
 .portfolioContent-project-body-takeaway {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+    width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
   flex-direction: row-reverse;
-  gap: 40px;
 }
 
 @media (max-width: 420px) {
@@ -218,13 +228,16 @@
 }
 
 .portfolioContent-project-body-oriental {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+
+    width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
 }
 
 @media (max-width: 420px) {
@@ -234,14 +247,18 @@
 }
 
 .portfolioContent-project-body-dogcity {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+
+    width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
   flex-direction: row-reverse;
-  gap: 40px;
+  
 }
 
 @media (max-width: 420px) {
@@ -251,13 +268,15 @@
 }
 
 .portfolioContent-project-body-icap {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+    width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
 }
 
 @media (max-width: 420px) {
@@ -267,14 +286,16 @@
 }
 
 .portfolioContent-project-body-hirepay {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+    width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
   flex-direction: row-reverse;
-  gap: 40px;
 }
 
 @media (max-width: 420px) {
@@ -284,13 +305,15 @@
 }
 
 .portfolioContent-project-body-ics {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+    width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
 }
 
 @media (max-width: 420px) {
@@ -300,14 +323,17 @@
 }
 
 .portfolioContent-project-body-gurbani {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+    width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
   flex-direction: row-reverse;
-  gap: 40px;
+
 }
 
 @media (max-width: 420px) {
@@ -317,13 +343,15 @@
 }
 
 .portfolioContent-project-body-pick {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+    width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
 }
 
 @media (max-width: 420px) {
@@ -333,14 +361,16 @@
 }
 
 .portfolioContent-project-body-talk {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+    width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
   flex-direction: row-reverse;
-  gap: 40px;
 }
 
 @media (max-width: 420px) {
@@ -350,13 +380,15 @@
 }
 
 .portfolioContent-project-body-pfy {
-  width: screen;
-  height: static;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+max-width: screen;
+    height: static;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+    border-radius: 40px;
+    gap: 40px;
 }
 
 @media (max-width: 420px) {

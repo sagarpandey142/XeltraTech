@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "./PortfolioContent.css";
+import "./webportfolio.css";
 
 import AnimatedContent from "../SingleComponents/AnimatedContent";
 
@@ -55,6 +56,11 @@ import pfy1 from "./images/pfy1.png";
 import pfy2 from "./images/pfy2.png";
 import pfy3 from "./images/pfy3.png";
 
+
+// website portfolio photos start
+import e2go from "./images/e2go.png"
+import laptop from "./images/laptop.png"
+
 function PortfolioContent() {
   const projectRefs = useRef([]);
 
@@ -90,7 +96,7 @@ function PortfolioContent() {
           <div className="portfolioContent-heading1">Seo</div>
         </div>
 
-        <div className="portfolioContent-info ">
+        <div className="portfolioContent-info !hidden ">
           <AnimatedContent>
             <div
               ref={(el) => projectRefs.current.push(el)}
@@ -471,6 +477,34 @@ function PortfolioContent() {
             </div>
           </AnimatedContent>
         </div>
+        {/* apps portfolio end */}
+
+        {/* website portfolio start */}
+        <div className="webportfolio-body">
+
+          <div className="webportfolio-box-e2go">
+            <div className="webportfolio-box-e2go-image">
+              <img src={laptop}/>
+                <div className="webportfolio-box-e2go-image-scroll"><img src={e2go}/></div>
+              </div>
+            <div className="webportfolio-box-e2go-content">
+              <div className="webportfolio-box-e2go-content-heading">E2Go</div>
+              <div className="webportfolio-box-e2go-content-para">Express Logistic & Transport</div>
+              <div className="webportfolio-box-e2go-content-desc">E2GO is the newest section in Outsourcing Service provided, branded, and licensed under Thaumazo Solutions Philippines (TSP) founded in the City of Malolos, Philippines established in 2009 with duly registered Sales Office in Makati City Philippines under TSP. Specializing in creating the best platform for services under Logistics and Courier Services that creates value proposition to emerging industries of E-Commerce. Service is provided with the highest value for money shipper and recipient. This most ideal approach provides best definition for Cost Efficient and yet Effective Service. The heart of the partners defines the way they value the effort of start-up entrepreneurs doing E-Commerce Business of this generation.</div>
+            </div>
+          </div>
+
+          <div className="webportfolio-box-surphy">
+            <div className="webportfolio-box-e2go-image"><img src={e2go}/></div>
+            <div className="webportfolio-box-e2go-content">
+              <div className="webportfolio-box-e2go-content-heading">Surphy</div>
+              <div className="webportfolio-box-e2go-content-para">Hospital and Medical with Appointment Booking.</div>
+              <div className="webportfolio-box-e2go-content-desc">Surphy provides a common platform for both healthcare seekers and healthcare providers which allow free flow of information. Be it simply a search for a general physician for the common cold or it is a search of a hospital for the planning of any elective surgery, Surphy help you by providing all the necessary information needed to plan any type of treatment before actually undergoing that treatment at the place of your choice. Surphy provides you the best possible price of most of the healthcare services available in the country. Surphy helps you to compare different hospitals in terms of facilities available, the team of doctors, the pricing of different treatment packages, etc so that you can take a well-informed decision.</div>
+            </div>
+          </div>
+        </div>
+        {/* website portfolio end */}
+
       </div>
     </div>
   );
