@@ -51,6 +51,9 @@ import WordpressPackage from "./component/Packages/WordpressPackages/index";
 import ContentWritingPackage from "./component/Packages/ContentWritingPackages/index";
 import EcommercePackage from "./component/Packages/EcommercePackages/index";
 
+
+import WhatsappButton from "./component/WhatsappButton/WhatsappButton";
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -110,7 +113,10 @@ function App() {
         <Route path="/PackageMain/ContentWriting" element={<ContentWritingPackage />} />
         <Route path="/PackageMain/Ecommerce" element={<EcommercePackage />} />
         {/* Packages section end */}
+
+        
       </Routes>
+      <WhatsappButton />
     </div>
   );
 }
