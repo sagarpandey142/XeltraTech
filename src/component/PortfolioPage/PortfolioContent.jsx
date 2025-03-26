@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./PortfolioContent.css";
 import "./webportfolio.css";
 
@@ -58,11 +58,18 @@ import pfy3 from "./images/pfy3.png";
 
 
 // website portfolio photos start
-import e2go from "./images/e2go.png"
 import laptop from "./images/laptop.png"
+import e2go from "./images/e2go.png"
+import surphyweb from "./images/surphyweb.png"
+import rigpahweb from "./images/rigpahweb.png"
+import greenweb from "./images/greenweb.png"
+import uneedwatweb from "./images/uneedwatweb.png"
+import watchesweb from "./images/watchesweb.png"
+import fruitweb from "./images/fruitweb.png"
 
 function PortfolioContent() {
   const projectRefs = useRef([]);
+  const [activeCategory, setActiveCategory] = useState("All"); // Default is "All"
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -89,14 +96,23 @@ function PortfolioContent() {
   return (
     <div className="portfolioContent-body">
       <div className="portfolioContent-box">
-        <div className="portfolioContent-heading">
-          <div className="portfolioContent-heading1">All</div>
-          <div className="portfolioContent-heading1">Apps</div>
-          <div className="portfolioContent-heading1">Website</div>
-          <div className="portfolioContent-heading1">Seo</div>
+      <div className="portfolioContent-heading">
+          {["All", "Apps", "Website", "Seo"].map((category) => (
+            <div
+              key={category}
+              className={`portfolioContent-heading1 ${
+                activeCategory === category ? "active-category" : ""
+              }`}
+              onClick={() => setActiveCategory(category)}
+            >
+              {category}
+            </div>
+          ))}
         </div>
 
-        <div className="portfolioContent-info !hidden ">
+        <div className={`portfolioContent-info ${
+            activeCategory === "Website" ? "!hidden" : "visible"
+          }`}>
           <AnimatedContent>
             <div
               ref={(el) => projectRefs.current.push(el)}
@@ -480,7 +496,9 @@ function PortfolioContent() {
         {/* apps portfolio end */}
 
         {/* website portfolio start */}
-        <div className="webportfolio-body">
+        <div className={`webportfolio-body ${
+            activeCategory === "Apps" ? "!hidden" : "visible" 
+          }`}>
 
           <div className="webportfolio-box-e2go">
             <div className="webportfolio-box-e2go-image">
@@ -495,13 +513,59 @@ function PortfolioContent() {
           </div>
 
           <div className="webportfolio-box-surphy">
-            <div className="webportfolio-box-e2go-image"><img src={e2go}/></div>
+            <div className="webportfolio-box-e2go-image"><img src={laptop}/><div className="webportfolio-box-e2go-image-scroll"><img src={surphyweb}/></div></div>
             <div className="webportfolio-box-e2go-content">
               <div className="webportfolio-box-e2go-content-heading">Surphy</div>
               <div className="webportfolio-box-e2go-content-para">Hospital and Medical with Appointment Booking.</div>
               <div className="webportfolio-box-e2go-content-desc">Surphy provides a common platform for both healthcare seekers and healthcare providers which allow free flow of information. Be it simply a search for a general physician for the common cold or it is a search of a hospital for the planning of any elective surgery, Surphy help you by providing all the necessary information needed to plan any type of treatment before actually undergoing that treatment at the place of your choice. Surphy provides you the best possible price of most of the healthcare services available in the country. Surphy helps you to compare different hospitals in terms of facilities available, the team of doctors, the pricing of different treatment packages, etc so that you can take a well-informed decision.</div>
             </div>
           </div>
+
+          <div className="webportfolio-box-rigpah">
+            <div className="webportfolio-box-e2go-image"><img src={laptop}/><div className="webportfolio-box-e2go-image-scroll"><img src={rigpahweb}/></div></div>
+            <div className="webportfolio-box-e2go-content">
+              <div className="webportfolio-box-e2go-content-heading">Rigpah</div>
+              <div className="webportfolio-box-e2go-content-para">Gateway To Knowledge</div>
+              <div className="webportfolio-box-e2go-content-desc">Rigpah is a gateway to a contemporary way of learning. By using a virtual learning environment (VLE), learning is not limited to one location, but rather can be taken on the go to be utilized anywhere. The services provided on the website create a fun and interactive learning experience; which in turn helps boost the productivity of the end-user. With Rigpah, people can learn anywhere and anytime. The 21st century is here and we are living it now; time is becoming more scarce as everyone’s time is consumed in their day to day life’s schedule not allowing many to take their learning curve a step further. Rigpah is a way to solve this problem; allowing our clients to learn at their own pace.  </div>
+            </div>
+          </div>
+
+          <div className="webportfolio-box-greenchili">
+            <div className="webportfolio-box-e2go-image"><img src={laptop}/><div className="webportfolio-box-e2go-image-scroll"><img src={greenweb}/></div></div>
+            <div className="webportfolio-box-e2go-content">
+              <div className="webportfolio-box-e2go-content-heading">Green Chili</div>
+              <div className="webportfolio-box-e2go-content-para">Food Order and Booking</div>
+              <div className="webportfolio-box-e2go-content-desc">The GreenChili was founded long back in Canada. With innovative thoughts, dream of serving Indian food to Canadians and Indians residing there saw light of the day. The name GreenChili translates quite literally as sophisticated flavours and this is the ethos behind the innovative menu. With an emphasis on refined yet creative Indian cuisine, the menu incorporates both traditional classic favourites and original new dishes that apply eastern flavours with a western twist. Coming to our introduction the food we serve speaks for ourselves. The variety of food is so vast that if you come everyday and order a different cuisine you can have 365 days occupied. Speaking of food We offer creative dishes from various regions of India Every item on our menu is prepared with authentic Indian herbs and spice and prepared in our kitchen with extreme care to ensure that you are served consistently good meals  </div>
+            </div>
+          </div>
+
+          <div className="webportfolio-box-uneedwat">
+            <div className="webportfolio-box-e2go-image"><img src={laptop}/><div className="webportfolio-box-e2go-image-scroll"><img src={uneedwatweb}/></div></div>
+            <div className="webportfolio-box-e2go-content">
+              <div className="webportfolio-box-e2go-content-heading">Uneedwat</div>
+              <div className="webportfolio-box-e2go-content-para">Ecommerce | Online Shoping</div>
+              <div className="webportfolio-box-e2go-content-desc">Development in Progress</div>
+            </div>
+          </div>
+
+          <div className="webportfolio-box-watches">
+            <div className="webportfolio-box-e2go-image"><img src={laptop}/><div className="webportfolio-box-e2go-image-scroll"><img src={watchesweb}/></div></div>
+            <div className="webportfolio-box-e2go-content">
+              <div className="webportfolio-box-e2go-content-heading">Best Quality Watches</div>
+              <div className="webportfolio-box-e2go-content-para">Watches</div>
+              <div className="webportfolio-box-e2go-content-desc">Development under process</div>
+            </div>
+          </div>
+
+          <div className="webportfolio-box-fruit">
+            <div className="webportfolio-box-e2go-image"><img src={laptop}/><div className="webportfolio-box-e2go-image-scroll"><img src={fruitweb}/></div></div>
+            <div className="webportfolio-box-e2go-content">
+              <div className="webportfolio-box-e2go-content-heading">Forbidden Fruit</div>
+              <div className="webportfolio-box-e2go-content-para">18+ Social Site</div>
+              <div className="webportfolio-box-e2go-content-desc">Development under process</div>
+            </div>
+          </div>
+
         </div>
         {/* website portfolio end */}
 

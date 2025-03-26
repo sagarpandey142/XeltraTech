@@ -9,7 +9,7 @@ import PortfolioContent from "./PortfolioContent";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Topbar/>
       <Topmenu/>
       <Hero/>
