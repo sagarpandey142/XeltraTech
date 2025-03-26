@@ -10,7 +10,7 @@ function SEOValues() {
         <div className='PHPValues-box'>
             <div className='PHPValues-header'>
                 <div className='PHPValues-heading'><span className='text-[#ED1C24]'> Our </span> Values</div>
-                <div className='PHPValues-para'>Our PHP developers excel in building scalable, high-performance web applications with expertise in database management, security, and modern frameworks like Laravel and CodeIgniter.</div>
+                <div className='PHPValues-para'>Our SEO experts specialize in optimizing websites for higher search rankings, increased organic traffic, and improved user engagement through data-driven strategies and modern SEO techniques.</div>
             </div>
 
 
