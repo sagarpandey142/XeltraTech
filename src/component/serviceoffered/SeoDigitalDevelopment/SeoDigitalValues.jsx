@@ -10,7 +10,7 @@ function SeoDigitalValues() {
         <div className='PHPValues-box'>
             <div className='PHPValues-header'>
                 <div className='PHPValues-heading'><span className='text-[#ED1C24]'> Our  </span> Values </div>
-                <div className='PHPValues-para'>Our values focus on quality, innovation, transparency, efficiency, security, customer satisfaction, and long-term success.</div>
+                <div className='PHPValues-para'>Our SEO & digital marketing experts drive online growth with data-driven strategies, optimizing search rankings, increasing traffic, and enhancing brand visibility for maximum engagement and conversions.</div>
             </div>
 
 
