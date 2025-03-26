@@ -5,12 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 80px;
     padding-block: 20px;
 }
 
 .webportfolio-box-e2go{
-    padding-block: 40px;
+    padding-block: 60px;
     width: 1300px;
     max-width: 90%;
     height: static;
@@ -279,6 +279,6 @@
     transition: 0.3s ease-in-out;
 }
 .webportfolio-box-fruit:hover{
-    background-color: rgba(70, 70, 70, 0.438);
+    background-color: rgba(0, 153, 255, 0.438);
 
 }
