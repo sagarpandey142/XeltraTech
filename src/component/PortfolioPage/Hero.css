@@ -20,7 +20,7 @@
 
 .hero-box-heading1{
     width: 100% !important;
-    font-family:Roboto !important ;
+    font-family:'Roboto' !important ;
     font-weight: 800;
     font-size: 48px;
     line-height: 58.51px;
@@ -31,5 +31,7 @@
 
 
 .hero-body img {
+    width: 100%;
     filter: brightness(0.6); /* Reduce brightness to 70% */
+    object-fit: cover;
 }
