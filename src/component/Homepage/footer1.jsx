@@ -12,6 +12,8 @@ import applepay from '../images/applepay.svg'
 import maestro from '../images/maestro.svg'
 import amex from '../images/amex.svg'
 
+import { Link } from 'react-router-dom';
+
 
 function footer1() {
   return (
@@ -21,41 +23,39 @@ function footer1() {
                       <img src={logo1} height={300} width={200} alt='logo1'/>
                       <p>The IT industry is constantly evolving. A focus on innovation ensures the company stays ahead of the curve, develops cutting-edge solutions, and remains competitive.</p>
                       <div className='reach-us'>
-                        <div className='reach-us1'><img src={pointer} alt='address'/>82 Corporate Tech Park, Sector - 62, Noida</div>
-                        <div className='reach-us2'><img src={phone1} alt='phone'/>+91-123 456 7890</div>
-                        <div className='reach-us3'><img src={email1} alt='mail'/>info@xeltratech.com</div>
+                        <div className='reach-us1'><img src={pointer} alt='address'/>H-44, Suite-303, Bsi, Sector - 63, Noida</div>
+                        <div className='reach-us2'><img src={phone1} alt='phone'/>+91 88264 84590</div>
+                        <div className='reach-us3'><img src={email1} alt='mail'/> sales@xeltratech.com</div>
                       </div>
               </div>
 
               <div className='footer1-column2'>
                 <div className='footer1-column2-section1'>
                   <h3>WEB DESIGN</h3>
-                  <a href='#'>Responsive Website Design</a>
-                  <a href='#'>Graphic Design</a>
-                  <a href='#'>Custom Web Design</a>
-                  <a href='#'>Logo Design</a>
+                  <Link to="/Servicewedo/ResponsiveDesign">Responsive + Website Design</Link>
+                  <Link to="/Servicewedo/GraphicDesign">Graphic Design</Link>
+                  <Link to="/Servicewedo/WebDesign">Custom Web Design</Link>
+                  <Link to="/Servicewedo/LogoDesign">Logo Design</Link>
+                  <Link to="/Servicewedo/ReactNativeDevelopment">React Design</Link>
                 </div>
 
                 <div className='footer1-column2-section2'>
                 <h3>WEB DEVELOPMENT</h3>
-                  <a href='#'>Angular JS Development</a>
-                  <a href='#'>VueJS Development</a>
-                  <a href='#'>Symfony Development</a>
-                  <a href='#'>Laravel Development</a>
-                  <a href='#'>Zend Development</a>
-                  <a href='#'>Codelgniter Development</a>
-                  <a href='#'>Wordpress Development</a>
-                  <a href='#'>Magento Development</a>
+                  <Link to="/Servicewedo/eCommerceDevelopment">E-commerce Development</Link>
+                  <Link to="/Servicewedo/InterspireDevelopment">Interspire Development</Link>
+                  <Link to="/Servicewedo/DrupalWebDevelopment">Drupal Development</Link>
+                  <Link to="/Servicewedo/PHPDevelopment">PHP Development</Link>
+                  <Link to="/Servicewedo/WordPressDevelopment">Wordspress Development</Link>
                 </div>
               </div>
 
               <div className='footer1-column3'>
               <div className='footer1-column3-section1'>
                   <h3>MOBILE APPS DEVELOPMENT</h3>
-                  <a href='#'>Android App Development</a>
-                  <a href='#'>IOS App Development</a>
-                  <a href='#'>Mobile App Maintenance</a>
-                  <a href='#'>Mobile App Ui</a>
+                  <Link to="/Servicewedo/AndroidAppDevelopment">Android App Development</Link>
+                  <Link to="/Servicewedo/IosAppDevelopment">IOS App Development</Link>
+                  <Link to="/Servicewedo/MobileAppSupport">Mobile App Maintenance</Link>
+                  <Link to="/Servicewedo/MobileUI">Mobile App UI</Link>
                 </div>
                 <div className='footer1-column3-section2'>
                   <h3>FOLLOW US</h3>
