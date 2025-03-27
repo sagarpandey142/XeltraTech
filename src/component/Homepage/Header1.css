@@ -36,7 +36,7 @@
   
   .header1-swiperslide {
     background: #000000;
-    height: 800px;
+    height: 800px !important;
   
     /* Center slide text vertically */
     display: flex;
