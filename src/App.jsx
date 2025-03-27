@@ -1,121 +1,90 @@
-import { useState } from "react";
-import "./App.css";
+import { lazy, Suspense, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./ScrollToTop";
-import Homepage from "./component/Homepage";
-import PortfolioPage from "./component/PortfolioPage/index";
-import ContactUs from "./component/ContactUs/index";
-import AboutUs from "./component/AboutUs/index";
-import Servicewedo from "./component/servicewedo/index";
-import MobileUI from "./component/serviceoffered/MobileUI/index";
-import HybridAppDevelopment from "./component/serviceoffered/HybridAppDevelopment/index";
-import LogoDesign from "./component/serviceoffered/LogoDesign/index";
-import MobileAppSupport from "./component/serviceoffered/MobileAppSupport/index";
-import "./index.css"
-import PackageMain from "./packagesMain";
-import GraphicDesign from "./component/serviceoffered/GraphicDesigning/index";
-import IosAppDevelopment from "./component/serviceoffered/IosAppDevelopment/index";
-import AndroidAppDevelopment from "./component/serviceoffered/AndroidAppDevelopment/index";
-import WebDesign from "./component/serviceoffered/WebDesign/index";
-import ReactNativeDevelopment from "./component/serviceoffered/ReactNativeDevelopment/index";
-import ResponsiveDesign from "./component/serviceoffered/ResponsiveDesign/index";
-import DrupalWebDevelopment from "./component/serviceoffered/DrupalWebDevelopment/index";
-import PHPDevelopment from "./component/serviceoffered/PHPDevelopment/index";
-import WordPressDevelopment from "./component/serviceoffered/WordPressDevelopment/index";
-import InterspireDevelopment from "./component/serviceoffered/InterspireDevelopment/index";
-import EcommerceDevelopment from "./component/serviceoffered/eCommerceDevelopment/index";
-import SEODevelopment from "./component/serviceoffered/SEODevelopment/index";
-import PPCDevelopment from "./component/serviceoffered/PPCDevelopment/index";
-import ContentWriting from "./component/serviceoffered/ContentWriting/index";
-import SocialMediaDevelopment from "./component/serviceoffered/SocialMediaDevelopment/index";
-import ORMDevelopment from "./component/serviceoffered/ORMDevelopment/index";
-import CloudAutomationServices from "./component/serviceoffered/CloudAutomationServices/index";
-import AzureDevelopment from "./component/serviceoffered/AzureDevelopment/index";
-import AWSDevelopment from "./component/serviceoffered/AWSDevelopment/index";
-import CloudMigrationServices from "./component/serviceoffered/CloudMigrationServices/index";
-import PaymentDevelopment from "./component/serviceoffered/PaymentDevelopment/index";
-import EcommerceMaintenanceDevelopment from "./component/serviceoffered/EcommerceMaintenanceDevelopment/index";
-import SeoDigitalDevelopment from "./component/serviceoffered/SeoDigitalDevelopment/index";
-import DevOpsDevelopment from "./component/serviceoffered/DevOpsDevelopment/index";
-import SubscriptionBasedECommerce from "./component/serviceoffered/SubscriptionBasedECommerce/index";
-import CustomECommerceWebsite from "./component/serviceoffered/CustomECommerceWebsite/index";
-
-
-
-import SeoPackage from "./component/Packages/SeoPackages/index";
-import SmoPackage from "./component/Packages/SmoPackages/index";
-import PPCPackage from "./component/Packages/PPCPackages/index";
-import ORMPackage from "./component/Packages/ORMPackages/index";
-import StaticPackage from "./component/Packages/StaticPackages/index";
-import WordpressPackage from "./component/Packages/WordpressPackages/index";
-import ContentWritingPackage from "./component/Packages/ContentWritingPackages/index";
-import EcommercePackage from "./component/Packages/EcommercePackages/index";
-
-
 import WhatsappButton from "./component/WhatsappButton/WhatsappButton";
+import "./App.css";
+import "./index.css";
+
+// Lazy-loaded components
+const Homepage = lazy(() => import("./component/Homepage"));
+const PortfolioPage = lazy(() => import("./component/PortfolioPage"));
+const ContactUs = lazy(() => import("./component/ContactUs"));
+const AboutUs = lazy(() => import("./component/AboutUs"));
+const Servicewedo = lazy(() => import("./component/servicewedo"));
+const PackageMain = lazy(() => import("./packagesMain"));
+
+// Services
+const services = {
+  MobileUI: lazy(() => import("./component/serviceoffered/MobileUI")),
+  HybridAppDevelopment: lazy(() => import("./component/serviceoffered/HybridAppDevelopment")),
+  LogoDesign: lazy(() => import("./component/serviceoffered/LogoDesign")),
+  MobileAppSupport: lazy(() => import("./component/serviceoffered/MobileAppSupport")),
+  GraphicDesign: lazy(() => import("./component/serviceoffered/GraphicDesigning")),
+  IosAppDevelopment: lazy(() => import("./component/serviceoffered/IosAppDevelopment")),
+  AndroidAppDevelopment: lazy(() => import("./component/serviceoffered/AndroidAppDevelopment")),
+  WebDesign: lazy(() => import("./component/serviceoffered/WebDesign")),
+  ReactNativeDevelopment: lazy(() => import("./component/serviceoffered/ReactNativeDevelopment")),
+  ResponsiveDesign: lazy(() => import("./component/serviceoffered/ResponsiveDesign")),
+  DrupalWebDevelopment: lazy(() => import("./component/serviceoffered/DrupalWebDevelopment")),
+  PHPDevelopment: lazy(() => import("./component/serviceoffered/PHPDevelopment")),
+  WordPressDevelopment: lazy(() => import("./component/serviceoffered/WordPressDevelopment")),
+  InterspireDevelopment: lazy(() => import("./component/serviceoffered/InterspireDevelopment")),
+  EcommerceDevelopment: lazy(() => import("./component/serviceoffered/eCommerceDevelopment")),
+  SEODevelopment: lazy(() => import("./component/serviceoffered/SEODevelopment")),
+  PPCDevelopment: lazy(() => import("./component/serviceoffered/PPCDevelopment")),
+  ContentWriting: lazy(() => import("./component/serviceoffered/ContentWriting")),
+  SocialMediaDevelopment: lazy(() => import("./component/serviceoffered/SocialMediaDevelopment")),
+  ORMDevelopment: lazy(() => import("./component/serviceoffered/ORMDevelopment")),
+  CloudAutomationServices: lazy(() => import("./component/serviceoffered/CloudAutomationServices")),
+  AzureDevelopment: lazy(() => import("./component/serviceoffered/AzureDevelopment")),
+  AWSDevelopment: lazy(() => import("./component/serviceoffered/AWSDevelopment")),
+  CloudMigrationServices: lazy(() => import("./component/serviceoffered/CloudMigrationServices")),
+  PaymentDevelopment: lazy(() => import("./component/serviceoffered/PaymentDevelopment")),
+  EcommerceMaintenanceDevelopment: lazy(() => import("./component/serviceoffered/EcommerceMaintenanceDevelopment")),
+  SeoDigitalDevelopment: lazy(() => import("./component/serviceoffered/SeoDigitalDevelopment")),
+  DevOpsDevelopment: lazy(() => import("./component/serviceoffered/DevOpsDevelopment")),
+  SubscriptionBasedECommerce: lazy(() => import("./component/serviceoffered/SubscriptionBasedECommerce")),
+  CustomECommerceWebsite: lazy(() => import("./component/serviceoffered/CustomECommerceWebsite")),
+};
+
+// Packages
+const packages = {
+  SeoPackage: lazy(() => import("./component/Packages/SeoPackages")),
+  SmoPackage: lazy(() => import("./component/Packages/SmoPackages")),
+  PPCPackage: lazy(() => import("./component/Packages/PPCPackages")),
+  ORMPackage: lazy(() => import("./component/Packages/ORMPackages")),
+  StaticPackage: lazy(() => import("./component/Packages/StaticPackages")),
+  WordpressPackage: lazy(() => import("./component/Packages/WordpressPackages")),
+  ContentWritingPackage: lazy(() => import("./component/Packages/ContentWritingPackages")),
+  EcommercePackage: lazy(() => import("./component/Packages/EcommercePackages")),
+};
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="navbar1 ">
-       <ScrollToTop />
-         
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/Portfolio" element={<PortfolioPage />} />
-        <Route path="/ContactUs" element={<ContactUs />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
+    <div className="navbar1">
+      <ScrollToTop />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/Portfolio" element={<PortfolioPage />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Servicewedo" element={<Servicewedo />} />
+          <Route path="/PackageMain" element={<PackageMain />} />
 
-        {/* service section start */}
-        <Route path="/Servicewedo" element={<Servicewedo />} />
-        <Route path="/Servicewedo/MobileUI" element={<MobileUI />} />
-        <Route path="/Servicewedo/MobileAppSupport" element={<MobileAppSupport />} />
-        <Route path="/Servicewedo/HybridAppDevelopment" element={<HybridAppDevelopment />} />
-        <Route path="/Servicewedo/LogoDesign" element={<LogoDesign />} />
-        <Route path="/PackageMain" element={<PackageMain/>} />
-        <Route path="/Servicewedo/GraphicDesign" element={<GraphicDesign />} />
-        <Route path="/Servicewedo/IosAppDevelopment" element={<IosAppDevelopment />} />
-        <Route path="/Servicewedo/AndroidAppDevelopment" element={<AndroidAppDevelopment />} />
-        <Route path="/Servicewedo/ReactNativeDevelopment" element={<ReactNativeDevelopment />} />
-        <Route path="/Servicewedo/ResponsiveDesign" element={<ResponsiveDesign />} />
-        <Route path="/Servicewedo/WebDesign" element={<WebDesign />} />
-        <Route path="/Servicewedo/DrupalWebDevelopment" element={<DrupalWebDevelopment />} />
-        <Route path="/Servicewedo/PHPDevelopment" element={<PHPDevelopment />} />
-        <Route path="/Servicewedo/WordPressDevelopment" element={<WordPressDevelopment />} />
-        <Route path="/Servicewedo/InterspireDevelopment" element={<InterspireDevelopment />} />
-        <Route path="/Servicewedo/eCommerceDevelopment" element={<EcommerceDevelopment />} />
-        <Route path="/Servicewedo/SEODevelopment" element={<SEODevelopment />} />
-        <Route path="/Servicewedo/PPCDevelopment" element={<PPCDevelopment />} />
-        <Route path="/Servicewedo/ContentWriting" element={<ContentWriting />} />
-        <Route path="/Servicewedo/SocialMediaMarketing" element={<SocialMediaDevelopment />} />
-        <Route path="/Servicewedo/ORMDevelopment" element={<ORMDevelopment />} />
-        <Route path="/Servicewedo/CloudAutomationServices" element={<CloudAutomationServices />} />
-        <Route path="/Servicewedo/AzureDevelopment" element={<AzureDevelopment />} />
-        <Route path="/Servicewedo/AWSDevelopment" element={<AWSDevelopment />} />
-        <Route path="/Servicewedo/CloudMigrationServices" element={<CloudMigrationServices />} />
-        <Route path="/Servicewedo/PaymentGateway" element={<PaymentDevelopment />} />
-        <Route path="/Servicewedo/EcommerceMaintenance" element={<EcommerceMaintenanceDevelopment />} />
-        <Route path="/Servicewedo/Seo&DigitalMarketing" element={<SeoDigitalDevelopment />} />
-        <Route path="/Servicewedo/DevOpsDevelopment" element={<DevOpsDevelopment />} />
-        <Route path="/Servicewedo/SubscriptionBasedECommerce" element={<SubscriptionBasedECommerce />} />
-        <Route path="/Servicewedo/CustomECommerceWebsite" element={<CustomECommerceWebsite />} />
+          {/* Services Routes */}
+          {Object.entries(services).map(([key, Component]) => (
+            <Route key={key} path={`/Servicewedo/${key}`} element={<Component />} />
+          ))}
 
-        {/* service section end */}
-
-        {/* Packages section start */}
-        <Route path="/PackageMain/SeoPackages" element={<SeoPackage />} />
-        <Route path="/PackageMain/SmoPackages" element={<SmoPackage />} />
-        <Route path="/PackageMain/PPCPackages" element={<PPCPackage />} />
-        <Route path="/PackageMain/ORMPackages" element={<ORMPackage />} />
-        <Route path="/PackageMain/StaticPackages" element={<StaticPackage />} />
-        <Route path="/PackageMain/WordpressPackages" element={<WordpressPackage />} />
-        <Route path="/PackageMain/ContentWriting" element={<ContentWritingPackage />} />
-        <Route path="/PackageMain/Ecommerce" element={<EcommercePackage />} />
-        {/* Packages section end */}
-
-        
-      </Routes>
+          {/* Packages Routes */}
+          {Object.entries(packages).map(([key, Component]) => (
+            <Route key={key} path={`/PackageMain/${key}`} element={<Component />} />
+          ))}
+        </Routes>
+      </Suspense>
       <WhatsappButton />
     </div>
   );
