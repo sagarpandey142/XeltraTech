@@ -4,7 +4,7 @@ import Hero from "./Hero";
 import Topmenu from "../commonpage/Topmenu";
 import Topbar from "../Homepage/Topbar";
 import Offerings from "./Offerings";
-import Footer1 from "../homepage/footer1";
+import Footer1 from "../Homepage/footer1";
 import Requirement from "./Requirement";
 
 const servicewedo = () => {

@@ -1,7 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import Header from "../homepage/header";
-import Footer1 from "../homepage/footer1";
-import { FaArrowRight } from "react-icons/fa6";
 
 const Maps = () => {
   const mapRef = useRef(null);

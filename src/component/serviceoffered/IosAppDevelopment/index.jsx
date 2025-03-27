@@ -4,7 +4,7 @@ import Topbar from "../../Homepage/Topbar";
 import Hero from "./hero";
 import About from "./About";
 import Service from "./Service"
-import Approach from "./approach";
+import Approach from "./Approach";
 import Footer1 from "../../Homepage/footer1";
 import Importance from "./Importance";
 
