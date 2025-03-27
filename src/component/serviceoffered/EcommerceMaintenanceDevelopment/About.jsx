@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Aboutecm.css"
+import "./aboutecm.css"
 import Aboutlogo from "./images/AboutPHP.svg"
 import AnimatedContent from "../../SingleComponents/AnimatedContent"
 

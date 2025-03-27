@@ -1,5 +1,5 @@
 import React from 'react'
-import './Hero.css'
+import './hero.css'
 import banner from "../HybridAppDevelopment/images/banner.jpg"
 import SplitText from '../../SingleComponents/SplitText';
 function Hero() {
