@@ -10,7 +10,7 @@ import Importance from "./Importance";
 
 const IosAppDevelopment = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />

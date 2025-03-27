@@ -9,7 +9,7 @@ import UseReactJs from "./UseReactJs";
 
 const ReactNativeDevelopment = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />

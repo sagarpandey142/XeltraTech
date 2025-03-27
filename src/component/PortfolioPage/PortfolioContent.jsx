@@ -130,20 +130,7 @@ function PortfolioContent() {
                   Mason pe.
                 </div>
                 <div className="portfolio-project-box-desc-para">
-                  Lorem ipsum dolor sit amet consectetur. Pellentesque lorem
-                  nulla sed eget et maecenas diam. In at ligula lorem diam sem
-                  duis. Consectetur enim nam faucibus lacus. At tempor placerat
-                  sapien egestas.Lorem ipsum dolor sit amet consectetur.
-                  Pellentesque lorem nulla sed eget et maecenas diam. In at
-                  ligula lorem diam sem duis. Consectetur enim nam faucibus
-                  lacus. At tempor placerat sapien egestas.Lorem ipsum dolor sit
-                  amet consectetur. Pellentesque lorem nulla sed eget et
-                  maecenas diam. In at ligula lorem diam sem duis. Consectetur
-                  enim nam faucibus lacus. At tempor placerat sapien egestas.
-                  ipsum dolor sit amet consectetur. Pellentesque lorem nulla sed
-                  eget et maecenas diam. In at ligula lorem diam sem duis.
-                  Consectetur enim nam faucibus lacus. At tempor placerat sapien
-                  egestas.
+                Mason & Associates is a leading private equity firm headquartered in India, specializing in providing growth capital to mid-sized companies across a wide range of industries and sectors. The firm focuses on partnering with businesses that demonstrate strong leadership, efficient management teams, and the potential for substantial expansion. Mason & Associates offers expert strategic guidance, hands-on operational support, and essential financial resources to empower their portfolio companies in achieving long-term success. Their investment approach is centered around collaboration, innovation, and sustainable value creation. By leveraging industry expertise and market insights, they help businesses scale efficiently, drive profitability, and foster long-term growth in an increasingly competitive landscape.
                 </div>
               </div>
             </div>

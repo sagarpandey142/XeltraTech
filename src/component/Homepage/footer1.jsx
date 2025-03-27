@@ -24,7 +24,7 @@ function footer1() {
                       <p>The IT industry is constantly evolving. A focus on innovation ensures the company stays ahead of the curve, develops cutting-edge solutions, and remains competitive.</p>
                       <div className='reach-us'>
                         <div className='reach-us1'><img src={pointer} alt='address'/>H-44, Suite-303, Bsi, Sector - 63, Noida</div>
-                        <div className='reach-us2'><img src={phone1} alt='phone'/>+91 88264 84590</div>
+                        <div className='reach-us2'><img src={phone1} alt='phone'/>+91-9560331179</div>
                         <div className='reach-us3'><img src={email1} alt='mail'/> sales@xeltratech.com</div>
                       </div>
               </div>
