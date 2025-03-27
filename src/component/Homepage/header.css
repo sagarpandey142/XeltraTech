@@ -18,12 +18,15 @@
 .body-main{
     margin-top: -0.5rem;
     background-color: rgb(0, 0, 0); 
+    overflow-x: hidden;
+    position: relative;
+ 
 
     
 }
 @media (max-width:740px){
     .body-main{
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
     }
 }
 
@@ -91,34 +94,56 @@
         margin-left: 140px;
     }
 }
-@media (max-width:970px){
+@media (max-width:1500px){
     .logo1{
-        margin-left: 240px;
+        margin-left: 100px;
     }
 }
+@media (max-width:1350px){
+    .logo1{
+        margin-left: 60px;
+    }
+}
+@media (max-width:1200px){
+    .logo1{
+        margin-left: 0px;
+    }
+}
+@media (max-width:1200px){
+    .logo1{
+        margin-left: -40px;
+    }
+}
+@media (max-width:1083px){
+    .logo1{
+        margin-left: 120px;
+    }
+}
+@media (max-width:1000px){
+    .logo1{
+        margin-left: 100px;
+    }
+}
+
 @media (max-width:900px){
     .logo1{
-        margin-left: 210px;
+        margin-left: 40px;
     }
 }
 @media (max-width:850px){
     .logo1{
-        margin-left: 180px;
+        margin-left: 0px;
     }
 }
-@media (max-width:800px){
-    .logo1{
-        margin-left: 160px;
-    }
-}
+
 @media (max-width:750px){
     .logo1{
-        margin-left: 140px;
+        margin-left: -25px;
     }
 }
-@media (max-width:700px){
+@media (max-width:733px){
     .logo1{
-        margin-left: 120px;
+        margin-left: 140px;
     }
 }
 @media (max-width:650px){
@@ -133,7 +158,7 @@
 }
 @media (max-width:550px){
     .logo1{
-        margin-left: 60px;
+        margin-left: 40px;
     }
 }
 @media (max-width:500px){
@@ -143,12 +168,12 @@
 }
 @media (max-width:450px){
     .logo1{
-        margin-left: 20px;
+        margin-left: 0px;
     }
 }
 @media (max-width:400px){
     .logo1{
-        margin-left: 0px;
+        margin-left: -10px;
     }
 }
 
@@ -483,9 +508,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,45,45,1) 65%, rgb
 
 /* Make the offcanvas background transparent */
 .offcanvas-transparent {
-    background: rgba(0, 0, 0, 0.1); /* Dark background with 70% opacity */
-    backdrop-filter: blur(10px); /* Optional: Adds a blur effect */
+    background: rgba(0, 0, 0, 0.3); /* Dark background with 70% opacity */
+    backdrop-filter: blur(20px); /* Optional: Adds a blur effect */
     color: white; /* Ensures text remains readable */
+    z-index: 1000000 !important;
 }
 
 /* Ensure the close button is visible with a contrasting color */
@@ -495,7 +521,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,45,45,1) 65%, rgb
 
 /* Set custom width for offcanvas */
 .offcanvas-custom-width {
+    z-index: 1050 !important;
     width: 200px !important;  /* Adjust the width as needed */
+}
+
+.offcanvas-navmenu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 .offcanvas-navmenu a {
@@ -503,6 +538,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,45,45,1) 65%, rgb
     color: white; /* Changes the color to white */
     font-size: 25px;
     line-height: 50px;
+    
   }
   
 
@@ -525,7 +561,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,45,45,1) 65%, rgb
     bottom: -5px;
     width: 0;
     height: 3px;
-    background-color: red;
     transition: width 0.3s ease-in-out;
 }
 
@@ -586,8 +621,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,45,45,1) 65%, rgb
     margin-top: 200px;
     margin-left: 380px;
     color: white;
-    z-index: 10;
-    /* max-width: 80%; */
+    z-index: 5;
     width: 550px;
     height: static;
     pointer-events:fill;
@@ -879,7 +913,7 @@ position: relative;
 .banner-slider1-content-text5{
     width: 100%;
     height: static;
-font-family: Montserrat;
+font-family: 'Montserrat';
 font-size: 18px;
 font-weight: 400;
 line-height: 35.38px;
@@ -888,7 +922,8 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #FFFFFF;
 margin-top: 20px;
-position: relative;
+z-index: 5;
+
 }
 
 @media (max-width:1200px){

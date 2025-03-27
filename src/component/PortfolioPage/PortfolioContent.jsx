@@ -502,7 +502,6 @@ function PortfolioContent() {
             activeCategory === "Apps" ? "!hidden" : "visible"
           }`}
         >
-           <AnimatedContent>
           <div className="webportfolio-box-e2go">
             <div className="webportfolio-box-e2go-image">
               <img src={laptop} />
@@ -531,9 +530,6 @@ function PortfolioContent() {
               </div>
             </div>
           </div>
-          </AnimatedContent>
-
-          <AnimatedContent>
 
           <div className="webportfolio-box-surphy">
             <div className="webportfolio-box-e2go-image">
@@ -565,8 +561,6 @@ function PortfolioContent() {
               </div>
             </div>
           </div>
-          </AnimatedContent>
-          <AnimatedContent>
 
           <div className="webportfolio-box-rigpah">
             <div className="webportfolio-box-e2go-image">
@@ -598,8 +592,6 @@ function PortfolioContent() {
               </div>
             </div>
           </div>
-          </AnimatedContent>
-          <AnimatedContent>
 
           <div className="webportfolio-box-greenchili">
             <div className="webportfolio-box-e2go-image">
@@ -634,8 +626,6 @@ function PortfolioContent() {
               </div>
             </div>
           </div>
-          </AnimatedContent>
-          <AnimatedContent>
 
           <div className="webportfolio-box-uneedwat">
             <div className="webportfolio-box-e2go-image">
@@ -674,8 +664,6 @@ function PortfolioContent() {
               </div>
             </div>
           </div>
-          </AnimatedContent>
-          <AnimatedContent>
 
           <div className="webportfolio-box-fruit">
             <div className="webportfolio-box-e2go-image">
@@ -696,7 +684,6 @@ function PortfolioContent() {
               </div>
             </div>
           </div>
-          </AnimatedContent>
         </div>
         {/* website portfolio end */}
         {/* seo portfolio start */}

@@ -5,7 +5,7 @@ import SplitText from '../../SingleComponents/SplitText';
 function Hero() {
   return (
     <div>
-      <div className="hero-body">
+      <div className="hero-body ">
                     <img src={banner}/>
                     <div className=' hero-box'>
                       <SplitText text="Mobile App UI/UX Design" className="hero-box-heading1" delay={50}/>

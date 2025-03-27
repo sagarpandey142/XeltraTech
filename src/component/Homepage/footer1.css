@@ -12,7 +12,9 @@
 }
 .footer1-box{
     min-height: 660px; /* Allows container to expand */
-    width: 75%;
+
+    width: 1200px;
+    max-width: 100%;
     /* border: 2px solid blueviolet; */
     display: flex;
     justify-content: center;
@@ -33,12 +35,19 @@
     width: 380px;
     height: 420px;
 }
+@media (max-width:430px){
+    .footer1-column1{
+        width: 340px;
+    }
+}
+
 
 .footer1-column1 p{
     height: 130px;
     /* border: 2px solid rgb(7, 170, 199); */
     width: 360px;
     margin-top: 40px;
+    max-width: 100%;
     font-family: 'Raleway';
     font-size: 15px;
     font-weight: 400;

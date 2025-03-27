@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
 
 function footer1() {
   return (
-    <div className='footer1-body'>
+    <div className='footer1-body '>
       <div className='footer1-box'>
               <div className='footer1-column1'>
                       <img src={logo1} height={300} width={200} alt='logo1'/>

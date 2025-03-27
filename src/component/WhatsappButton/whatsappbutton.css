@@ -13,4 +13,5 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    z-index: 10;
 }

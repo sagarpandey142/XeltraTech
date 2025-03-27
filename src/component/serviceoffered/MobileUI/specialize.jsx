@@ -10,7 +10,7 @@ import specialize6 from "./images/specialize6.svg"
 
 function specialize() {
   return (
-    <div className='specialize-body'>
+    <div className='specialize-body '>
         <div className='specialize-box'>
             <div className='specialize-box1'>
                 <div className='specialize-box1-heading'>

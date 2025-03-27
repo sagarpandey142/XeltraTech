@@ -6,7 +6,7 @@ import skype from "../images/skype.svg"
 
 function Topbar() {
   return (
-    <div className='topbar-body'>
+    <div className='topbar-body '>
         <div className='topbar-box'>
           <ul>
             <li className='topbar-contact'><img src={india} alt='india'/>+91-9560331179</li>

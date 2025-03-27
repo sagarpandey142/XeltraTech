@@ -9,7 +9,7 @@ function Services() {
     
   return (
     <>
-    <div className='services-body'>
+    <div className='services-body '>
         <div className='services-box'>
         <div className='services-heading'>SERVICES <span>WE’RE</span> PROVIDING</div>
         <div className='services-content'>

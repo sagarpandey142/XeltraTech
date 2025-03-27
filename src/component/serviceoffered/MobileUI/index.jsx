@@ -11,7 +11,7 @@ import Tools from "./Tools"
 
 const MobileUI = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Topbar/>
       <Topmenu/>
       <Hero/>
