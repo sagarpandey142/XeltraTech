@@ -105,6 +105,13 @@ text-align: center;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+@media (max-width:600px) {
+    .offerings-box-content{
+        padding-inline: 50px;
+    }
+}
+
 .offerings-box-content1:hover{
     border: 1px solid #ED1C24;
 }
