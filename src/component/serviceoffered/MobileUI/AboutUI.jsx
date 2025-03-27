@@ -4,7 +4,7 @@ import AboutUIimg from "./images/AboutUI.png"
 
 function AboutUI() {
   return (
-    <div className='About-body'>
+    <div className='About-body '>
         <div className='About-box'>
                     <div className='About-img'><img src={AboutUIimg}/></div>
                     <div className='About-content'>

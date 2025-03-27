@@ -7,7 +7,7 @@ import AnimatedContent from "../../SingleComponents/AnimatedContent"
 
 function Tools() {
   return (
-    <div className='tools-body'>
+    <div className='tools-body '>
         <div className='tools-box'>
             <div className='tools-header'>Mobile App  <span> UI Design </span> Tools</div>
               <AnimatedContent>
