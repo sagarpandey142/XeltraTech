@@ -120,9 +120,10 @@
     flex-direction: column;  /*Stack elements vertically */
     align-items: center; /* Align items to the left */
     border-radius: 1.25rem; /* 20px / 16 */
-    padding: 1rem; /* 10px / 16 */
+    padding: 0.5rem; /* 10px / 16 */
     transition: 0.3s ease-in-out;
     justify-content: center;
+    border: 2px solid;
 }
 
 .ios-service-box1-content1:hover{

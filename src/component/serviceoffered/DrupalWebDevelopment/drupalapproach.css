@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
-.solution-body{
+.drupal-solution-body{
     width: screen;
     height: static;
     display: flex;
@@ -11,7 +11,7 @@
     background-color: #ED1C240A;
 }
 
-.solution-box{
+.drupal-solution-box{
     width: 95%;
     height: static;
     display: flex;
@@ -22,7 +22,7 @@
 }
 
 
-.solution-box-header{
+.drupal-solution-box-header{
     height: static;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@
     align-items: center;
     gap: 20px;
 }
-.solution-box-header1{
+.drupal-solution-box-header1{
     width: 100%;
     font-family: Raleway;
     font-weight: 600;
@@ -39,11 +39,11 @@
     letter-spacing: 0%;   
     text-align: center;
 }
-.solution-box-header1   span{
+.drupal-solution-box-header1   span{
     color: #ED1C24;
 }
 
-.solution-box-header2{
+.drupal-solution-box-header2{
     width: 80%;
     font-family: Raleway;
 font-weight: 600;
@@ -54,7 +54,7 @@ text-align: center;
 
 }
 
-.solution-box-line {
+.drupal-solution-box-line {
     width: 76%;
     height: 1px;
     background-color: #ff0101;
@@ -62,7 +62,7 @@ text-align: center;
   }
   
 
-.solution-box-content{
+.drupal-solution-box-content{
     width: 100%;
     height: static;
     display: flex;
@@ -73,7 +73,7 @@ text-align: center;
     
 }
 
-.solution-box-content1{
+.drupal-solution-box-content1{
     width: 430px;
     height: 200px;
     display: flex;
@@ -87,14 +87,14 @@ text-align: center;
     
 }
 
-.solution-box-content1-img1{
+.drupal-solution-box-content1-img1{
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
     border-radius: 20px;
 }
-.solution-box-content1-img2{
+.drupal-solution-box-content1-img2{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -102,7 +102,7 @@ text-align: center;
     border-radius: 0px;
 }
 
-.solution-box-content1-logo{
+.drupal-solution-box-content1-logo{
     width: 100%;
     height: static;
     display: flex;
@@ -113,11 +113,11 @@ text-align: center;
     transform: translateY(-40px);
 }
 
-.solution-box-content1-logo img{
+.drupal-solution-box-content1-logo img{
         width: 15%;
 }
 
-.solution-box-content1-footer{
+.drupal-solution-box-content1-footer{
     width: 65%;
     font-family: Raleway;
     font-weight: 700;

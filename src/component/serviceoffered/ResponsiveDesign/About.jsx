@@ -1,5 +1,5 @@
 import React from 'react'
-import "./About.css"
+import "./about.css"
 import Aboutlogo from "./images/responsive-abt.png"
 import AnimatedContent from "../../SingleComponents/AnimatedContent"
 

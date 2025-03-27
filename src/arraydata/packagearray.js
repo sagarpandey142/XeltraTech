@@ -1,6 +1,6 @@
 
-import group1 from "../assets/group1.svg"
-import group3 from "../assets/group3.svg"
+import group1 from "../assets/Group1.svg"
+import group3 from "../assets/Group3.svg"
 import SMO  from "../assets/SMO.svg"
 import PPC  from "../assets/PPC.svg"
 import ORM  from "../assets/ORM.svg"

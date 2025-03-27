@@ -1,5 +1,5 @@
 import React from 'react'
-import '../servicewedo/Offerings.css'
+import '../servicewedo/offerings.css'
 import { Link } from 'react-router-dom';
 function OfferingsCards({icon, url1, url2, url3, url4, url5, head, link1, link2, link3, link4, link5}) {
   return (

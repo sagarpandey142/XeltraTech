@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
-.About-body{
+.ld-About-body{
     width: screen;
     height: static;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ED1C2414 !important;
-    padding-block: 40px !important ;
+    background-color: #ED1C2414 ;
+    padding-block: 40px  ;
 }
 
-.About-box{
+.ld-About-box{
     width: 100%;
     height: static;
     display: flex;
@@ -24,8 +24,8 @@
 
 
 /* image section start */
-.About-img{
-    width: 700px;
+.ld-About-img{
+    width: 500px;
     height: static;
     display: flex;
     justify-content: center;
@@ -35,46 +35,46 @@
 }
 
 @media (max-width: 750px){
-    .About-img{width: 90%;}
+    .ld-About-img{width: 90%;}
 }
 @media (max-width: 450px){
-    .About-img{width: 95%;}
+    .ld-About-img{width: 95%;}
 }
-.About-img img{
+.ld-About-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 0px;
 }
 @media (max-width: 750px){
-    .About-img img{object-fit: contain;}
+    .ld-About-img img{object-fit: contain;}
 }
 
 /* image section end */
 
 /* content section start */
 
-.About-content{
+.ld-About-content{
     width: 700px;
     height: static;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: flex-start !important;
+    align-items: flex-start ;
     gap: 20px;
 }
 
 @media (max-width: 750px){
-    .About-content{width: 90%;}
+    .ld-About-content{width: 90%;}
 }
 @media (max-width: 450px){
-    .About-content{width: 95%;}
+    .ld-About-content{width: 95%;}
 }
 @media (max-width: 450px){
-    .About-content{width: 90%;}
+    .ld-About-content{width: 90%;}
 }
 
-.About-content-heading-Logo{
+.ld-About-content-heading-Logo{
     width: 60%;
     height: static;
     font-family: Raleway;
@@ -84,14 +84,14 @@
     letter-spacing: 0%;
 }
 @media (max-width: 1430px){
-    .About-content-heading-Logo{width: 100%;}
+    .ld-About-content-heading-Logo{width: 100%;}
 }
 
-.About-content-heading-Logo span{
+.ld-About-content-heading-Logo span{
     color:#ED1651;
 }
 
-.About-content-para1{
+.ld-About-content-para1{
     width: 100%;
     height: static;
     font-family: Raleway;
@@ -103,7 +103,7 @@
 
 }
 
-.About-content-para2{
+.ld-About-content-para2{
     width: 100%;
     height: static;
     font-family: Raleway;
@@ -115,7 +115,7 @@
 
 }
 
-.About-content-para3{
+.ld-About-content-para3{
     width: 100%;
     height: static;
     font-family: Raleway;

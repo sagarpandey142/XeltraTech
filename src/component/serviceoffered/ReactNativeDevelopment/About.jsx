@@ -1,6 +1,6 @@
 import React from 'react'
-import "./About.css"
-import Aboutlogo from "./images/react-about-img.png"
+import "./about.css"
+import Aboutlogo from "./images/react-about.jpg"
 import AnimatedContent from "../../SingleComponents/AnimatedContent"
 
 function About() {

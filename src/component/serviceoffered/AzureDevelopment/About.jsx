@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Aboutazure.css"
+import "./aboutazure.css"
 import Aboutlogo from "./images/AboutPHP.svg"
 import AnimatedContent from "../../SingleComponents/AnimatedContent"
 

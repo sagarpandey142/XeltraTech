@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-.aspect-body{
+.ld-aspect-body{
     width: screen;
     height: static;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-block: 80px;
+    background-color: white !important;
 }
 
-.aspect-box{
+.ld-aspect-box{
     width: 100%;
     height: static;
     display: flex;
@@ -18,7 +19,7 @@
     gap: 40px;
 }
 @media(min-width:1550px){
-    .aspect-box{
+    .ld-aspect-box{
         width: 80%;
     }
 }
@@ -26,7 +27,7 @@
 
 
 
-.box-heading{
+.ld-box-heading{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +35,7 @@
     gap: 10px;
 }
 
-.header{
+.ld-header{
     width: 100%;
     text-align: center;
     font-size: clamp(2.5rem, calc(7vw + 1rem), 2.5rem);
@@ -44,9 +45,9 @@
     letter-spacing: 0%;
 }
 
-.header span{color: #ED1C24;}
+.ld-header span{color: #ED1C24;}
 
-.para{
+.ld-para{
     width: 100%;
     text-align: center;
     font-size: clamp(1rem, calc(7vw + 1rem), 0.5rem);
@@ -56,12 +57,12 @@
     letter-spacing: 0%;
 }
 @media(max-width:1036px){
-    .para{
+    .ld-para{
         width: 90%;
     }
 }
 
-.box-content{
+.ld-box-content{
     width: 100%;
     height: static;
     display: flex;

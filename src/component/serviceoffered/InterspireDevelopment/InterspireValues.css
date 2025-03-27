@@ -1,14 +1,14 @@
-.PHPValues-body{
+.is-Values-body{
     width: screen;
     height: static;
-    padding-block: 20px;
+    padding-block: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ED1C240A;
 }
 
-.PHPValues-box{
+.is-Values-box{
     width: 1200px;
     max-width: 100%;
     height: static;
@@ -19,7 +19,7 @@
     gap: 20px;
 }
 
-.PHPValues-header{
+.is-Values-header{
     width: 100%;
     height: static;
     display: flex;
@@ -29,7 +29,7 @@
     gap: 20px;
 }
 
-.PHPValues-heading{
+.is-Values-heading{
     font-family: 'Raleway';
 font-weight: 700;
 font-size: 32px;
@@ -38,7 +38,7 @@ letter-spacing: 0%;
 color: #303030;
 }
 
-.PHPValues-para{
+.is-Values-para{
     font-family: Raleway;
     font-weight: 500;
     font-size: 14px;
@@ -60,7 +60,7 @@ color: #303030;
     gap: 40px;
 }
 
-.PHPValues-content-box{
+.is-Values-content-box{
     width: 350px;
     height: 200px;
     border-radius: 20px;
@@ -74,13 +74,13 @@ color: #303030;
     background-color: #ffff;
 }
 
-.PHPValues-content-box:hover{
+.is-Values-content-box:hover{
     border: 2px solid red;
     transform: scale(1.1);
 }
 
 
-.PHPValue-content-box-image{
+.is-Value-content-box-image{
     width: 100%;
     height: static;
     display: flex;
@@ -88,7 +88,7 @@ color: #303030;
     align-items: center;
 }
 
-.PHPValue-content-box-para{
+.is-Value-content-box-para{
     font-family: 'Raleway';
     font-weight: 600;
     font-size: 18px;

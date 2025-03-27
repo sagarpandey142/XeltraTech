@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ContactUsform.css'; // Import the CSS for the form
+import './ContactUsForm.css'; // Import the CSS for the form
 import { FaArrowRight } from "react-icons/fa6";
 import toast, { Toaster } from 'react-hot-toast';
 

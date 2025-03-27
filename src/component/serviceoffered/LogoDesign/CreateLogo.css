@@ -1,4 +1,4 @@
-.CreateLogo-body{
+.ld-CreateLogo-body{
     width: screen;
     height: static;
     display: flex;
@@ -7,11 +7,11 @@
     background-color: #ED1C240A;
 }
 @media (max-width:770px){
-    .CreateLogo-body{
+    .ld-CreateLogo-body{
         display: none;
     }
 }
 
-.CreateLogo-box{
+.ld-CreateLogo-box{
     width: 80%;
 }
