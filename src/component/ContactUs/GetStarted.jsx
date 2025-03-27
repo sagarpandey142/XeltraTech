@@ -1,5 +1,5 @@
 import React from 'react'
-import group from "../../assets/group.svg"
+import group from "../../assets/Group.svg"
 import "./Getstarted.css"
 import ContactForm from '../Forms/ContactUsform'
 
