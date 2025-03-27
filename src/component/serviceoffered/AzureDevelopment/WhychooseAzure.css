@@ -15,6 +15,12 @@
     margin-right: 100px;
     opacity: 0.5;
 }
+@media (max-width: 780px) {
+    .whychooseazure-body img{
+        display: none;
+    }
+    
+}
 
 .whychooseweb-box{
     position: relative;

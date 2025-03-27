@@ -9,7 +9,7 @@ import Footer1 from "../../Homepage/footer1";
 
 const PHPDevelopment = () => {
   return (
-    <div className="">
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />

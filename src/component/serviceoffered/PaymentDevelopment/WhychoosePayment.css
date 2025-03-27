@@ -14,6 +14,12 @@
     height: static;
     margin-right: 100px;
 }
+@media (max-width: 780px) {
+    .whychooseaws-body img{
+        display: none;
+    }
+    
+}
 
 .whychooseweb-box{
     position: relative;

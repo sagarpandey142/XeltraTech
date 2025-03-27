@@ -10,7 +10,7 @@ import Footer1 from "../../Homepage/footer1";
 
 const CloudAutomationServices = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />

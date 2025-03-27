@@ -10,7 +10,7 @@ import Footer1 from "../../Homepage/footer1";
 
 const LogoDesign = () => {
   return (
-    <div>
+    <div >
       <Topbar/>
       <Topmenu/>
       <Hero />
