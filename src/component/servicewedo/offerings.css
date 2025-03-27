@@ -106,12 +106,6 @@ text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-@media (max-width:600px) {
-    .offerings-box-content{
-        padding-inline: 50px;
-    }
-}
-
 .offerings-box-content1:hover{
     border: 1px solid #ED1C24;
 }
@@ -165,6 +159,15 @@ text-align: center;
     line-height: 40px;
     letter-spacing: 0%;
     list-style:disc;
+}
+
+@media (max-width:600px) {
+    .offerings-box-content1-footer ul li{
+        font-size: 14px;
+    }
+    .offerings-box-content1{
+        width: 435px;
+    }
 }
 
 .offerings-box-content1-footer ul li a{
