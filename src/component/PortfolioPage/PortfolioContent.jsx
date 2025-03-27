@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./PortfolioContent.css";
 import "./webportfolio.css";
+import "./webseo.css";
 
 import AnimatedContent from "../SingleComponents/AnimatedContent";
 
@@ -110,10 +111,10 @@ function PortfolioContent() {
         </div>
         {/* apps portfolio start */}
         <div
-          className={`portfolioContent-info ${
-            activeCategory === "Website" ? "!hidden" : "visible"
-          }`}
-        >
+  className={`portfolioContent-info ${
+    activeCategory === "Seo" || activeCategory === "Website" ? "!hidden" : "visible"
+  }`}
+>
           <AnimatedContent>
             <div
               ref={(el) => projectRefs.current.push(el)}
@@ -498,10 +499,10 @@ function PortfolioContent() {
 
         {/* website portfolio start */}
         <div
-          className={`webportfolio-body ${
-            activeCategory === "Apps" ? "!hidden" : "visible"
-          }`}
-        >
+  className={`webportfolio-body ${
+    activeCategory === "Seo" || activeCategory === "Apps" ? "!hidden" : "visible"
+  }`}
+>
           <div className="webportfolio-box-e2go">
             <div className="webportfolio-box-e2go-image">
               <img src={laptop} />
@@ -687,10 +688,187 @@ function PortfolioContent() {
         </div>
         {/* website portfolio end */}
         {/* seo portfolio start */}
+        <div
+  className={`seoportfolio-body ${
+    activeCategory === "Seo" || activeCategory === "All" ? "visible" : "!hidden"
+  }`}
+>
+
+            <div className="seoportfolio-box">
+              <div className="seoportfolio-box-top">www.vocalcure.com (USA - Google.com)</div>
+              <div className="seoportfolio-box-bottom">
+                <div className="seoportfolio-box-bottom-left">
+                  <div className="seoportfolio-box-bottom-left-header">Keywords</div>
+                  <div className="seoportfolio-box-bottom-left-content">
+                    <div className="seoportfolio-box-bottom-left-content-desc">superior vocal health</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">vocal immune</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">superior vocal health sinus cleanse</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">olive leaf extract sinus</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">olive leaf extract for sinus infection</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">superior vocal health vocal rescue</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">throat saver spray</div>
+                  </div>
+                </div>
+                <div className="seoportfolio-box-bottom-right">
+                  <div className="seoportfolio-box-bottom-right-header">Rank</div>
+                  <div className="seoportfolio-box-bottom-right-content">
+                    <div className="seoportfolio-box-bottom-right-content-desc">1</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">1</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">3</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">3</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">4</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">4</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">6</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="seoportfolio-box">
+              <div className="seoportfolio-box-top">www.annietiang.com ( Singapore - Google.com.sg )</div>
+              <div className="seoportfolio-box-bottom">
+                <div className="seoportfolio-box-bottom-left">
+                  <div className="seoportfolio-box-bottom-left-header">Keywords</div>
+                  <div className="seoportfolio-box-bottom-left-content">
+                    <div className="seoportfolio-box-bottom-left-content-desc">TCM Slip Disc Singapore</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">tcm women's health singaporee</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Best Cupping in Singapore</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">best tcm tuina singapore</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">TCM Gynecology Singapore</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Best Chinese Doctor in Singapore</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Best TCM in Singapore</div>
+                  </div>
+                </div>
+                <div className="seoportfolio-box-bottom-right">
+                  <div className="seoportfolio-box-bottom-right-header">Rank</div>
+                  <div className="seoportfolio-box-bottom-right-content">
+                    <div className="seoportfolio-box-bottom-right-content-desc">2</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">3</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">6</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">7</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">8</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">8</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">8</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="seoportfolio-box">
+              <div className="seoportfolio-box-top">www.annietiang.com ( Singapore - Google.com.sg )</div>
+              <div className="seoportfolio-box-bottom">
+                <div className="seoportfolio-box-bottom-left">
+                  <div className="seoportfolio-box-bottom-left-header">Keywords</div>
+                  <div className="seoportfolio-box-bottom-left-content">
+                    <div className="seoportfolio-box-bottom-left-content-desc">新加坡最佳中医诊所</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">新加坡最好中医</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">中医整脊新加坡</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">不孕症新加坡</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">中医减肥新加坡</div>
+                  </div>
+                </div>
+                <div className="seoportfolio-box-bottom-right">
+                  <div className="seoportfolio-box-bottom-right-header">Rank</div>
+                  <div className="seoportfolio-box-bottom-right-content">
+                    <div className="seoportfolio-box-bottom-right-content-desc">2</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">3</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">6</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">7</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">8</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="seoportfolio-box">
+              <div className="seoportfolio-box-top">www.cleosbarkery.com ( USA - Google.com )</div>
+              <div className="seoportfolio-box-bottom">
+                <div className="seoportfolio-box-bottom-left">
+                  <div className="seoportfolio-box-bottom-left-header">Keywords</div>
+                  <div className="seoportfolio-box-bottom-left-content">
+                    <div className="seoportfolio-box-bottom-left-content-desc">Dog Birthday Cake NYC</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Dog Cakes NYC</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Birthday Cake for Dogs NYC</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Dog Cupcakes NYC</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Dog Bakery New York</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Dog Bakery Rochester NY</div>
+                  </div>
+                </div>
+                <div className="seoportfolio-box-bottom-right">
+                  <div className="seoportfolio-box-bottom-right-header">Rank</div>
+                  <div className="seoportfolio-box-bottom-right-content">
+                    <div className="seoportfolio-box-bottom-right-content-desc">5</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">5</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">5</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">7</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">7</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">10</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div className="seoportfolio-box">
+              <div className="seoportfolio-box-top">www.gabehoward.com ( USA - Google.com )</div>
+              <div className="seoportfolio-box-bottom">
+                <div className="seoportfolio-box-bottom-left">
+                  <div className="seoportfolio-box-bottom-left-header">Keywords</div>
+                  <div className="seoportfolio-box-bottom-left-content">
+                    <div className="seoportfolio-box-bottom-left-content-desc">Mental Illness Activist</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Mental Health Activist</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Mental Illness Writer</div>
+                  </div>
+                </div>
+                <div className="seoportfolio-box-bottom-right">
+                  <div className="seoportfolio-box-bottom-right-header">Rank</div>
+                  <div className="seoportfolio-box-bottom-right-content">
+                    <div className="seoportfolio-box-bottom-right-content-desc">4</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">6</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">20</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="seoportfolio-box">
+              <div className="seoportfolio-box-top">www.topmark.top ( Italy - Google.it )</div>
+              <div className="seoportfolio-box-bottom">
+                <div className="seoportfolio-box-bottom-left">
+                  <div className="seoportfolio-box-bottom-left-header">Keywords</div>
+                  <div className="seoportfolio-box-bottom-left-content">
+                    <div className="seoportfolio-box-bottom-left-content-desc">Progettazione Packaging Milano</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Realizzazione packaging Milano</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Studio grafico Napoli</div>
+                    <div className="seoportfolio-box-bottom-left-content-desc">Studio grafico Bari</div>
+                  </div>
+                </div>
+                <div className="seoportfolio-box-bottom-right">
+                  <div className="seoportfolio-box-bottom-right-header">Rank</div>
+                  <div className="seoportfolio-box-bottom-right-content">
+                    <div className="seoportfolio-box-bottom-right-content-desc">4</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">5</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">7</div>
+                    <div className="seoportfolio-box-bottom-right-content-desc">20</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+
+        </div>
         {/* seo portfolio end */}
       </div>
     </div>
+    
   );
 }
 
 export default PortfolioContent;
+
+
+
