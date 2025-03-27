@@ -1,8 +1,8 @@
 import React from 'react'
 import "./WhychooseDevOps.css"
 import WhychooseDevOpsCard from '../../cards/DevOpsCard/WhychooseDevOpsCard'
-import {leftdata} from "../../../arraydata/DevOpsArray/WhychooseDevOpsArray"
-import {rightdata} from "../../../arraydata/DevOpsArray/WhychooseDevOpsArray"
+import {leftdata} from "../../../arraydata/DevopsArray/WhychooseDevOpsArray"
+import {rightdata} from "../../../arraydata/DevopsArray/WhychooseDevOpsArray"
 import whychoosebg from "./images/cms-choose.jpg"
 
 function WhychooseDevOps() {
