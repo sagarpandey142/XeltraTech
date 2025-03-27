@@ -4,7 +4,7 @@ import GetStarted from "./GetStarted";
 import "./index.css";
 import Enquiry from "./Enquiry";
 import Maps from "./Maps";
-import Footer1 from "../homepage/footer1";
+import Footer1 from "../Homepage/footer1";
 import Topmenu from "../commonpage/Topmenu";
 import Topbar from "../Homepage/Topbar";
 const ContactUs = () => {
