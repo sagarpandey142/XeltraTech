@@ -10,7 +10,7 @@ import Services from "./Services";
 
 const AndroidAppDevelopment = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Topbar/>
       <Topmenu/>
       <Hero/>

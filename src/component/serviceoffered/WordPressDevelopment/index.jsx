@@ -10,7 +10,7 @@ import WhychooseWp from "./WhychooseWp";
 
 const WordPressDevelopment = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />

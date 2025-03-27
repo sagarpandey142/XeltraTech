@@ -10,7 +10,7 @@ import WhychooseSubscriptionBasedECommerce from "./WhychooseSubscriptionBasedECo
 
 const SubscriptionBasedECommerce = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />

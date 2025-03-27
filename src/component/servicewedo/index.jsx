@@ -9,7 +9,7 @@ import Requirement from "./Requirement";
 
 const servicewedo = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Topbar />
       <Topmenu />
       <Hero />

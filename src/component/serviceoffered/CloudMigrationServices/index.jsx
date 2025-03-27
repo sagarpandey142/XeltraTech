@@ -10,7 +10,7 @@ import Whychoosecm from "./Whychoosecm";
 
 const CloudMigrationServices = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />

@@ -10,7 +10,7 @@ import WhychooseCustomECommerceWebsite from "./WhychooseCustomECommerceWebsite";
 
 const CustomECommerceWebsite = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />

@@ -9,7 +9,7 @@ import OurServices from "./OurServices";
 
 const ResponsiveDesign = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />

@@ -10,7 +10,7 @@ import WhychooseWeb from "./WhychooseWeb";
 
 const WebDesign = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Topbar/>
       <Topmenu/>
       <Hero/>

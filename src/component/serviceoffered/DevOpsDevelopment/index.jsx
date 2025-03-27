@@ -10,7 +10,7 @@ import WhychooseDevOps from "./WhychooseDevOps";
 
 const DevOpsDevelopment = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />

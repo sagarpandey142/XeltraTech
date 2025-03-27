@@ -9,7 +9,7 @@ import Footer1 from "../../Homepage/footer1";
 
 const ContentWriting = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
         <Topbar/>
         <Topmenu/>
         <Hero />
