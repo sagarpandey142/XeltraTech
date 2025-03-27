@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "../../App.css";
 import Featuredservices from "../Homepage/Featuredservices";
-import Header1 from "../homepage/Header1";
+import Header1 from "../Homepage/Header1";
 import Portfolio from "../homepage/portfolio";
 import Wecando from "../homepage/wecando";
 import Testimonials from "../Homepage/testimonials";
