@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Enquiry.css"
-import Header from '../homepage/header';
 const Enquiry = () => {
   return (
     <div className="mt-3 enquiry-container ">
