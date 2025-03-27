@@ -8,7 +8,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import './slider.css';
 import '../Homepage/clients.css'
-import architect from '../../assets/connection.svg'
+import architect from '../../assets/Connection.svg'
 import aurora from '../images/aurora.png'
 import connection from '../images/connection.png'
 
