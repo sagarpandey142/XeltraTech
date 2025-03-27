@@ -1,13 +1,13 @@
-.PHPValues-body{
+.drupal-Values-body{
     width: screen;
     height: static;
-    padding-block: 20px;
+    padding-block: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.PHPValues-box{
+.drupal-Values-box{
     width: 1200px;
     max-width: 100%;
     height: static;
@@ -18,7 +18,7 @@
     gap: 20px;
 }
 
-.PHPValues-header{
+.drupal-Values-header{
     width: 100%;
     height: static;
     display: flex;
@@ -28,7 +28,7 @@
     gap: 20px;
 }
 
-.PHPValues-heading{
+.drupal-Values-heading{
     font-family: 'Raleway';
 font-weight: 700;
 font-size: 32px;
@@ -37,7 +37,7 @@ letter-spacing: 0%;
 color: #303030;
 }
 
-.PHPValues-para{
+.drupal-Values-para{
     font-family: Raleway;
     font-weight: 500;
     font-size: 14px;
@@ -59,7 +59,7 @@ color: #303030;
     gap: 40px;
 }
 
-.PHPValues-content-box{
+.drupal-Values-content-box{
     width: 350px;
     height: 200px;
     border-radius: 20px;
@@ -72,13 +72,13 @@ color: #303030;
     transition: 0.3s ease-in-out;
 }
 
-.PHPValues-content-box:hover{
+.drupal-Values-content-box:hover{
     border: 2px solid red;
     transform: scale(1.1);
 }
 
 
-.PHPValue-content-box-image{
+.drupal-Value-content-box-image{
     width: 100%;
     height: static;
     display: flex;
@@ -86,7 +86,7 @@ color: #303030;
     align-items: center;
 }
 
-.PHPValue-content-box-para{
+.drupal-Value-content-box-para{
     font-family: 'Raleway';
     font-weight: 600;
     font-size: 18px;

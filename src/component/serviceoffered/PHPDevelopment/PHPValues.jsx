@@ -6,7 +6,7 @@ import data from "../../../arraydata/PHPValuesArray"
 function PHPValues() {
   return (
     <>
-    <div className='PHPValues-body'>
+    <div className='PHP-Values-body'>
         <div className='PHPValues-box'>
             <div className='PHPValues-header'>
                 <div className='PHPValues-heading'><span className='text-[#ED1C24]'> Our </span> Values</div>

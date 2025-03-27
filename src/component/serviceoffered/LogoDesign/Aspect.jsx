@@ -9,15 +9,15 @@ function Aspect() {
     
   return (
     <>
-    <div className='aspect-body'>
-        <div className='aspect-box'>
+    <div className='ld-aspect-body'>
+        <div className='ld-aspect-box'>
 
-            <div className='box-heading'>
-                <div className='header'><span>Important Aspect</span> Of Logo Desigining</div>
-                <div className='para'>Mastering Logo Design: Essential Elements for Creating a Powerful, Memorable, and Timeless Brand Identity</div>
+            <div className='ld-box-heading'>
+                <div className='ld-header'><span>Important Aspect</span> Of Logo Desigining</div>
+                <div className='ld-para'>Mastering Logo Design: Essential Elements for Creating a Powerful, Memorable, and Timeless Brand Identity</div>
             </div>
             <AnimatedContent>
-            <div className='box-content'>
+            <div className='ld-box-content'>
             {data.map((data,index)=>(<AspectCard key={index} head={data.head} para={data.para}/>))}
             </div>
             </AnimatedContent>

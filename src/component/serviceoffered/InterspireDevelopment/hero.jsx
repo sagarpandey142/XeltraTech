@@ -8,7 +8,7 @@ function Hero() {
       <div className="hero-body">
                     <img className="h-full w-full object-cover" src={banner}/>
                     <div className=' hero-box'>
-                      <SplitText text="Interprises Development " className="hero-box-heading1" delay={50}/>
+                      <SplitText text="Interspire Development " className="hero-box-heading1" delay={50}/>
                     </div>
                 </div>
     </div>

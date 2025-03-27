@@ -136,8 +136,8 @@
 }
 
 .content1-logo {
-    width: 250px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     background-color: #ffff;
     border-radius: 100%;
     transform: translate(50px, -30px);
@@ -173,7 +173,7 @@
     border-radius: 0 0 20px 20px;
     font-family: Raleway;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 23.48px;
     letter-spacing: 0%;
     color: #303030;

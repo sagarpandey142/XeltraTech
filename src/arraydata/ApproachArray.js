@@ -5,7 +5,7 @@ const data = [
     {
         icon1: images.Crossplatform,
         icon2: images.Crossplatformcolor,
-        // logo: images.logo1,
+        logo: images.logo1,
         para: "User-Centered Design ",
     },
     {

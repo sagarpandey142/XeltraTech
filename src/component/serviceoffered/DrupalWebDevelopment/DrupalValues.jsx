@@ -6,11 +6,11 @@ import data from "../../../arraydata/DrupalValuesArray"
 function DrupalValues() {
   return (
     <>
-    <div className='PHPValues-body'>
-        <div className='PHPValues-box'>
-            <div className='PHPValues-header'>
-                <div className='PHPValues-heading'><span className='text-[#ED1C24]'> Our </span> Values</div>
-                <div className='PHPValues-para'>Our Drupal developers excel in building scalable, high-performance websites with expertise in content management, custom module development, UI/UX, and modern web frameworks.</div>
+    <div className='drupal-Values-body'>
+        <div className='drupal-Values-box'>
+            <div className='drupal-Values-header'>
+                <div className='drupal-Values-heading'><span className='text-[#ED1C24]'> Our </span> Values</div>
+                <div className='drupal-Values-para'>Our Drupal developers excel in building scalable, high-performance websites with expertise in content management, custom module development, UI/UX, and modern web frameworks.</div>
             </div>
 
 

@@ -8,12 +8,12 @@ const data=[
         para:"Apple’s strict guidelines ensure data privacy, secure transactions,protection against malware or unauthorized access.",
     },
     {
-        head:"High Revenue Potential",
-        para:" iOS apps run smoothly due to Apple’s controlled ecosystem, offering better user experience and reliability.",
+        head:"Loyal User Base",
+        para:"  iOS attracts premium users who prefer quality apps and long-term brand engagement.",
     },
     {
-        head:"High Revenue Potential",
-        para:"iOS has a dedicated and high-income audience, increasing engagement and potential for long-term customer retention.",
+        head:"Seamless Performance",
+        para:" Optimized hardware and software integration ensure smooth, fast, and efficient user experiences.",
     },
 ]
 

@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
-.about-body{
+.is-about-body{
     width: screen;
     height: static;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff !important;
+    background-color: #ffffff ;
     padding-block: 80px;
 }
 
-.about-box{
+.is-about-box{
     width: 100%;
     height: static;
     display: flex;
@@ -24,7 +24,7 @@
 
 
 /* image section start */
-.about-img{
+.is-about-img{
     width: 700px;
     height: static;
     display: flex;
@@ -35,13 +35,13 @@
 }
 
 @media (max-width: 700px) {
-    .about-img{
+    .is-about-img{
         width: 90%;
     }
 }
 
 
-.about-img img{
+.is-about-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -52,7 +52,7 @@
 
 /* content section start */
 
-.about-content{
+.is-about-content{
     width: 700px;
     height: static;
     display: flex;
@@ -63,14 +63,14 @@
 }
 
  @media (max-width: 750px){
-    .about-content{
+    .is-about-content{
         width: 90%;
         text-align: center !important;
         align-items: center !important;
     }
 }
 
-.about-content-heading{
+.is-about-content-heading{
     width: 60%;
     height: static;
     font-family: Raleway;
@@ -80,11 +80,11 @@
     letter-spacing: 0%;
 }
 
-.about-content-heading span{
+.is-about-content-heading span{
     color:#ED1651;
 }
 
-.about-content-para1{
+.is-about-content-para1{
     width: 80%;
     height: static;
     font-family: Raleway;
@@ -97,7 +97,7 @@
 }
 
 @media (max-width: 750px){
-    .about-content-para1{
+    .is-about-content-para1{
         width: 100%;
         text-align: center !important;
     }
