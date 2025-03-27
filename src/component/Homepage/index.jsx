@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import "../../App.css";
 import Featuredservices from "../Homepage/Featuredservices";
-import Header from "../homepage/header";
 import Header1 from "../homepage/Header1";
 import Portfolio from "../homepage/portfolio";
 import Wecando from "../homepage/wecando";
@@ -21,7 +20,6 @@ function Homepage() {
     <div className="overflow-hidden">
       <Topbar />
       <Topmenu />
-      {/* <Header /> */}
       <Header1 />
       <Featuredservices />
       <Chooseus />
