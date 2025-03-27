@@ -14,7 +14,7 @@ import Clients from "../Homepage/clients"
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
 
       <Topbar />
       <Topmenu />
