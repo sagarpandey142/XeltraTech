@@ -4,7 +4,7 @@ import './whatsappbutton.css'
 
 function WhatsappButton () {
 
-    const phoneNumber = "918923117610";
+    const phoneNumber = "919560331179";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=Hello%20Neeraj!%20I%20am%20interested%20in%20your%20IT%20services.%20Can%20you%20provide%20more%20details?`;
 
   return (
