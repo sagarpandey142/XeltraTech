@@ -28,8 +28,7 @@
 @media (max-width:770px){
     .testimonials-box{
         height: 1500px;
-        margin-bottom: -650px;
-        
+        margin-bottom: -625px;
 
     }
 }
@@ -115,8 +114,10 @@ border-radius: 20px;
     margin-left: 50px;
 width: 650px;
 height: 500px;
-
+display: flex;
+flex-direction: column;
 }
+
 
 
 @media (max-width:1500px){
@@ -407,8 +408,8 @@ color: #303030;
 @media (max-width:522px){
     
     .testimonials-content-heading2{
-        margin-left: 130px;
-        font-size: 30px !important;
+        margin-left: 150px;
+        font-size: 26px !important;
         width: 100%;
        
         
@@ -524,6 +525,14 @@ height: 83px;
     margin-top: 20px;
     width: 180px;
     height: 70px;
+}
+
+@media (max-width:470px){
+    .test-photo-name{
+       margin-left: 30px;
+        
+        
+    }
 }
 
 .span1{
