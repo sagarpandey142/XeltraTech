@@ -123,7 +123,6 @@
     padding: 0.5rem; /* 10px / 16 */
     transition: 0.3s ease-in-out;
     justify-content: center;
-    border: 2px solid;
 }
 
 .ios-service-box1-content1:hover{
