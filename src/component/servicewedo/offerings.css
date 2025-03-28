@@ -44,7 +44,7 @@
 
 
 .offerings-box-header1{
-    font-family: Plus Jakarta Sans;
+    font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     font-size: 32px;
     line-height: 40.32px;
@@ -56,9 +56,14 @@
             width: 70%;
     }
 }
+@media (max-width:460px){
+    .offerings-box-header1{
+            width: 85%;
+    }
+}
 @media (max-width:405px){
     .offerings-box-header1{
-            width: 80%;
+            width: 90%;
     }
 }
 @media (max-width:354px){
@@ -79,6 +84,18 @@ font-size: 16px;
 line-height: 18.78px;
 letter-spacing: 0%;
 text-align: center;
+}
+@media (max-width:475px){
+    .offerings-box-header2{
+        text-align: start;
+            width: 70%;
+    }
+}
+@media (max-width:460px){
+    .offerings-box-header2{
+        text-align: start;
+            width: 85%;
+    }
 }
 
 

@@ -257,7 +257,7 @@ const Topmenu = () => {
               <COffcanvasBody>
                 <div className="offcanvas-navmenu">
                   <div>
-                    <button>
+                    <button className="offcanvas-button">
                       <Link to="/">Home</Link>
                     </button>
                   </div>
